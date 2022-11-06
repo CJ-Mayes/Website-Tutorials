@@ -1,0 +1,512 @@
+teammate,player_id,player_name,position_id,position_name,x,y,id
+True,4647,So-Yun Ji,13,Right Center Midfield,89.9,27.0,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+True,4961,Samantha May Kerr,21,Left Wing,104.6,31.3,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+True,4641,Francesca Kirby,23,Center Forward,99.5,39.6,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+False,36801,Aimee Palmer,13,Right Center Midfield,95.5,21.0,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+False,16384,Carla Humphrey,12,Right Midfield,101.8,18.0,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,96.8,25.2,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+False,25547,Chloe Logarzo,24,Left Center Forward,92.9,27.8,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+False,10093,Yana Daniels,16,Left Midfield,98.7,40.0,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+False,24239,Jemma Elizabeth Purfield,6,Left Back,103.2,38.2,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+False,16381,Gemma Evans,5,Left Center Back,103.2,31.8,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+False,15618,Jasmine Matthews,3,Right Center Back,105.3,29.4,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+False,24922,Florence Allen,2,Right Back,103.1,22.4,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+True,4660,Erin Cuthbert,15,Left Center Midfield,104.5,21.2,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+False,16376,Sophie Baggaley,1,Goalkeeper,119.4,40.3,dfbf1f06-161d-45a3-a598-bc6141f4ec27
+True,4641,Francesca Kirby,23,Center Forward,100.9,35.4,a2470127-9060-4119-aea2-fa98e839a5d0
+True,10395,Maren Nævdal Mjelde,2,Right Back,88.9,50.0,a2470127-9060-4119-aea2-fa98e839a5d0
+True,4961,Samantha May Kerr,21,Left Wing,108.6,40.8,a2470127-9060-4119-aea2-fa98e839a5d0
+True,15550,Bethany England,17,Right Wing,105.1,44.2,a2470127-9060-4119-aea2-fa98e839a5d0
+False,16376,Sophie Baggaley,1,Goalkeeper,118.8,36.9,a2470127-9060-4119-aea2-fa98e839a5d0
+False,16384,Carla Humphrey,12,Right Midfield,102.2,25.9,a2470127-9060-4119-aea2-fa98e839a5d0
+False,25547,Chloe Logarzo,24,Left Center Forward,105.0,27.4,a2470127-9060-4119-aea2-fa98e839a5d0
+False,36801,Aimee Palmer,13,Right Center Midfield,105.5,31.0,a2470127-9060-4119-aea2-fa98e839a5d0
+False,24922,Florence Allen,2,Right Back,107.6,29.9,a2470127-9060-4119-aea2-fa98e839a5d0
+False,15618,Jasmine Matthews,3,Right Center Back,108.9,32.0,a2470127-9060-4119-aea2-fa98e839a5d0
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,103.1,40.1,a2470127-9060-4119-aea2-fa98e839a5d0
+False,16381,Gemma Evans,5,Left Center Back,108.9,37.8,a2470127-9060-4119-aea2-fa98e839a5d0
+False,10093,Yana Daniels,16,Left Midfield,100.3,48.6,a2470127-9060-4119-aea2-fa98e839a5d0
+False,24239,Jemma Elizabeth Purfield,6,Left Back,107.9,44.2,a2470127-9060-4119-aea2-fa98e839a5d0
+True,17275,Hannah Jayne Blundell,6,Left Back,105.2,21.2,a2470127-9060-4119-aea2-fa98e839a5d0
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,96.8,35.3,a2470127-9060-4119-aea2-fa98e839a5d0
+True,4647,So-Yun Ji,13,Right Center Midfield,106.7,27.0,a2470127-9060-4119-aea2-fa98e839a5d0
+False,10093,Yana Daniels,16,Left Midfield,100.0,60.9,7c968b37-16a3-46f5-95b0-91aa54031128
+True,15550,Bethany England,17,Right Wing,101.1,40.4,7c968b37-16a3-46f5-95b0-91aa54031128
+True,4647,So-Yun Ji,13,Right Center Midfield,94.3,51.9,7c968b37-16a3-46f5-95b0-91aa54031128
+True,4961,Samantha May Kerr,21,Left Wing,103.7,45.7,7c968b37-16a3-46f5-95b0-91aa54031128
+True,4641,Francesca Kirby,23,Center Forward,104.0,53.7,7c968b37-16a3-46f5-95b0-91aa54031128
+False,16376,Sophie Baggaley,1,Goalkeeper,119.2,39.7,7c968b37-16a3-46f5-95b0-91aa54031128
+False,25547,Chloe Logarzo,24,Left Center Forward,93.4,50.2,7c968b37-16a3-46f5-95b0-91aa54031128
+False,16381,Gemma Evans,5,Left Center Back,103.5,45.3,7c968b37-16a3-46f5-95b0-91aa54031128
+False,24239,Jemma Elizabeth Purfield,6,Left Back,103.3,51.6,7c968b37-16a3-46f5-95b0-91aa54031128
+True,17275,Hannah Jayne Blundell,6,Left Back,98.7,18.1,7c968b37-16a3-46f5-95b0-91aa54031128
+True,4660,Erin Cuthbert,15,Left Center Midfield,89.3,39.5,7c968b37-16a3-46f5-95b0-91aa54031128
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,98.3,42.5,7c968b37-16a3-46f5-95b0-91aa54031128
+False,15618,Jasmine Matthews,3,Right Center Back,102.5,37.6,7c968b37-16a3-46f5-95b0-91aa54031128
+False,16384,Carla Humphrey,12,Right Midfield,100.5,25.7,7c968b37-16a3-46f5-95b0-91aa54031128
+False,36801,Aimee Palmer,13,Right Center Midfield,95.9,33.2,7c968b37-16a3-46f5-95b0-91aa54031128
+False,24922,Florence Allen,2,Right Back,102.1,33.7,7c968b37-16a3-46f5-95b0-91aa54031128
+True,15550,Bethany England,17,Right Wing,105.9,33.4,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+True,10395,Maren Nævdal Mjelde,2,Right Back,80.2,65.5,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+True,4961,Samantha May Kerr,21,Left Wing,103.4,49.8,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+False,36801,Aimee Palmer,13,Right Center Midfield,91.3,37.2,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+False,10093,Yana Daniels,16,Left Midfield,83.8,60.8,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+False,24239,Jemma Elizabeth Purfield,6,Left Back,102.1,40.1,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,90.5,48.4,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+False,15618,Jasmine Matthews,3,Right Center Back,103.4,36.9,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+False,16381,Gemma Evans,5,Left Center Back,106.0,40.3,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+False,16376,Sophie Baggaley,1,Goalkeeper,119.1,39.3,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+True,17275,Hannah Jayne Blundell,6,Left Back,102.2,25.7,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+True,4660,Erin Cuthbert,15,Left Center Midfield,99.7,32.0,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+False,16384,Carla Humphrey,12,Right Midfield,101.7,27.0,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+False,24922,Florence Allen,2,Right Back,97.7,33.3,4e8fbf9b-8e8d-416c-8ce6-dee2b41341c8
+False,15618,Jasmine Matthews,3,Right Center Back,94.5,35.9,eb8fa323-b274-4ab2-a407-7e2a87c47601
+False,10093,Yana Daniels,16,Left Midfield,74.5,66.4,eb8fa323-b274-4ab2-a407-7e2a87c47601
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,91.9,49.0,eb8fa323-b274-4ab2-a407-7e2a87c47601
+False,24239,Jemma Elizabeth Purfield,6,Left Back,102.6,47.9,eb8fa323-b274-4ab2-a407-7e2a87c47601
+False,16381,Gemma Evans,5,Left Center Back,108.2,47.2,eb8fa323-b274-4ab2-a407-7e2a87c47601
+True,4961,Samantha May Kerr,21,Left Wing,88.8,42.4,eb8fa323-b274-4ab2-a407-7e2a87c47601
+True,4641,Francesca Kirby,23,Center Forward,101.4,42.8,eb8fa323-b274-4ab2-a407-7e2a87c47601
+False,16376,Sophie Baggaley,1,Goalkeeper,119.3,42.3,eb8fa323-b274-4ab2-a407-7e2a87c47601
+True,4633,Magdalena Lilly Eriksson,5,Left Center Back,117.7,49.2,b3514873-7396-426c-adc6-44d2d1b5296b
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,114.7,48.6,b3514873-7396-426c-adc6-44d2d1b5296b
+True,10395,Maren Nævdal Mjelde,2,Right Back,108.7,44.7,b3514873-7396-426c-adc6-44d2d1b5296b
+True,4961,Samantha May Kerr,21,Left Wing,113.3,36.7,b3514873-7396-426c-adc6-44d2d1b5296b
+False,24922,Florence Allen,2,Right Back,117.9,27.3,b3514873-7396-426c-adc6-44d2d1b5296b
+False,25547,Chloe Logarzo,24,Left Center Forward,110.8,40.3,b3514873-7396-426c-adc6-44d2d1b5296b
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,115.3,38.0,b3514873-7396-426c-adc6-44d2d1b5296b
+False,15563,Charlie Wellings,22,Right Center Forward,109.9,46.8,b3514873-7396-426c-adc6-44d2d1b5296b
+False,16381,Gemma Evans,5,Left Center Back,117.1,45.3,b3514873-7396-426c-adc6-44d2d1b5296b
+False,10093,Yana Daniels,16,Left Midfield,119.2,50.6,b3514873-7396-426c-adc6-44d2d1b5296b
+False,15618,Jasmine Matthews,3,Right Center Back,119.4,37.0,b3514873-7396-426c-adc6-44d2d1b5296b
+False,16376,Sophie Baggaley,1,Goalkeeper,119.3,39.2,b3514873-7396-426c-adc6-44d2d1b5296b
+False,24239,Jemma Elizabeth Purfield,6,Left Back,118.7,44.0,b3514873-7396-426c-adc6-44d2d1b5296b
+False,36801,Aimee Palmer,13,Right Center Midfield,103.8,36.9,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+False,25547,Chloe Logarzo,24,Left Center Forward,107.7,36.2,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+False,24922,Florence Allen,2,Right Back,114.3,34.6,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,113.2,40.1,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+False,15618,Jasmine Matthews,3,Right Center Back,114.9,38.7,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+False,15563,Charlie Wellings,22,Right Center Forward,107.3,46.3,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+True,15550,Bethany England,17,Right Wing,115.9,40.2,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+True,10395,Maren Nævdal Mjelde,2,Right Back,106.5,42.1,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+False,16381,Gemma Evans,5,Left Center Back,113.4,43.7,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+False,24239,Jemma Elizabeth Purfield,6,Left Back,117.3,41.4,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+False,10093,Yana Daniels,16,Left Midfield,114.6,46.0,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+False,16376,Sophie Baggaley,1,Goalkeeper,119.1,40.6,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+True,4961,Samantha May Kerr,21,Left Wing,107.5,37.2,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+True,4642,Millie Bright,3,Right Center Back,112.7,33.1,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+True,4633,Magdalena Lilly Eriksson,5,Left Center Back,112.3,44.3,054d2b3f-33b8-4e3a-8e79-03704b8315f0
+False,10093,Yana Daniels,16,Left Midfield,107.4,60.0,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+True,4641,Francesca Kirby,23,Center Forward,102.0,38.0,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+True,4647,So-Yun Ji,13,Right Center Midfield,104.6,39.9,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+True,15550,Bethany England,17,Right Wing,110.1,37.2,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+False,16376,Sophie Baggaley,1,Goalkeeper,119.3,37.4,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+False,36801,Aimee Palmer,13,Right Center Midfield,101.2,27.9,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+False,16384,Carla Humphrey,12,Right Midfield,99.9,35.1,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+True,4660,Erin Cuthbert,15,Left Center Midfield,106.0,28.1,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+False,25547,Chloe Logarzo,24,Left Center Forward,95.7,42.1,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+False,24922,Florence Allen,2,Right Back,107.4,30.0,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+False,15618,Jasmine Matthews,3,Right Center Back,107.9,34.8,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,104.3,43.8,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+False,16381,Gemma Evans,5,Left Center Back,110.8,37.9,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+False,24239,Jemma Elizabeth Purfield,6,Left Back,108.2,41.0,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+True,17275,Hannah Jayne Blundell,6,Left Back,109.0,40.4,f637b336-a56a-4aa6-942d-ecb6d1e687ac
+True,4633,Magdalena Lilly Eriksson,5,Left Center Back,105.3,22.2,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+True,4660,Erin Cuthbert,15,Left Center Midfield,95.8,38.9,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+True,4641,Francesca Kirby,23,Center Forward,106.8,38.5,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,105.1,41.9,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+True,4642,Millie Bright,3,Right Center Back,106.6,44.9,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+True,4961,Samantha May Kerr,21,Left Wing,105.9,48.6,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+False,16384,Carla Humphrey,12,Right Midfield,103.2,34.1,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+True,15550,Bethany England,17,Right Wing,107.1,28.6,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+True,10395,Maren Nævdal Mjelde,2,Right Back,94.6,26.4,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+False,15618,Jasmine Matthews,3,Right Center Back,108.0,30.1,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+False,16376,Sophie Baggaley,1,Goalkeeper,119.4,38.7,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+False,24922,Florence Allen,2,Right Back,107.4,47.9,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+False,36801,Aimee Palmer,13,Right Center Midfield,107.5,44.6,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,106.7,42.6,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+False,25547,Chloe Logarzo,24,Left Center Forward,106.8,36.4,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+False,15563,Charlie Wellings,22,Right Center Forward,106.9,33.5,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+False,10093,Yana Daniels,16,Left Midfield,107.4,31.6,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+False,16381,Gemma Evans,5,Left Center Back,107.1,32.2,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+False,24239,Jemma Elizabeth Purfield,6,Left Back,107.7,31.0,9d471cfe-ad6c-4cd6-ba9b-ba254ac8d1f7
+True,4642,Millie Bright,3,Right Center Back,114.9,34.8,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+True,15550,Bethany England,17,Right Wing,110.5,41.9,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+True,4961,Samantha May Kerr,21,Left Wing,112.4,43.3,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+True,4633,Magdalena Lilly Eriksson,5,Left Center Back,112.5,40.0,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+True,10395,Maren Nævdal Mjelde,2,Right Back,103.0,43.9,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+False,15563,Charlie Wellings,22,Right Center Forward,105.1,42.2,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+True,4641,Francesca Kirby,23,Center Forward,108.7,26.5,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,113.2,43.9,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+False,16384,Carla Humphrey,12,Right Midfield,100.7,40.7,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+False,24239,Jemma Elizabeth Purfield,6,Left Back,112.0,46.8,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+False,25547,Chloe Logarzo,24,Left Center Forward,112.0,42.8,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+False,24922,Florence Allen,2,Right Back,115.4,22.3,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+False,10093,Yana Daniels,16,Left Midfield,113.2,42.4,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+False,16381,Gemma Evans,5,Left Center Back,112.9,42.0,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+False,15618,Jasmine Matthews,3,Right Center Back,117.9,37.5,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+False,16376,Sophie Baggaley,1,Goalkeeper,119.1,42.3,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+False,36801,Aimee Palmer,13,Right Center Midfield,108.4,29.6,da399e5a-e3dc-4e5e-9ff3-f69cd0dd5497
+True,17275,Hannah Jayne Blundell,6,Left Back,102.9,19.3,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+True,4961,Samantha May Kerr,21,Left Wing,101.4,25.2,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,93.8,35.9,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+False,25547,Chloe Logarzo,24,Left Center Forward,98.8,40.4,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+False,16384,Carla Humphrey,12,Right Midfield,101.2,21.1,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+False,36801,Aimee Palmer,13,Right Center Midfield,94.7,35.3,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+False,15618,Jasmine Matthews,3,Right Center Back,104.5,30.5,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+False,24922,Florence Allen,2,Right Back,103.9,38.9,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+False,16381,Gemma Evans,5,Left Center Back,101.6,44.7,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,93.7,50.6,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+False,10093,Yana Daniels,16,Left Midfield,101.0,60.0,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+False,24239,Jemma Elizabeth Purfield,6,Left Back,101.3,49.1,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+False,16376,Sophie Baggaley,1,Goalkeeper,119.1,40.6,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+True,4642,Millie Bright,3,Right Center Back,86.2,54.5,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+True,4641,Francesca Kirby,23,Center Forward,99.8,54.1,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+True,15550,Bethany England,17,Right Wing,102.8,40.9,6edb9d7f-a85d-4d8a-823a-59820bd34ca5
+True,10395,Maren Nævdal Mjelde,2,Right Back,90.2,61.6,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+True,4641,Francesca Kirby,23,Center Forward,100.9,40.2,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,100.0,44.4,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+True,4660,Erin Cuthbert,15,Left Center Midfield,91.3,36.5,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+True,15550,Bethany England,17,Right Wing,109.3,44.2,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+True,4961,Samantha May Kerr,21,Left Wing,106.5,24.1,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+False,16384,Carla Humphrey,12,Right Midfield,93.1,27.0,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+False,36801,Aimee Palmer,13,Right Center Midfield,101.7,33.4,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+False,24922,Florence Allen,2,Right Back,107.5,30.2,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+False,25547,Chloe Logarzo,24,Left Center Forward,100.1,41.0,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,104.2,36.7,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+False,15618,Jasmine Matthews,3,Right Center Back,108.5,36.0,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+False,16381,Gemma Evans,5,Left Center Back,108.5,40.0,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+False,24239,Jemma Elizabeth Purfield,6,Left Back,109.2,45.0,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+False,10093,Yana Daniels,16,Left Midfield,104.0,50.4,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+False,16376,Sophie Baggaley,1,Goalkeeper,118.7,39.3,9268b7fa-6826-4722-a64f-a6cba8fc9b29
+True,4633,Magdalena Lilly Eriksson,5,Left Center Back,108.3,46.5,04f10821-cdcf-48de-9723-9124422a5c9c
+True,4641,Francesca Kirby,23,Center Forward,110.8,50.3,04f10821-cdcf-48de-9723-9124422a5c9c
+True,10395,Maren Nævdal Mjelde,2,Right Back,91.7,65.1,04f10821-cdcf-48de-9723-9124422a5c9c
+True,4647,So-Yun Ji,13,Right Center Midfield,92.4,45.9,04f10821-cdcf-48de-9723-9124422a5c9c
+True,15550,Bethany England,17,Right Wing,111.6,35.0,04f10821-cdcf-48de-9723-9124422a5c9c
+True,4961,Samantha May Kerr,21,Left Wing,112.8,30.9,04f10821-cdcf-48de-9723-9124422a5c9c
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,106.4,34.2,04f10821-cdcf-48de-9723-9124422a5c9c
+False,16384,Carla Humphrey,12,Right Midfield,95.3,43.8,04f10821-cdcf-48de-9723-9124422a5c9c
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,111.3,32.1,04f10821-cdcf-48de-9723-9124422a5c9c
+False,24239,Jemma Elizabeth Purfield,6,Left Back,100.9,59.8,04f10821-cdcf-48de-9723-9124422a5c9c
+False,10093,Yana Daniels,16,Left Midfield,98.1,57.7,04f10821-cdcf-48de-9723-9124422a5c9c
+False,15563,Charlie Wellings,22,Right Center Forward,103.8,51.9,04f10821-cdcf-48de-9723-9124422a5c9c
+False,36801,Aimee Palmer,13,Right Center Midfield,109.4,48.5,04f10821-cdcf-48de-9723-9124422a5c9c
+False,16376,Sophie Baggaley,1,Goalkeeper,119.2,40.4,04f10821-cdcf-48de-9723-9124422a5c9c
+False,24922,Florence Allen,2,Right Back,114.1,32.3,04f10821-cdcf-48de-9723-9124422a5c9c
+False,15618,Jasmine Matthews,3,Right Center Back,112.3,36.3,04f10821-cdcf-48de-9723-9124422a5c9c
+False,16381,Gemma Evans,5,Left Center Back,112.0,40.0,04f10821-cdcf-48de-9723-9124422a5c9c
+False,25547,Chloe Logarzo,24,Left Center Forward,109.1,46.3,04f10821-cdcf-48de-9723-9124422a5c9c
+False,16376,Sophie Baggaley,1,Goalkeeper,119.4,40.8,f1d5fa83-7c26-4f72-8de2-7546de14292a
+True,10395,Maren Nævdal Mjelde,2,Right Back,107.9,46.6,f1d5fa83-7c26-4f72-8de2-7546de14292a
+True,15550,Bethany England,17,Right Wing,113.8,45.4,f1d5fa83-7c26-4f72-8de2-7546de14292a
+True,4642,Millie Bright,3,Right Center Back,109.2,39.7,f1d5fa83-7c26-4f72-8de2-7546de14292a
+True,4961,Samantha May Kerr,21,Left Wing,113.3,38.0,f1d5fa83-7c26-4f72-8de2-7546de14292a
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,108.4,33.6,f1d5fa83-7c26-4f72-8de2-7546de14292a
+True,4641,Francesca Kirby,23,Center Forward,100.0,70.5,f1d5fa83-7c26-4f72-8de2-7546de14292a
+False,36801,Aimee Palmer,13,Right Center Midfield,102.9,59.3,f1d5fa83-7c26-4f72-8de2-7546de14292a
+False,25547,Chloe Logarzo,24,Left Center Forward,115.9,44.4,f1d5fa83-7c26-4f72-8de2-7546de14292a
+False,24922,Florence Allen,2,Right Back,117.3,61.8,f1d5fa83-7c26-4f72-8de2-7546de14292a
+False,15618,Jasmine Matthews,3,Right Center Back,114.9,40.6,f1d5fa83-7c26-4f72-8de2-7546de14292a
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,115.2,37.1,f1d5fa83-7c26-4f72-8de2-7546de14292a
+False,15563,Charlie Wellings,22,Right Center Forward,113.6,42.9,f1d5fa83-7c26-4f72-8de2-7546de14292a
+False,10093,Yana Daniels,16,Left Midfield,110.7,42.3,f1d5fa83-7c26-4f72-8de2-7546de14292a
+False,24239,Jemma Elizabeth Purfield,6,Left Back,112.6,39.0,f1d5fa83-7c26-4f72-8de2-7546de14292a
+False,15618,Jasmine Matthews,3,Right Center Back,113.6,35.5,3e5c0a6c-f607-4377-b810-78e59e3565da
+False,16381,Gemma Evans,5,Left Center Back,113.8,36.6,3e5c0a6c-f607-4377-b810-78e59e3565da
+True,4660,Erin Cuthbert,15,Left Center Midfield,95.6,18.1,3e5c0a6c-f607-4377-b810-78e59e3565da
+False,24922,Florence Allen,2,Right Back,110.4,23.1,3e5c0a6c-f607-4377-b810-78e59e3565da
+False,16384,Carla Humphrey,12,Right Midfield,107.3,23.9,3e5c0a6c-f607-4377-b810-78e59e3565da
+False,24239,Jemma Elizabeth Purfield,6,Left Back,113.2,39.3,3e5c0a6c-f607-4377-b810-78e59e3565da
+False,36801,Aimee Palmer,13,Right Center Midfield,104.2,33.6,3e5c0a6c-f607-4377-b810-78e59e3565da
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,108.6,40.6,3e5c0a6c-f607-4377-b810-78e59e3565da
+False,10093,Yana Daniels,16,Left Midfield,112.9,47.4,3e5c0a6c-f607-4377-b810-78e59e3565da
+True,15550,Bethany England,17,Right Wing,112.5,36.9,3e5c0a6c-f607-4377-b810-78e59e3565da
+True,17275,Hannah Jayne Blundell,6,Left Back,91.9,23.0,3e5c0a6c-f607-4377-b810-78e59e3565da
+True,10395,Maren Nævdal Mjelde,2,Right Back,111.4,47.0,3e5c0a6c-f607-4377-b810-78e59e3565da
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,98.3,36.4,3e5c0a6c-f607-4377-b810-78e59e3565da
+False,16376,Sophie Baggaley,1,Goalkeeper,119.2,39.1,3e5c0a6c-f607-4377-b810-78e59e3565da
+True,4961,Samantha May Kerr,21,Left Wing,105.6,33.3,8cb3a680-e685-4a48-a895-9ec3a6172dac
+True,4660,Erin Cuthbert,15,Left Center Midfield,101.4,40.0,8cb3a680-e685-4a48-a895-9ec3a6172dac
+True,17275,Hannah Jayne Blundell,6,Left Back,80.0,26.4,8cb3a680-e685-4a48-a895-9ec3a6172dac
+True,4647,So-Yun Ji,13,Right Center Midfield,84.6,42.4,8cb3a680-e685-4a48-a895-9ec3a6172dac
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,75.2,37.4,8cb3a680-e685-4a48-a895-9ec3a6172dac
+True,4641,Francesca Kirby,23,Center Forward,88.3,44.1,8cb3a680-e685-4a48-a895-9ec3a6172dac
+False,15618,Jasmine Matthews,3,Right Center Back,106.4,44.5,8cb3a680-e685-4a48-a895-9ec3a6172dac
+False,16381,Gemma Evans,5,Left Center Back,104.1,45.1,8cb3a680-e685-4a48-a895-9ec3a6172dac
+False,36801,Aimee Palmer,13,Right Center Midfield,87.0,32.2,8cb3a680-e685-4a48-a895-9ec3a6172dac
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,93.0,39.0,8cb3a680-e685-4a48-a895-9ec3a6172dac
+False,25547,Chloe Logarzo,24,Left Center Forward,91.9,41.1,8cb3a680-e685-4a48-a895-9ec3a6172dac
+False,10093,Yana Daniels,16,Left Midfield,94.4,44.9,8cb3a680-e685-4a48-a895-9ec3a6172dac
+False,24239,Jemma Elizabeth Purfield,6,Left Back,94.2,54.6,8cb3a680-e685-4a48-a895-9ec3a6172dac
+False,16376,Sophie Baggaley,1,Goalkeeper,118.8,41.6,8cb3a680-e685-4a48-a895-9ec3a6172dac
+False,24922,Florence Allen,2,Right Back,105.8,30.8,8cb3a680-e685-4a48-a895-9ec3a6172dac
+False,16384,Carla Humphrey,12,Right Midfield,82.8,12.1,8cb3a680-e685-4a48-a895-9ec3a6172dac
+True,4660,Erin Cuthbert,15,Left Center Midfield,93.6,28.2,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,84.9,24.4,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+True,17275,Hannah Jayne Blundell,6,Left Back,81.7,10.8,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+True,15550,Bethany England,17,Right Wing,107.0,35.3,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+False,16384,Carla Humphrey,12,Right Midfield,94.1,14.5,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+False,24922,Florence Allen,2,Right Back,101.7,18.8,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+False,36801,Aimee Palmer,13,Right Center Midfield,92.1,22.2,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+False,15618,Jasmine Matthews,3,Right Center Back,100.1,29.8,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+False,16381,Gemma Evans,5,Left Center Back,106.2,36.5,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+False,24239,Jemma Elizabeth Purfield,6,Left Back,107.4,41.3,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,91.4,34.7,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+False,16376,Sophie Baggaley,1,Goalkeeper,119.1,40.4,1d2ee9c0-821e-4c51-89a0-317f6e9d781a
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,108.7,44.8,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+True,4660,Erin Cuthbert,15,Left Center Midfield,92.7,35.5,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+False,15563,Charlie Wellings,22,Right Center Forward,91.8,48.8,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+False,25547,Chloe Logarzo,24,Left Center Forward,108.2,45.2,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+False,16384,Carla Humphrey,12,Right Midfield,109.7,33.3,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+False,36801,Aimee Palmer,13,Right Center Midfield,119.0,38.0,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+False,24922,Florence Allen,2,Right Back,114.1,42.2,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+False,16381,Gemma Evans,5,Left Center Back,114.8,45.0,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+False,15618,Jasmine Matthews,3,Right Center Back,112.0,44.2,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+False,16376,Sophie Baggaley,1,Goalkeeper,118.7,43.0,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+True,4961,Samantha May Kerr,21,Left Wing,113.1,39.4,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+True,15550,Bethany England,17,Right Wing,112.5,44.5,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+True,4641,Francesca Kirby,23,Center Forward,110.6,58.9,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+True,10395,Maren Nævdal Mjelde,2,Right Back,111.8,50.2,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+False,24239,Jemma Elizabeth Purfield,6,Left Back,114.0,55.2,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,108.6,48.5,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+False,10093,Yana Daniels,16,Left Midfield,112.8,47.4,1df89f12-e46c-45b6-bee9-2d9eb46a6b29
+True,4633,Magdalena Lilly Eriksson,5,Left Center Back,84.1,29.2,8938b618-2a71-4e93-8f9d-31ea71087e1b
+True,17275,Hannah Jayne Blundell,6,Left Back,79.8,22.0,8938b618-2a71-4e93-8f9d-31ea71087e1b
+True,4647,So-Yun Ji,13,Right Center Midfield,85.0,39.0,8938b618-2a71-4e93-8f9d-31ea71087e1b
+True,4961,Samantha May Kerr,21,Left Wing,101.6,33.4,8938b618-2a71-4e93-8f9d-31ea71087e1b
+True,4660,Erin Cuthbert,15,Left Center Midfield,101.3,38.8,8938b618-2a71-4e93-8f9d-31ea71087e1b
+True,15550,Bethany England,17,Right Wing,104.0,46.4,8938b618-2a71-4e93-8f9d-31ea71087e1b
+True,4641,Francesca Kirby,23,Center Forward,103.4,48.8,8938b618-2a71-4e93-8f9d-31ea71087e1b
+True,10395,Maren Nævdal Mjelde,2,Right Back,103.4,62.0,8938b618-2a71-4e93-8f9d-31ea71087e1b
+False,46738,Emma Bissell,16,Left Midfield,94.3,26.1,8938b618-2a71-4e93-8f9d-31ea71087e1b
+False,24922,Florence Allen,2,Right Back,104.0,31.9,8938b618-2a71-4e93-8f9d-31ea71087e1b
+False,15618,Jasmine Matthews,3,Right Center Back,103.4,40.1,8938b618-2a71-4e93-8f9d-31ea71087e1b
+False,36801,Aimee Palmer,13,Right Center Midfield,94.4,34.7,8938b618-2a71-4e93-8f9d-31ea71087e1b
+False,16381,Gemma Evans,5,Left Center Back,101.3,42.9,8938b618-2a71-4e93-8f9d-31ea71087e1b
+False,24239,Jemma Elizabeth Purfield,6,Left Back,104.8,49.0,8938b618-2a71-4e93-8f9d-31ea71087e1b
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,97.8,46.4,8938b618-2a71-4e93-8f9d-31ea71087e1b
+False,23412,Abigail Harrison,12,Right Midfield,102.5,52.5,8938b618-2a71-4e93-8f9d-31ea71087e1b
+False,31527,Ebony Salmon,22,Right Center Forward,84.9,30.8,8938b618-2a71-4e93-8f9d-31ea71087e1b
+False,25547,Chloe Logarzo,24,Left Center Forward,93.2,42.3,8938b618-2a71-4e93-8f9d-31ea71087e1b
+False,16376,Sophie Baggaley,1,Goalkeeper,119.3,40.1,8938b618-2a71-4e93-8f9d-31ea71087e1b
+True,4660,Erin Cuthbert,15,Left Center Midfield,113.8,26.9,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+False,46738,Emma Bissell,16,Left Midfield,115.9,29.4,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+True,15550,Bethany England,17,Right Wing,116.5,48.5,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+False,25547,Chloe Logarzo,24,Left Center Forward,97.7,45.0,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+False,16376,Sophie Baggaley,1,Goalkeeper,119.5,43.1,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+True,10395,Maren Nævdal Mjelde,2,Right Back,99.5,54.6,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+True,4647,So-Yun Ji,13,Right Center Midfield,119.0,57.9,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+True,4641,Francesca Kirby,23,Center Forward,105.5,58.2,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+True,15648,Melanie Leupolz,10,Center Defensive Midfield,102.6,36.4,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+False,23412,Abigail Harrison,12,Right Midfield,118.1,55.4,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,107.6,51.3,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+False,24239,Jemma Elizabeth Purfield,6,Left Back,107.3,59.6,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+False,16381,Gemma Evans,5,Left Center Back,114.4,50.0,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+False,36801,Aimee Palmer,13,Right Center Midfield,112.5,45.3,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+False,15618,Jasmine Matthews,3,Right Center Back,116.4,47.1,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+False,24922,Florence Allen,2,Right Back,116.3,40.9,08954f6e-a76b-4f5e-8d1a-c5a67d9e28a9
+True,4647,So-Yun Ji,13,Right Center Midfield,93.7,32.6,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+False,25547,Chloe Logarzo,24,Left Center Forward,107.8,33.3,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+False,23412,Abigail Harrison,12,Right Midfield,112.4,34.1,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+False,16376,Sophie Baggaley,1,Goalkeeper,119.3,39.5,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+False,15618,Jasmine Matthews,3,Right Center Back,112.0,44.2,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+False,31527,Ebony Salmon,22,Right Center Forward,98.1,30.7,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+False,16381,Gemma Evans,5,Left Center Back,109.7,41.3,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,110.6,38.6,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+False,24239,Jemma Elizabeth Purfield,6,Left Back,118.7,43.3,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+True,4633,Magdalena Lilly Eriksson,5,Left Center Back,114.8,41.3,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+True,15550,Bethany England,17,Right Wing,115.4,42.2,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+True,4961,Samantha May Kerr,21,Left Wing,110.8,40.7,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+True,4642,Millie Bright,3,Right Center Back,113.6,48.2,06cdef5c-4c5c-4d8e-afab-2c9773b0d402
+False,24922,Florence Allen,2,Right Back,114.7,32.3,5d73c4f1-3870-436c-9320-42e48496c9ff
+False,15618,Jasmine Matthews,3,Right Center Back,116.0,37.4,5d73c4f1-3870-436c-9320-42e48496c9ff
+False,16381,Gemma Evans,5,Left Center Back,118.6,36.7,5d73c4f1-3870-436c-9320-42e48496c9ff
+False,36801,Aimee Palmer,13,Right Center Midfield,104.9,30.7,5d73c4f1-3870-436c-9320-42e48496c9ff
+False,24239,Jemma Elizabeth Purfield,6,Left Back,113.2,48.5,5d73c4f1-3870-436c-9320-42e48496c9ff
+False,46738,Emma Bissell,16,Left Midfield,119.7,27.2,5d73c4f1-3870-436c-9320-42e48496c9ff
+True,4660,Erin Cuthbert,15,Left Center Midfield,94.8,19.9,5d73c4f1-3870-436c-9320-42e48496c9ff
+True,4961,Samantha May Kerr,21,Left Wing,108.1,37.4,5d73c4f1-3870-436c-9320-42e48496c9ff
+True,4641,Francesca Kirby,23,Center Forward,112.0,44.2,5d73c4f1-3870-436c-9320-42e48496c9ff
+False,16376,Sophie Baggaley,1,Goalkeeper,119.6,35.6,5d73c4f1-3870-436c-9320-42e48496c9ff
+True,4647,So-Yun Ji,13,Right Center Midfield,104.8,35.4,d51e2ebf-44c3-4d69-8b6c-ef0191142722
+True,15631,Niamh Charles,10,Center Defensive Midfield,110.1,32.8,d51e2ebf-44c3-4d69-8b6c-ef0191142722
+False,16376,Sophie Baggaley,1,Goalkeeper,116.6,43.8,d51e2ebf-44c3-4d69-8b6c-ef0191142722
+False,46738,Emma Bissell,16,Left Midfield,106.3,34.2,d51e2ebf-44c3-4d69-8b6c-ef0191142722
+False,16381,Gemma Evans,5,Left Center Back,114.8,43.7,d51e2ebf-44c3-4d69-8b6c-ef0191142722
+False,36801,Aimee Palmer,13,Right Center Midfield,103.5,38.9,d51e2ebf-44c3-4d69-8b6c-ef0191142722
+False,15618,Jasmine Matthews,3,Right Center Back,110.3,45.9,d51e2ebf-44c3-4d69-8b6c-ef0191142722
+False,24922,Florence Allen,2,Right Back,109.1,46.9,d51e2ebf-44c3-4d69-8b6c-ef0191142722
+True,4961,Samantha May Kerr,21,Left Wing,110.6,52.7,d51e2ebf-44c3-4d69-8b6c-ef0191142722
+True,4636,Maria Thorisdottir,2,Right Back,104.2,46.4,d51e2ebf-44c3-4d69-8b6c-ef0191142722
+False,24239,Jemma Elizabeth Purfield,6,Left Back,108.6,51.6,d51e2ebf-44c3-4d69-8b6c-ef0191142722
+True,4647,So-Yun Ji,13,Right Center Midfield,111.4,38.3,1c23cae0-a76e-4079-a163-1e5123065542
+True,4636,Maria Thorisdottir,2,Right Back,108.8,42.9,1c23cae0-a76e-4079-a163-1e5123065542
+True,4961,Samantha May Kerr,21,Left Wing,110.1,53.6,1c23cae0-a76e-4079-a163-1e5123065542
+True,10108,Pernille Mosegaard Harder,17,Right Wing,106.3,51.4,1c23cae0-a76e-4079-a163-1e5123065542
+False,46738,Emma Bissell,16,Left Midfield,110.8,35.7,1c23cae0-a76e-4079-a163-1e5123065542
+False,36801,Aimee Palmer,13,Right Center Midfield,110.1,39.8,1c23cae0-a76e-4079-a163-1e5123065542
+False,16376,Sophie Baggaley,1,Goalkeeper,116.1,42.8,1c23cae0-a76e-4079-a163-1e5123065542
+False,16381,Gemma Evans,5,Left Center Back,116.1,45.7,1c23cae0-a76e-4079-a163-1e5123065542
+False,15618,Jasmine Matthews,3,Right Center Back,110.5,46.1,1c23cae0-a76e-4079-a163-1e5123065542
+False,24922,Florence Allen,2,Right Back,111.2,50.0,1c23cae0-a76e-4079-a163-1e5123065542
+False,24239,Jemma Elizabeth Purfield,6,Left Back,114.5,49.3,1c23cae0-a76e-4079-a163-1e5123065542
+True,4636,Maria Thorisdottir,2,Right Back,104.8,52.2,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+False,46738,Emma Bissell,16,Left Midfield,101.0,19.5,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+False,15618,Jasmine Matthews,3,Right Center Back,108.0,29.7,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+False,24922,Florence Allen,2,Right Back,109.2,31.7,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+False,16381,Gemma Evans,5,Left Center Back,113.6,36.3,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,109.3,34.6,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+False,36801,Aimee Palmer,13,Right Center Midfield,104.6,30.1,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+False,24239,Jemma Elizabeth Purfield,6,Left Back,110.9,40.8,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+False,23412,Abigail Harrison,12,Right Midfield,108.5,47.2,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+False,25547,Chloe Logarzo,24,Left Center Forward,87.0,26.1,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+True,15631,Niamh Charles,10,Center Defensive Midfield,111.8,26.6,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+True,17275,Hannah Jayne Blundell,6,Left Back,91.5,17.6,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+False,16376,Sophie Baggaley,1,Goalkeeper,116.9,35.6,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+True,4641,Francesca Kirby,23,Center Forward,108.5,37.2,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+True,10108,Pernille Mosegaard Harder,17,Right Wing,109.5,43.7,29af60d9-9dcf-4f02-baa2-c060e8bc2c91
+True,4961,Samantha May Kerr,21,Left Wing,113.4,41.9,c700f7aa-cba2-4291-b4cd-309992e0a47f
+True,10108,Pernille Mosegaard Harder,17,Right Wing,105.6,40.3,c700f7aa-cba2-4291-b4cd-309992e0a47f
+True,4647,So-Yun Ji,13,Right Center Midfield,100.8,48.1,c700f7aa-cba2-4291-b4cd-309992e0a47f
+True,4641,Francesca Kirby,23,Center Forward,110.5,67.4,c700f7aa-cba2-4291-b4cd-309992e0a47f
+False,24922,Florence Allen,2,Right Back,115.0,42.8,c700f7aa-cba2-4291-b4cd-309992e0a47f
+False,15618,Jasmine Matthews,3,Right Center Back,112.8,44.2,c700f7aa-cba2-4291-b4cd-309992e0a47f
+False,16381,Gemma Evans,5,Left Center Back,111.1,49.8,c700f7aa-cba2-4291-b4cd-309992e0a47f
+False,36801,Aimee Palmer,13,Right Center Midfield,101.1,41.8,c700f7aa-cba2-4291-b4cd-309992e0a47f
+False,24239,Jemma Elizabeth Purfield,6,Left Back,109.3,62.2,c700f7aa-cba2-4291-b4cd-309992e0a47f
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,106.3,54.6,c700f7aa-cba2-4291-b4cd-309992e0a47f
+False,46738,Emma Bissell,16,Left Midfield,100.3,50.2,c700f7aa-cba2-4291-b4cd-309992e0a47f
+False,25547,Chloe Logarzo,24,Left Center Forward,94.3,48.5,c700f7aa-cba2-4291-b4cd-309992e0a47f
+False,16376,Sophie Baggaley,1,Goalkeeper,118.9,42.9,c700f7aa-cba2-4291-b4cd-309992e0a47f
+True,15631,Niamh Charles,10,Center Defensive Midfield,112.3,30.1,c700f7aa-cba2-4291-b4cd-309992e0a47f
+True,4641,Francesca Kirby,23,Center Forward,104.6,47.3,f68db7ae-f1fe-4db7-82f8-bf8ccf50d3ca
+False,24239,Jemma Elizabeth Purfield,6,Left Back,105.0,48.5,f68db7ae-f1fe-4db7-82f8-bf8ccf50d3ca
+False,16381,Gemma Evans,5,Left Center Back,113.6,39.1,f68db7ae-f1fe-4db7-82f8-bf8ccf50d3ca
+True,15631,Niamh Charles,10,Center Defensive Midfield,111.3,29.1,f68db7ae-f1fe-4db7-82f8-bf8ccf50d3ca
+False,16376,Sophie Baggaley,1,Goalkeeper,119.2,39.2,f68db7ae-f1fe-4db7-82f8-bf8ccf50d3ca
+True,4961,Samantha May Kerr,21,Left Wing,101.0,34.7,f68db7ae-f1fe-4db7-82f8-bf8ccf50d3ca
+False,15618,Jasmine Matthews,3,Right Center Back,110.7,34.8,f68db7ae-f1fe-4db7-82f8-bf8ccf50d3ca
+False,15578,Faye Bryson,2,Right Back,106.7,34.2,f68db7ae-f1fe-4db7-82f8-bf8ccf50d3ca
+False,36801,Aimee Palmer,13,Right Center Midfield,101.5,32.8,f68db7ae-f1fe-4db7-82f8-bf8ccf50d3ca
+True,4633,Magdalena Lilly Eriksson,5,Left Center Back,86.3,20.6,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+True,15631,Niamh Charles,10,Center Defensive Midfield,99.4,33.3,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+True,4641,Francesca Kirby,23,Center Forward,102.2,23.4,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+True,10108,Pernille Mosegaard Harder,17,Right Wing,113.5,49.1,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+True,4636,Maria Thorisdottir,2,Right Back,108.4,60.9,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+False,46738,Emma Bissell,16,Left Midfield,97.6,18.9,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+False,15578,Faye Bryson,2,Right Back,106.4,28.8,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+False,15618,Jasmine Matthews,3,Right Center Back,104.4,32.8,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+False,36801,Aimee Palmer,13,Right Center Midfield,94.7,26.8,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+False,16381,Gemma Evans,5,Left Center Back,111.3,42.3,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+False,24239,Jemma Elizabeth Purfield,6,Left Back,113.0,47.3,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,95.4,35.6,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+False,23412,Abigail Harrison,12,Right Midfield,111.4,57.3,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+False,25547,Chloe Logarzo,24,Left Center Forward,98.4,48.2,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+False,16376,Sophie Baggaley,1,Goalkeeper,119.4,42.1,4ccc88ff-97a6-43bd-a765-d9e1d10bdcb2
+True,4633,Magdalena Lilly Eriksson,5,Left Center Back,84.7,16.5,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+True,15631,Niamh Charles,10,Center Defensive Midfield,100.6,22.5,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+True,4641,Francesca Kirby,23,Center Forward,103.4,26.7,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+True,10108,Pernille Mosegaard Harder,17,Right Wing,97.8,35.5,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+True,4961,Samantha May Kerr,21,Left Wing,105.1,48.1,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+False,46738,Emma Bissell,16,Left Midfield,98.7,18.9,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+False,15578,Faye Bryson,2,Right Back,101.4,27.9,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+False,36801,Aimee Palmer,13,Right Center Midfield,95.5,27.7,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+False,15618,Jasmine Matthews,3,Right Center Back,102.2,31.8,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+False,16381,Gemma Evans,5,Left Center Back,105.0,39.9,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,99.6,34.9,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+False,24239,Jemma Elizabeth Purfield,6,Left Back,105.7,46.0,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+False,25547,Chloe Logarzo,24,Left Center Forward,92.9,33.2,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+False,23412,Abigail Harrison,12,Right Midfield,104.0,50.8,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+False,16376,Sophie Baggaley,1,Goalkeeper,119.2,39.8,25a4c6f7-30d3-4b46-a9e4-8556591462c6
+True,4641,Francesca Kirby,23,Center Forward,110.9,40.8,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+True,4961,Samantha May Kerr,21,Left Wing,113.7,34.9,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+True,17275,Hannah Jayne Blundell,6,Left Back,92.2,26.0,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+True,4660,Erin Cuthbert,15,Left Center Midfield,93.7,33.3,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+True,15631,Niamh Charles,10,Center Defensive Midfield,101.2,42.2,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+True,10108,Pernille Mosegaard Harder,17,Right Wing,101.7,51.3,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+False,15578,Faye Bryson,2,Right Back,112.5,37.0,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+False,15618,Jasmine Matthews,3,Right Center Back,114.6,43.0,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+False,16381,Gemma Evans,5,Left Center Back,112.9,46.0,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+False,36801,Aimee Palmer,13,Right Center Midfield,101.7,39.7,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+False,24239,Jemma Elizabeth Purfield,6,Left Back,109.6,50.9,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+False,25547,Chloe Logarzo,24,Left Center Forward,101.2,44.9,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+False,23412,Abigail Harrison,12,Right Midfield,108.9,57.3,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+False,16376,Sophie Baggaley,1,Goalkeeper,118.6,44.0,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+False,46738,Emma Bissell,16,Left Midfield,98.1,21.9,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,106.8,47.5,4d65807a-5278-4f6d-904b-5e7e2a9aaba2
+False,25612,Jessie Alexandra Fleming,23,Center Forward,86.6,32.9,7dea0ffc-a6b4-4aaa-a570-49ba578b6c83
+True,25547,Chloe Logarzo,24,Left Center Forward,84.4,45.4,7dea0ffc-a6b4-4aaa-a570-49ba578b6c83
+False,15560,Ann-Katrin Berger,1,Goalkeeper,118.9,36.5,7dea0ffc-a6b4-4aaa-a570-49ba578b6c83
+False,15631,Niamh Charles,10,Center Defensive Midfield,78.6,50.3,7dea0ffc-a6b4-4aaa-a570-49ba578b6c83
+False,4660,Erin Cuthbert,15,Left Center Midfield,86.3,39.5,7dea0ffc-a6b4-4aaa-a570-49ba578b6c83
+False,4638,Drew Spence,13,Right Center Midfield,88.9,41.8,7dea0ffc-a6b4-4aaa-a570-49ba578b6c83
+False,4633,Magdalena Lilly Eriksson,5,Left Center Back,105.3,30.7,7dea0ffc-a6b4-4aaa-a570-49ba578b6c83
+False,4642,Millie Bright,3,Right Center Back,103.9,35.2,7dea0ffc-a6b4-4aaa-a570-49ba578b6c83
+False,17275,Hannah Jayne Blundell,6,Left Back,102.4,44.9,7dea0ffc-a6b4-4aaa-a570-49ba578b6c83
+False,4636,Maria Thorisdottir,2,Right Back,90.6,25.8,7dea0ffc-a6b4-4aaa-a570-49ba578b6c83
+True,15631,Niamh Charles,10,Center Defensive Midfield,109.6,42.9,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+True,10108,Pernille Mosegaard Harder,17,Right Wing,108.3,41.4,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+True,25612,Jessie Alexandra Fleming,23,Center Forward,89.3,25.3,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+False,16376,Sophie Baggaley,1,Goalkeeper,116.0,36.7,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+False,15578,Faye Bryson,2,Right Back,106.4,22.9,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+False,16381,Gemma Evans,5,Left Center Back,114.9,32.0,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+False,46738,Emma Bissell,16,Left Midfield,86.9,13.8,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+False,15618,Jasmine Matthews,3,Right Center Back,103.0,37.2,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+False,16394,Laura Rafferty,13,Right Center Midfield,110.6,36.6,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+False,25547,Chloe Logarzo,24,Left Center Forward,92.7,27.8,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,99.3,39.9,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+False,24239,Jemma Elizabeth Purfield,6,Left Back,109.9,45.4,22f93e3e-7370-475c-bbca-8218fcc3a0a7
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,105.4,42.6,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+False,24239,Jemma Elizabeth Purfield,6,Left Back,111.6,47.0,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+False,16381,Gemma Evans,5,Left Center Back,113.6,42.5,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+True,4961,Samantha May Kerr,21,Left Wing,112.8,44.1,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+True,4636,Maria Thorisdottir,2,Right Back,112.3,45.8,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+True,10108,Pernille Mosegaard Harder,17,Right Wing,105.1,39.8,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+False,15578,Faye Bryson,2,Right Back,119.5,28.8,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+False,46738,Emma Bissell,16,Left Midfield,108.8,25.6,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+True,17275,Hannah Jayne Blundell,6,Left Back,117.9,24.6,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+True,15631,Niamh Charles,10,Center Defensive Midfield,105.7,26.9,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+False,15618,Jasmine Matthews,3,Right Center Back,115.8,39.1,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+False,16394,Laura Rafferty,13,Right Center Midfield,118.0,37.2,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+False,25547,Chloe Logarzo,24,Left Center Forward,103.8,34.5,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+True,4660,Erin Cuthbert,15,Left Center Midfield,108.1,36.4,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+False,23412,Abigail Harrison,12,Right Midfield,113.1,40.3,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+False,16376,Sophie Baggaley,1,Goalkeeper,119.2,42.0,712e4e52-d9c7-46b5-b1b8-b6e78036e7ec
+True,4636,Maria Thorisdottir,2,Right Back,107.2,56.7,e20e9618-02e8-4956-a071-00bc588b22d3
+True,25612,Jessie Alexandra Fleming,23,Center Forward,91.7,26.6,e20e9618-02e8-4956-a071-00bc588b22d3
+True,4638,Drew Spence,13,Right Center Midfield,94.1,18.2,e20e9618-02e8-4956-a071-00bc588b22d3
+True,4660,Erin Cuthbert,15,Left Center Midfield,96.4,24.5,e20e9618-02e8-4956-a071-00bc588b22d3
+True,4961,Samantha May Kerr,21,Left Wing,108.6,40.7,e20e9618-02e8-4956-a071-00bc588b22d3
+True,15631,Niamh Charles,10,Center Defensive Midfield,103.6,40.9,e20e9618-02e8-4956-a071-00bc588b22d3
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,103.8,36.2,e20e9618-02e8-4956-a071-00bc588b22d3
+False,15578,Faye Bryson,2,Right Back,104.0,23.9,e20e9618-02e8-4956-a071-00bc588b22d3
+False,23412,Abigail Harrison,12,Right Midfield,104.7,26.4,e20e9618-02e8-4956-a071-00bc588b22d3
+False,25547,Chloe Logarzo,24,Left Center Forward,96.2,22.0,e20e9618-02e8-4956-a071-00bc588b22d3
+False,15618,Jasmine Matthews,3,Right Center Back,107.3,33.4,e20e9618-02e8-4956-a071-00bc588b22d3
+False,46738,Emma Bissell,16,Left Midfield,97.2,14.3,e20e9618-02e8-4956-a071-00bc588b22d3
+False,16381,Gemma Evans,5,Left Center Back,109.9,41.7,e20e9618-02e8-4956-a071-00bc588b22d3
+False,24239,Jemma Elizabeth Purfield,6,Left Back,107.2,50.5,e20e9618-02e8-4956-a071-00bc588b22d3
+False,16376,Sophie Baggaley,1,Goalkeeper,119.2,39.1,e20e9618-02e8-4956-a071-00bc588b22d3
+False,16394,Laura Rafferty,13,Right Center Midfield,95.1,20.5,719db4e1-ef73-44b8-b031-8d8007bb5c48
+False,15618,Jasmine Matthews,3,Right Center Back,99.4,36.8,719db4e1-ef73-44b8-b031-8d8007bb5c48
+False,16381,Gemma Evans,5,Left Center Back,103.4,56.6,719db4e1-ef73-44b8-b031-8d8007bb5c48
+False,15578,Faye Bryson,2,Right Back,79.4,26.8,719db4e1-ef73-44b8-b031-8d8007bb5c48
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,89.4,42.6,719db4e1-ef73-44b8-b031-8d8007bb5c48
+True,4961,Samantha May Kerr,21,Left Wing,101.4,31.7,719db4e1-ef73-44b8-b031-8d8007bb5c48
+True,10108,Pernille Mosegaard Harder,17,Right Wing,101.4,43.5,719db4e1-ef73-44b8-b031-8d8007bb5c48
+False,16376,Sophie Baggaley,1,Goalkeeper,106.5,41.0,719db4e1-ef73-44b8-b031-8d8007bb5c48
+False,25547,Chloe Logarzo,24,Left Center Forward,100.3,33.9,58dabded-2c06-4a4c-b55c-be4530c11e3d
+False,46737,Ella Jade Mastrantonio,15,Left Center Midfield,101.2,30.7,58dabded-2c06-4a4c-b55c-be4530c11e3d
+False,16381,Gemma Evans,5,Left Center Back,103.2,34.0,58dabded-2c06-4a4c-b55c-be4530c11e3d
+False,15578,Faye Bryson,2,Right Back,110.2,31.8,58dabded-2c06-4a4c-b55c-be4530c11e3d
+False,16394,Laura Rafferty,13,Right Center Midfield,110.6,35.5,58dabded-2c06-4a4c-b55c-be4530c11e3d
+False,15618,Jasmine Matthews,3,Right Center Back,110.8,39.4,58dabded-2c06-4a4c-b55c-be4530c11e3d
+False,24239,Jemma Elizabeth Purfield,6,Left Back,115.1,47.0,58dabded-2c06-4a4c-b55c-be4530c11e3d
+False,23412,Abigail Harrison,12,Right Midfield,104.4,38.8,58dabded-2c06-4a4c-b55c-be4530c11e3d
+False,46738,Emma Bissell,16,Left Midfield,110.8,44.7,58dabded-2c06-4a4c-b55c-be4530c11e3d
+True,10108,Pernille Mosegaard Harder,17,Right Wing,113.2,49.4,58dabded-2c06-4a4c-b55c-be4530c11e3d
+True,4642,Millie Bright,3,Right Center Back,105.9,46.1,58dabded-2c06-4a4c-b55c-be4530c11e3d
+True,4638,Drew Spence,13,Right Center Midfield,104.6,32.0,58dabded-2c06-4a4c-b55c-be4530c11e3d
+False,16376,Sophie Baggaley,1,Goalkeeper,119.3,39.2,58dabded-2c06-4a4c-b55c-be4530c11e3d
+True,4961,Samantha May Kerr,21,Left Wing,109.6,33.4,58dabded-2c06-4a4c-b55c-be4530c11e3d

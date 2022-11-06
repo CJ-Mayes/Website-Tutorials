@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CsvFileAttributes">
+    <option name="attributeMap">
+      <map>
+        <entry key="C:\Users\Cj.Mayes\AppData\Local\Temp\competitions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\AppData\Local\Temp\match_events.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\AppData\Local\Temp\match_shot_freeze_frames.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\AppData\Local\Temp\matches.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\BeautifulSoupBlog-main\BeautifulSoupBlog-main\Table.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\BeautifulSoupBlog-main\BeautifulSoupBlog-main\Womens_Vitality_Table.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\ConvexHull-main\ConvexHull-main\dataset.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\NBA-main\NBA-main\Games.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\NBA-main\NBA-main\Loop\Games.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\NBA-main\NBA-main\PBP.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\NBA-main\NBA-main\ShotData.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\UnderstatCode-main\UnderstatCode-main\Datasets Season 2019_20\Bu19_league_player_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\UnderstatCode-main\UnderstatCode-main\Datasets Season 2019_20\Bu19_player_shot_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\UnderstatCode-main\UnderstatCode-main\Datasets Season 2019_20\EPL19_league_player_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\UnderstatCode-main\UnderstatCode-main\Datasets Season 2019_20\EPL19_player_shot_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\UnderstatCode-main\UnderstatCode-main\Datasets Season 2019_20\LaL19_league_player_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\UnderstatCode-main\UnderstatCode-main\Datasets Season 2019_20\LaL19_player_shot_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\UnderstatCode-main\UnderstatCode-main\Datasets Season 2019_20\Ligue1_19_league_player_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\UnderstatCode-main\UnderstatCode-main\Datasets Season 2019_20\Ligue1_19_player_shot_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\UnderstatCode-main\UnderstatCode-main\Datasets Season 2019_20\SA19_league_player_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\UnderstatCode-main\UnderstatCode-main\Datasets Season 2019_20\SA19_player_shot_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Cj.Mayes\Downloads\UnderstatEvent-main\UnderstatEvent-main\event_file.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

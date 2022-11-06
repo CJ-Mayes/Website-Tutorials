@@ -1,0 +1,52 @@
+#In the terminal you first may need to pip install matplotlib, as well as numpy.
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+#Insert number of segments
+print('What number of segments would you like? Enter a number:')
+dimension = int(input())
+
+# Leaving the factors as blank titles
+factors = ['']*dimension
+
+# New scale should be from 0 to 100.
+new_max = 100
+new_min = 0
+new_range = new_max - new_min
+
+# Each attribute we'll plot in the radar chart.
+labels = ['']*dimension
+
+#Keeping values blank
+values = [0]*dimension
+
+# Number of variables we're plotting.
+num_vars = len(labels)
+
+# Split the circle into even parts and save the angles
+# so we know where to put each axis.
+angles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()
+
+# ax = plt.subplot(polar=True)
+fig, ax = plt.subplots(figsize=(6, 6), subplot_kw=dict(polar=True))
+
+# Fix axis to go in the right order and start at 12 o'clock.
+ax.set_theta_offset(np.pi / 2)
+ax.set_theta_direction(-1)
+
+# Labeling Blank
+ax.set_thetagrids(np.degrees(angles), labels)
+
+# Ensure radar goes from 0 to 100.
+ax.set_ylim(0, 100)
+
+# Set position of y-labels (0-100) to be in the middle
+# of the first two axes.
+ax.set_rlabel_position(180 / num_vars)
+
+# Change the background color inside the circle itself.
+ax.set_facecolor('#FAFAFA')
+
+#Save with Transparent Background For Tableau
+plt.savefig('Demo.png', transparent=True)

@@ -1,0 +1,464 @@
+GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRING,HOMEDESCRIPTION,NEUTRALDESCRIPTION,VISITORDESCRIPTION,SCORE,SCOREMARGIN,PERSON1TYPE,PLAYER1_ID,PLAYER1_NAME,PLAYER1_TEAM_ID,PLAYER1_TEAM_CITY,PLAYER1_TEAM_NICKNAME,PLAYER1_TEAM_ABBREVIATION,PERSON2TYPE,PLAYER2_ID,PLAYER2_NAME,PLAYER2_TEAM_ID,PLAYER2_TEAM_CITY,PLAYER2_TEAM_NICKNAME,PLAYER2_TEAM_ABBREVIATION,PERSON3TYPE,PLAYER3_ID,PLAYER3_NAME,PLAYER3_TEAM_ID,PLAYER3_TEAM_CITY,PLAYER3_TEAM_NICKNAME,PLAYER3_TEAM_ABBREVIATION,VIDEO_AVAILABLE_FLAG
+0042000406,2,12,0,1,9:12 PM,12:00,,Start of 1st Period (9:12 PM EST),,,,0,0,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,4,10,0,1,9:12 PM,12:00,Jump Ball Lopez vs. Ayton: Tip to Booker,,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,1
+0042000406,7,2,79,1,9:12 PM,11:40,,,MISS Paul 20' Pullup Jump Shot,,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,8,4,0,1,9:12 PM,11:39,Antetokounmpo REBOUND (Off:0 Def:1),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,10,2,79,1,9:13 PM,11:21,MISS Holiday 19' Pullup Jump Shot,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,11,4,0,1,9:13 PM,11:20,,,Crowder REBOUND (Off:0 Def:1),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,12,2,41,1,9:13 PM,11:14,Antetokounmpo BLOCK (1 BLK),,MISS Bridges 4' Running Layup,,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1
+0042000406,14,4,0,1,9:13 PM,11:13,Middleton REBOUND (Off:0 Def:1),,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,15,1,102,1,9:13 PM,11:06,Antetokounmpo 4' Driving Floating Bank Jump Shot (2 PTS) (Middleton 1 AST),,,0 - 2,2,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,17,1,63,1,9:13 PM,10:48,,,Booker 15' Fadeaway Jumper (2 PTS),2 - 2,TIE,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,18,2,80,1,9:14 PM,10:24,MISS Middleton 14' Step Back Jump Shot,,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,19,4,0,1,9:14 PM,10:24,BUCKS Rebound,,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,20,5,11,1,9:14 PM,10:24,BUCKS Turnover: Shot Clock (T#1),,,,,2,1610612749,,,,,,0,0,,,,,,1,0,,,,,,0
+0042000406,21,2,80,1,9:14 PM,10:13,,,MISS Booker 27' 3PT Step Back Jump Shot,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,22,4,0,1,9:14 PM,10:12,,,Bridges REBOUND (Off:1 Def:0),,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,23,2,1,1,9:14 PM,10:03,,,MISS Crowder 26' 3PT Jump Shot,,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,24,4,0,1,9:14 PM,10:00,Middleton REBOUND (Off:0 Def:2),,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,25,5,1,1,9:14 PM,9:53,Antetokounmpo Bad Pass Turnover (P1.T2),,Ayton STEAL (1 STL),,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,27,2,80,1,9:15 PM,9:43,,,MISS Paul 14' Step Back Jump Shot,,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,28,4,0,1,9:15 PM,9:42,Antetokounmpo REBOUND (Off:0 Def:2),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,29,5,1,1,9:15 PM,9:35,Holiday Bad Pass Turnover (P1.T3),,Ayton STEAL (2 STL),,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,31,5,1,1,9:15 PM,9:25,Holiday STEAL (1 STL),,Crowder Bad Pass Turnover (P1.T1),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,33,2,103,1,9:15 PM,9:20,MISS Holiday 27' 3PT Running Pull-Up Jump Shot,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,34,4,0,1,9:15 PM,9:19,,,Booker REBOUND (Off:0 Def:1),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,35,5,2,1,9:15 PM,9:04,Middleton STEAL (1 STL),,Crowder Lost Ball Turnover (P2.T2),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,38,2,79,1,9:16 PM,8:52,MISS Holiday 15' Pullup Jump Shot,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,39,4,0,1,9:16 PM,8:52,BUCKS Rebound,,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,41,1,5,1,9:16 PM,8:43,Lopez 2' Layup (2 PTS) (Holiday 1 AST),,,2 - 4,2,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,43,5,2,1,9:16 PM,8:21,Lopez STEAL (1 STL),,Ayton Lost Ball Turnover (P1.T3),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,46,6,2,1,9:17 PM,8:16,,,Crowder S.FOUL (P1.T1) (E.Lewis),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,48,3,11,1,9:17 PM,8:16,Antetokounmpo Free Throw 1 of 2 (3 PTS),,,2 - 5,3,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,49,3,12,1,9:17 PM,8:16,Antetokounmpo Free Throw 2 of 2 (4 PTS),,,2 - 6,4,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,50,2,63,1,9:18 PM,8:01,,,MISS Booker 12' Fadeaway Jumper,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,51,4,0,1,9:18 PM,7:58,Holiday REBOUND (Off:0 Def:1),,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,52,2,1,1,9:18 PM,7:52,MISS Middleton 28' 3PT Jump Shot,,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,53,4,0,1,9:18 PM,7:51,,,Crowder REBOUND (Off:0 Def:2),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,54,2,47,1,9:19 PM,7:28,,,MISS Ayton 21' Turnaround Jump Shot,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,55,4,0,1,9:19 PM,7:27,Middleton REBOUND (Off:0 Def:3),,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,56,5,1,1,9:19 PM,7:11,Middleton Bad Pass Turnover (P1.T4),,Crowder STEAL (1 STL),,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,58,1,1,1,9:19 PM,6:51,,,Paul 27' 3PT Jump Shot (3 PTS),5 - 6,1,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,59,9,1,1,9:19 PM,6:51,BUCKS Timeout: Regular (Full 1 Short 0),,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,60,1,57,1,9:23 PM,6:33,Holiday 7' Driving Hook Shot (2 PTS) (Middleton 2 AST),,,5 - 8,3,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,62,5,1,1,9:24 PM,6:19,Middleton STEAL (2 STL),,Booker Bad Pass Turnover (P1.T4),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,64,1,50,1,9:24 PM,6:15,Middleton 1' Running Dunk (2 PTS),,,5 - 10,5,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,65,2,79,1,9:24 PM,6:06,,,MISS Crowder 26' 3PT Pullup Jump Shot,,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,66,4,0,1,9:24 PM,6:05,Antetokounmpo REBOUND (Off:0 Def:3),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,67,2,103,1,9:24 PM,5:57,MISS Antetokounmpo 28' 3PT Running Pull-Up Jump Shot,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,68,4,0,1,9:24 PM,5:56,,,Crowder REBOUND (Off:0 Def:3),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,69,1,79,1,9:24 PM,5:48,,,Bridges 16' Pullup Jump Shot (2 PTS),7 - 10,3,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,71,1,80,1,9:24 PM,5:30,Middleton 19' Step Back Jump Shot (4 PTS),,,7 - 12,5,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,72,2,78,1,9:25 PM,5:24,,,MISS Ayton 9' Floating Jump Shot,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,73,4,0,1,9:25 PM,5:23,Tucker REBOUND (Off:0 Def:1),,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,74,1,79,1,9:25 PM,5:14,Middleton 28' 3PT Pullup Jump Shot (7 PTS),,,7 - 15,8,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,75,2,86,1,9:25 PM,4:57,,,MISS Ayton 11' Turnaround Fadeaway Shot,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,76,4,0,1,9:25 PM,4:56,Antetokounmpo REBOUND (Off:0 Def:4),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,77,6,4,1,9:25 PM,4:51,Middleton OFF.Foul (P1) (T.Brothers),,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,79,5,37,1,9:25 PM,4:51,Middleton Offensive Foul Turnover (P2.T5),,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1,0,,,,,,1
+0042000406,80,8,0,1,9:25 PM,4:51,SUB: Connaughton FOR Lopez,,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,82,8,0,1,9:26 PM,4:51,SUB: Portis FOR Antetokounmpo,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,84,1,5,1,9:26 PM,4:40,,,Ayton 3' Layup (2 PTS) (Paul 1 AST),9 - 15,6,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,86,6,2,1,9:26 PM,4:40,Connaughton S.FOUL (P1.T1) (T.Brothers),,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,88,3,10,1,9:26 PM,4:40,,,MISS Ayton Free Throw 1 of 1,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,97,4,0,1,9:26 PM,4:40,Tucker REBOUND (Off:0 Def:2),,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,89,5,1,1,9:26 PM,4:31,Holiday Bad Pass Turnover (P2.T6),,Crowder STEAL (2 STL),,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,91,1,78,1,9:26 PM,4:19,,,Crowder 13' Floating Jump Shot (2 PTS) (Paul 2 AST),11 - 15,4,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,93,2,1,1,9:27 PM,4:05,MISS Portis 26' 3PT Jump Shot,,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,94,4,0,1,9:27 PM,4:05,BUCKS Rebound,,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,95,6,3,1,9:27 PM,4:05,,,Crowder L.B.FOUL (P2.T2) (T.Brothers),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,98,8,0,1,9:27 PM,4:05,,,SUB: Johnson FOR Ayton,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,99,8,0,1,9:27 PM,4:05,,,SUB: Kaminsky FOR Crowder,,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,102,2,1,1,9:27 PM,3:58,MISS Connaughton 27' 3PT Jump Shot,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,103,4,0,1,9:27 PM,3:57,,,Kaminsky REBOUND (Off:0 Def:1),,,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,104,5,1,1,9:28 PM,3:38,Holiday STEAL (2 STL),,Paul Bad Pass Turnover (P1.T5),,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,106,5,1,1,9:28 PM,3:30,Middleton Bad Pass Turnover (P3.T7),,Bridges STEAL (1 STL),,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,108,2,41,1,9:28 PM,3:22,,,MISS Booker 4' Running Layup,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,109,4,0,1,9:28 PM,3:21,Portis REBOUND (Off:0 Def:1),,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,110,1,1,1,9:28 PM,3:10,Portis 28' 3PT Jump Shot (3 PTS) (Holiday 2 AST),,,11 - 18,7,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,112,9,1,1,9:28 PM,3:10,,,Suns Timeout: Regular (Reg.1 Short 0),,,3,1610612756,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,113,8,0,1,9:31 PM,3:10,SUB: Antetokounmpo FOR Tucker,,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,114,8,0,1,9:31 PM,3:10,SUB: Lopez FOR Middleton,,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,115,8,0,1,9:31 PM,3:10,,,SUB: Payne FOR Paul,,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,116,8,0,1,9:31 PM,3:10,,,SUB: Ayton FOR Kaminsky,,,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,121,2,98,1,9:32 PM,2:56,,,MISS Ayton 3' Cutting Layup Shot,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,0
+0042000406,122,4,0,1,9:32 PM,2:53,,,Ayton REBOUND (Off:1 Def:0),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,0
+0042000406,123,2,1,1,9:32 PM,2:50,,,MISS Booker 27' 3PT Jump Shot,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,0
+0042000406,124,4,0,1,9:32 PM,2:48,Holiday REBOUND (Off:0 Def:2),,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,0
+0042000406,125,2,41,1,9:32 PM,2:45,MISS Holiday 3' Running Layup,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,126,4,0,1,9:32 PM,2:44,Holiday REBOUND (Off:1 Def:2),,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,127,2,97,1,9:32 PM,2:44,MISS Holiday Tip Layup Shot,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,128,4,0,1,9:32 PM,2:43,Antetokounmpo REBOUND (Off:1 Def:4),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,129,2,1,1,9:32 PM,2:38,MISS Lopez 27' 3PT Jump Shot,,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,130,4,0,1,9:32 PM,2:37,,,Johnson REBOUND (Off:0 Def:1),,,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,131,1,1,1,9:33 PM,2:26,,,Payne 26' 3PT Jump Shot (3 PTS) (Bridges 1 AST),14 - 18,4,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,133,1,1,1,9:33 PM,2:07,Portis 3PT Jump Shot (6 PTS) (Holiday 3 AST),,,14 - 21,7,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,135,2,1,1,9:33 PM,1:56,,,MISS Bridges 28' 3PT Jump Shot,,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,136,4,0,1,9:33 PM,1:54,Lopez REBOUND (Off:0 Def:1),,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,137,1,75,1,9:33 PM,1:42,Antetokounmpo 2' Driving Finger Roll Layup (6 PTS),,,14 - 23,9,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,138,2,79,1,9:34 PM,1:26,,,MISS Johnson 24' 3PT Pullup Jump Shot,,,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,139,4,0,1,9:34 PM,1:25,Holiday REBOUND (Off:1 Def:3),,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,140,1,75,1,9:34 PM,1:13,Antetokounmpo 1' Driving Finger Roll Layup (8 PTS) (Holiday 4 AST),,,14 - 25,11,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,142,1,63,1,9:34 PM,1:01,,,Payne 15' Fadeaway Jumper (5 PTS),16 - 25,9,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,143,6,2,1,9:34 PM,0:45,,,Ayton S.FOUL (P1.T3) (S.Foster),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,145,3,11,1,9:35 PM,0:45,Antetokounmpo Free Throw 1 of 2 (9 PTS),,,16 - 26,10,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,146,3,12,1,9:36 PM,0:45,Antetokounmpo Free Throw 2 of 2 (10 PTS),,,16 - 27,11,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,147,2,3,1,9:36 PM,0:31,,,MISS Ayton 7' Hook Shot,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,148,4,0,1,9:36 PM,0:28,Lopez REBOUND (Off:0 Def:2),,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,149,2,6,1,9:36 PM,0:13,MISS Antetokounmpo 3' Driving Layup,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,150,4,0,1,9:36 PM,0:13,Lopez REBOUND (Off:1 Def:2),,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,151,1,97,1,9:36 PM,0:12,Lopez Tip Layup Shot (4 PTS),,,16 - 29,13,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,152,2,1,1,9:36 PM,0:02,,,MISS Johnson 3PT Jump Shot,,,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,153,4,0,1,9:36 PM,0:01,Antetokounmpo REBOUND (Off:1 Def:5),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,154,13,0,1,9:37 PM,0:00,,End of 1st Period (9:37 PM EST),,16 - 29,13,0,0,,,,,,0,0,,,,,,0,0,,,,,,1
+0042000406,161,12,0,2,9:40 PM,12:00,,Start of 2nd Period (9:40 PM EST),,16 - 29,13,0,0,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,162,2,1,2,9:40 PM,11:43,MISS Connaughton 24' 3PT Jump Shot,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,0
+0042000406,163,4,0,2,9:41 PM,11:41,,,Payne REBOUND (Off:0 Def:1),,,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,0
+0042000406,164,2,102,2,9:41 PM,11:28,,,MISS Payne 8' Driving Floating Bank Jump Shot,,,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,165,4,0,2,9:41 PM,11:27,Connaughton REBOUND (Off:0 Def:1),,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,166,2,63,2,9:41 PM,11:11,MISS Middleton 11' Fadeaway Jumper,,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,167,4,0,2,9:41 PM,11:10,,,Johnson REBOUND (Off:0 Def:2),,,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,168,1,75,2,9:41 PM,10:54,,,Payne 2' Driving Finger Roll Layup (7 PTS),18 - 29,11,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,169,2,80,2,9:42 PM,10:40,MISS Antetokounmpo 17' Step Back Jump Shot,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,170,4,0,2,9:42 PM,10:39,,,Johnson REBOUND (Off:0 Def:3),,,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,171,6,1,2,9:42 PM,10:32,Middleton P.FOUL (P2.T1) (S.Foster),,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,173,8,0,2,9:42 PM,10:32,,,SUB: Paul FOR Booker,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,175,1,79,2,9:42 PM,10:25,,,Payne 27' 3PT Pullup Jump Shot (10 PTS),21 - 29,8,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,176,5,4,2,9:42 PM,10:17,Antetokounmpo Traveling Turnover (P2.T8),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1,0,,,,,,1
+0042000406,177,8,0,2,9:43 PM,10:17,SUB: Holiday FOR Teague,,,,,4,201952,Jeff Teague,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,179,5,1,2,9:43 PM,10:08,Middleton STEAL (3 STL),,Payne Bad Pass Turnover (P1.T6),,,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,181,2,1,2,9:43 PM,9:51,MISS Holiday 27' 3PT Jump Shot,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,182,4,0,2,9:43 PM,9:50,,,Crowder REBOUND (Off:0 Def:4),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,183,2,3,2,9:43 PM,9:37,Antetokounmpo BLOCK (2 BLK),,MISS Ayton 7' Hook Shot,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1
+0042000406,185,4,0,2,9:43 PM,9:36,Lopez REBOUND (Off:1 Def:3),,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,186,2,1,2,9:44 PM,9:23,MISS Connaughton 30' 3PT Jump Shot,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,187,4,0,2,9:44 PM,9:22,,,Crowder REBOUND (Off:0 Def:5),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,188,1,1,2,9:44 PM,9:12,,,Johnson 29' 3PT Jump Shot (3 PTS) (Paul 3 AST),24 - 29,5,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,190,2,73,2,9:44 PM,8:55,MISS Holiday 4' Driving Reverse Layup,,Ayton BLOCK (1 BLK),,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,1
+0042000406,192,4,0,2,9:44 PM,8:53,,,Ayton REBOUND (Off:1 Def:1),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,193,6,2,2,9:44 PM,8:47,Lopez S.FOUL (P1.T2) (T.Brothers),,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,195,9,1,2,9:45 PM,8:47,BUCKS Timeout: Regular (Full 2 Short 0),,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,196,8,0,2,9:47 PM,8:47,SUB: Portis FOR Lopez,,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,197,8,0,2,9:47 PM,8:47,SUB: Tucker FOR Connaughton,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,198,8,0,2,9:47 PM,8:47,,,SUB: Booker FOR Payne,,,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,202,3,11,2,9:48 PM,8:47,,,Crowder Free Throw 1 of 2 (3 PTS),25 - 29,4,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,203,3,12,2,9:49 PM,8:47,,,Crowder Free Throw 2 of 2 (4 PTS),26 - 29,3,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,204,1,1,2,9:49 PM,8:25,Portis 15' Jump Shot (8 PTS) (Holiday 5 AST),,,26 - 31,5,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,206,2,3,2,9:50 PM,8:01,,,MISS Ayton 8' Hook Shot,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,207,4,0,2,9:50 PM,8:00,Portis REBOUND (Off:0 Def:2),,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,208,2,1,2,9:50 PM,7:49,MISS Portis 26' 3PT Jump Shot,,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,209,4,0,2,9:50 PM,7:48,,,Crowder REBOUND (Off:0 Def:6),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,210,2,79,2,9:50 PM,7:38,,,MISS Paul 16' Pullup Jump Shot,,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,211,4,0,2,9:50 PM,7:37,Holiday REBOUND (Off:1 Def:4),,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,212,6,2,2,9:50 PM,7:32,,,Paul S.FOUL (P1.T1) (T.Brothers),,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,214,3,11,2,9:51 PM,7:32,Portis Free Throw 1 of 2 (9 PTS),,,26 - 32,6,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,0
+0042000406,215,8,0,2,9:51 PM,7:32,SUB: Connaughton FOR Middleton,,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,216,8,0,2,9:51 PM,7:32,,,SUB: Bridges FOR Johnson,,,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,219,3,12,2,9:51 PM,7:32,Portis Free Throw 2 of 2 (10 PTS),,,26 - 33,7,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,220,1,75,2,9:51 PM,7:19,,,Booker 6' Driving Finger Roll Layup (4 PTS),28 - 33,5,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,221,2,79,2,9:51 PM,7:10,MISS Antetokounmpo 20' Pullup Jump Shot,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,222,4,0,2,9:51 PM,7:09,,,Bridges REBOUND (Off:1 Def:1),,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,223,1,101,2,9:52 PM,6:43,,,Bridges 6' Driving Floating Jump Shot (4 PTS),30 - 33,3,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,224,5,1,2,9:52 PM,6:24,Antetokounmpo Bad Pass Turnover (P3.T9),,Paul STEAL (1 STL),,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,226,6,2,2,9:52 PM,6:21,Portis S.FOUL (P1.T3) (E.Lewis),,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,228,3,11,2,9:53 PM,6:21,,,MISS Bridges Free Throw 1 of 2,,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,229,4,1,2,9:53 PM,6:21,,,Suns Rebound,,,3,1610612756,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,234,3,12,2,9:53 PM,6:21,,,Bridges Free Throw 2 of 2 (5 PTS),31 - 33,2,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,230,8,0,2,9:53 PM,6:21,SUB: Middleton FOR Antetokounmpo,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,231,8,0,2,9:53 PM,6:21,,,SUB: Kaminsky FOR Ayton,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,235,2,79,2,9:54 PM,5:57,MISS Holiday 15' Pullup Jump Shot,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,236,4,0,2,9:54 PM,5:56,,,Crowder REBOUND (Off:0 Def:7),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,238,1,6,2,9:54 PM,5:34,,,Paul 2' Driving Layup (5 PTS),33 - 33,TIE,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,240,2,1,2,9:55 PM,5:12,MISS Tucker 3PT Jump Shot,,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,241,4,0,2,9:55 PM,5:11,Connaughton REBOUND (Off:1 Def:1),,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,242,5,1,2,9:55 PM,5:03,Connaughton Bad Pass Turnover (P1.T10),,Bridges STEAL (2 STL),,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,244,6,1,2,9:55 PM,5:03,Tucker P.FOUL (P1.T4) (S.Foster),,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,246,8,0,2,9:55 PM,5:03,SUB: Antetokounmpo FOR Portis,,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,247,8,0,2,9:55 PM,5:03,,,SUB: Ayton FOR Kaminsky,,,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,250,6,1,2,9:56 PM,4:51,Middleton P.FOUL (P3.PN) (T.Brothers),,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,252,3,11,2,9:56 PM,4:51,,,Ayton Free Throw 1 of 2 (3 PTS),34 - 33,-1,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,253,3,12,2,9:57 PM,4:51,,,Ayton Free Throw 2 of 2 (4 PTS),35 - 33,-2,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,254,2,47,2,9:57 PM,4:37,MISS Holiday 18' Turnaround Jump Shot,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,255,4,0,2,9:57 PM,4:36,,,Crowder REBOUND (Off:0 Def:8),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,256,2,103,2,9:57 PM,4:30,,,MISS Booker 29' 3PT Running Pull-Up Jump Shot,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,257,4,0,2,9:57 PM,4:28,Connaughton REBOUND (Off:1 Def:2),,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,258,2,79,2,9:57 PM,4:19,MISS Middleton 26' 3PT Pullup Jump Shot,,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,259,4,0,2,9:57 PM,4:18,Antetokounmpo REBOUND (Off:2 Def:5),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,260,6,2,2,9:57 PM,4:18,,,Bridges S.FOUL (P1.T2) (T.Brothers),,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,262,3,11,2,9:58 PM,4:18,MISS Antetokounmpo Free Throw 1 of 2,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,263,4,1,2,9:58 PM,4:18,BUCKS Rebound,,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,264,8,0,2,9:58 PM,4:18,SUB: Lopez FOR Connaughton,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,266,3,12,2,9:58 PM,4:18,Antetokounmpo Free Throw 2 of 2 (11 PTS),,,35 - 34,-1,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,267,1,80,2,9:59 PM,4:04,,,Paul 13' Step Back Jump Shot (7 PTS),37 - 34,-3,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,268,2,98,2,9:59 PM,3:56,MISS Lopez 3' Cutting Layup Shot,,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,269,4,0,2,9:59 PM,3:55,,,Ayton REBOUND (Off:1 Def:2),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,270,6,1,2,9:59 PM,3:52,Lopez P.FOUL (P2.PN) (E.Lewis),,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,272,3,11,2,9:59 PM,3:52,,,Ayton Free Throw 1 of 2 (5 PTS),38 - 34,-4,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,273,3,12,2,10:00 PM,3:52,,,Ayton Free Throw 2 of 2 (6 PTS),39 - 34,-5,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,274,1,58,2,10:00 PM,3:40,Antetokounmpo 7' Turnaround Hook Shot (13 PTS),,,39 - 36,-3,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,275,2,1,2,10:00 PM,3:24,,,MISS Paul 13' Jump Shot,,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,276,4,0,2,10:00 PM,3:23,Middleton REBOUND (Off:0 Def:4),,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,277,2,2,2,10:00 PM,3:17,MISS Lopez 26' 3PT Running Jump Shot,,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,278,4,0,2,10:00 PM,3:16,,,Bridges REBOUND (Off:1 Def:2),,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,279,9,1,2,10:01 PM,3:11,,,Suns Timeout: Regular (Reg.2 Short 0),,,3,1610612756,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,280,8,0,2,10:03 PM,3:11,SUB: Connaughton FOR Middleton,,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,282,6,4,2,10:04 PM,3:05,,,Ayton OFF.Foul (P2) (S.Foster),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,284,5,37,2,10:04 PM,3:05,,,Ayton Offensive Foul Turnover (P2.T7),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1,0,,,,,,1
+0042000406,285,2,79,2,10:05 PM,2:57,MISS Holiday 15' Pullup Jump Shot,,Ayton BLOCK (2 BLK),,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,1
+0042000406,287,4,0,2,10:05 PM,2:56,,,Ayton REBOUND (Off:1 Def:3),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,288,1,79,2,10:05 PM,2:42,,,Paul 16' Pullup Jump Shot (9 PTS) (Booker 1 AST),41 - 36,-5,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,290,1,98,2,10:05 PM,2:20,Antetokounmpo 1' Cutting Layup Shot (15 PTS) (Holiday 6 AST),,,41 - 38,-3,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,292,1,79,2,10:06 PM,2:06,,,Paul 14' Pullup Jump Shot (11 PTS),43 - 38,-5,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,293,1,63,2,10:06 PM,1:46,Antetokounmpo 14' Fadeaway Jumper (17 PTS),,,43 - 40,-3,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,294,1,43,2,10:06 PM,1:23,,,Ayton 3' Alley Oop Layup (8 PTS) (Paul 4 AST),45 - 40,-5,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,297,5,15,2,10:07 PM,1:10,Lopez Offensive Goaltending Turnover (P1.T11),,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,298,8,0,2,10:07 PM,1:10,,,SUB: Johnson FOR Crowder,,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,300,8,0,2,10:07 PM,1:10,SUB: Middleton FOR Holiday,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,302,8,0,2,10:07 PM,1:10,SUB: Holiday FOR Lopez,,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,304,2,86,2,10:08 PM,0:46,Antetokounmpo BLOCK (3 BLK),,MISS Booker 19' Turnaround Fadeaway Shot,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1
+0042000406,306,4,0,2,10:08 PM,0:46,,,Suns Rebound,,,3,1610612756,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,307,5,11,2,10:08 PM,0:46,,,Suns Turnover: Shot Clock (T#8),,,3,1610612756,,,,,,0,0,,,,,,1,0,,,,,,0
+0042000406,308,8,0,2,10:08 PM,0:46,,,SUB: Craig FOR Ayton,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,5,1628470,Torrey Craig,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,310,2,1,2,10:09 PM,0:32,MISS Middleton 27' 3PT Jump Shot,,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,311,4,0,2,10:09 PM,0:31,,,Booker REBOUND (Off:0 Def:2),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,312,1,79,2,10:09 PM,0:22,,,Paul 15' Pullup Jump Shot (13 PTS),47 - 40,-7,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,313,6,2,2,10:09 PM,0:03,,,Paul S.FOUL (P2.T3) (S.Foster),,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,315,3,11,2,10:10 PM,0:03,Middleton Free Throw 1 of 2 (8 PTS),,,47 - 41,-6,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,316,8,0,2,10:10 PM,0:03,,,SUB: Crowder FOR Johnson,,,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,317,8,0,2,10:10 PM,0:03,,,SUB: Kaminsky FOR Craig,,,5,1628470,Torrey Craig,1610612756.0,Phoenix,Suns,PHX,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,320,3,12,2,10:10 PM,0:03,Middleton Free Throw 2 of 2 (9 PTS),,,47 - 42,-5,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,321,13,0,2,10:10 PM,0:00,,End of 2nd Period (10:10 PM EST),,47 - 42,-5,0,0,,,,,,0,0,,,,,,0,0,,,,,,1
+0042000406,326,12,0,3,10:26 PM,12:00,,Start of 3rd Period (10:26 PM EST),,47 - 42,-5,0,0,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,327,2,1,3,10:26 PM,11:48,MISS Holiday 24' 3PT Jump Shot,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,328,4,0,3,10:26 PM,11:46,,,Bridges REBOUND (Off:1 Def:3),,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,329,1,41,3,10:26 PM,11:42,,,Bridges 3' Running Layup (7 PTS),49 - 42,-7,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,330,7,2,3,10:27 PM,11:42,Antetokounmpo Violation:Defensive Goaltending (S.Foster),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1,0,,,,,,1
+0042000406,331,1,47,3,10:27 PM,11:31,Antetokounmpo 12' Turnaround Jump Shot (19 PTS),,,49 - 44,-5,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,333,6,2,3,10:27 PM,11:31,,,Bridges S.FOUL (P2.T1) (S.Foster),,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,335,3,10,3,10:28 PM,11:31,Antetokounmpo Free Throw 1 of 1 (20 PTS),,,49 - 45,-4,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,336,2,79,3,10:28 PM,11:18,,,MISS Booker 17' Pullup Jump Shot,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,337,4,0,3,10:28 PM,11:17,Lopez REBOUND (Off:1 Def:4),,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,338,2,6,3,10:28 PM,11:08,MISS Lopez 5' Driving Layup,,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,339,4,0,3,10:28 PM,11:07,,,Ayton REBOUND (Off:1 Def:4),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,340,2,50,3,10:28 PM,11:03,,,MISS Bridges 1' Running Dunk,,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,341,4,0,3,10:28 PM,11:01,Lopez REBOUND (Off:1 Def:5),,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,342,6,1,3,10:28 PM,10:57,,,Paul P.FOUL (P3.T2) (E.Lewis),,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,344,1,79,3,10:29 PM,10:49,Antetokounmpo 27' 3PT Pullup Jump Shot (23 PTS),,,49 - 48,-1,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,345,1,52,3,10:29 PM,10:39,,,Ayton 1' Alley Oop Dunk (10 PTS) (Paul 5 AST),51 - 48,-3,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,347,2,1,3,10:29 PM,10:23,MISS Lopez 26' 3PT Jump Shot,,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,348,4,0,3,10:29 PM,10:22,,,Bridges REBOUND (Off:1 Def:4),,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,349,1,86,3,10:29 PM,9:55,,,Booker 18' Turnaround Fadeaway (6 PTS),53 - 48,-5,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,350,2,6,3,10:30 PM,9:47,MISS Antetokounmpo 6' Driving Layup,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,351,4,0,3,10:30 PM,9:47,Tucker REBOUND (Off:1 Def:2),,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,352,5,40,3,10:30 PM,9:47,Tucker Out of Bounds Lost Ball Turnover (P1.T12),,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1,0,,,,,,1
+0042000406,353,2,79,3,10:30 PM,9:33,,,MISS Paul 15' Pullup Jump Shot,,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,354,4,0,3,10:30 PM,9:30,Holiday REBOUND (Off:1 Def:5),,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,355,1,76,3,10:30 PM,9:27,Holiday 2' Running Finger Roll Layup (4 PTS),,,53 - 50,-3,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,356,1,79,3,10:30 PM,9:14,,,Booker 17' Pullup Jump Shot (8 PTS),55 - 50,-5,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,357,5,45,3,10:31 PM,9:00,Antetokounmpo Out of Bounds - Bad Pass Turnover Turnover (P4.T13),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1,0,,,,,,1
+0042000406,358,5,2,3,10:31 PM,8:50,Holiday STEAL (3 STL),,Booker Lost Ball Turnover (P2.T9),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,360,6,2,3,10:31 PM,8:47,,,Booker S.FOUL (P1.T3) (S.Foster),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,362,3,11,3,10:31 PM,8:47,Holiday Free Throw 1 of 2 (5 PTS),,,55 - 51,-4,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,363,3,12,3,10:32 PM,8:47,Holiday Free Throw 2 of 2 (6 PTS),,,55 - 52,-3,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,364,2,79,3,10:32 PM,8:36,,,MISS Paul 17' Pullup Jump Shot,,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,365,4,0,3,10:32 PM,8:35,Antetokounmpo REBOUND (Off:2 Def:6),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,366,1,1,3,10:32 PM,8:23,Antetokounmpo 3' Jump Shot (25 PTS),,,55 - 54,-1,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,367,2,1,3,10:32 PM,8:14,,,MISS Booker 27' 3PT Jump Shot,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,368,4,0,3,10:32 PM,8:14,Antetokounmpo REBOUND (Off:2 Def:7),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,369,6,2,3,10:33 PM,8:08,,,Ayton S.FOUL (P3.T4) (T.Brothers),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,371,3,11,3,10:33 PM,8:08,Antetokounmpo Free Throw 1 of 2 (26 PTS),,,55 - 55,TIE,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,372,3,12,3,10:33 PM,8:08,Antetokounmpo Free Throw 2 of 2 (27 PTS),,,55 - 56,1,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,380,5,1,3,10:34 PM,7:45,Middleton STEAL (4 STL),,Booker Bad Pass Turnover (P3.T10),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,376,2,6,3,10:34 PM,7:33,MISS Antetokounmpo 3' Driving Layup,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,377,4,0,3,10:34 PM,7:32,Antetokounmpo REBOUND (Off:3 Def:7),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,378,1,72,3,10:34 PM,7:30,Antetokounmpo 1' Putback Layup (29 PTS),,,55 - 58,3,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,379,9,1,3,10:35 PM,7:27,,,Suns Timeout: Regular (Reg.3 Short 0),,,3,1610612756,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,382,1,80,3,10:39 PM,7:15,,,Crowder 26' 3PT Step Back Jump Shot (7 PTS) (Bridges 2 AST),58 - 58,TIE,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,384,6,2,3,10:39 PM,7:15,Antetokounmpo S.FOUL (P1.T1) (S.Foster),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,386,3,10,3,10:39 PM,7:15,,,Crowder Free Throw 1 of 1 (8 PTS),59 - 58,-1,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,387,1,63,3,10:39 PM,6:50,Antetokounmpo 13' Fadeaway Jumper (31 PTS),,,59 - 60,1,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,388,1,79,3,10:40 PM,6:35,,,Paul 16' Pullup Jump Shot (15 PTS),61 - 60,-1,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,389,1,78,3,10:40 PM,6:17,Lopez 13' Floating Jump Shot (6 PTS) (Middleton 3 AST),,,61 - 62,1,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,391,2,1,3,10:40 PM,5:57,,,MISS Crowder 26' 3PT Jump Shot,,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,392,4,0,3,10:40 PM,5:56,Tucker REBOUND (Off:1 Def:3),,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,393,1,108,3,10:40 PM,5:46,Lopez 2' Cutting Dunk Shot (8 PTS) (Holiday 7 AST),,,61 - 64,3,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,395,2,79,3,10:41 PM,5:32,,,MISS Paul 15' Pullup Jump Shot,,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,396,4,0,3,10:41 PM,5:32,,,Paul REBOUND (Off:1 Def:0),,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,397,5,4,3,10:41 PM,5:32,,,Paul Traveling Turnover (P2.T11),,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1,0,,,,,,1
+0042000406,398,2,63,3,10:41 PM,5:06,MISS Holiday 11' Fadeaway Jumper,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,399,4,0,3,10:41 PM,5:04,,,Crowder REBOUND (Off:0 Def:9),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,402,2,43,3,10:42 PM,4:58,,,MISS Booker 3' Alley Oop Layup,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,403,4,0,3,10:42 PM,4:55,Lopez REBOUND (Off:1 Def:6),,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,404,1,79,3,10:42 PM,4:46,Lopez 12' Pullup Jump Shot (10 PTS) (Holiday 8 AST),,,61 - 66,5,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,406,1,79,3,10:42 PM,4:24,,,Paul 14' Pullup Jump Shot (17 PTS),63 - 66,3,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,407,6,2,3,10:42 PM,4:09,,,Ayton S.FOUL (P4.PN) (S.Foster),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,409,7,1,3,10:43 PM,4:09,BUCKS Violation: Delay of game Violation,,,,,2,1610612749,,,,,,0,0,,,,,,1,0,,,,,,0
+0042000406,410,3,11,3,10:43 PM,4:09,Antetokounmpo Free Throw 1 of 2 (32 PTS),,,63 - 67,4,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,411,8,0,3,10:43 PM,4:09,SUB: Connaughton FOR Middleton,,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,412,8,0,3,10:43 PM,4:09,,,SUB: Kaminsky FOR Paul,,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,413,8,0,3,10:43 PM,4:09,,,SUB: Johnson FOR Bridges,,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,414,8,0,3,10:43 PM,4:09,,,SUB: Payne FOR Ayton,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,419,3,12,3,10:44 PM,4:09,Antetokounmpo Free Throw 2 of 2 (33 PTS),,,63 - 68,5,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,420,2,1,3,10:44 PM,3:54,,,MISS Crowder 28' 3PT Jump Shot,,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,421,4,0,3,10:44 PM,3:51,,,Kaminsky REBOUND (Off:1 Def:1),,,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,422,1,79,3,10:44 PM,3:49,,,Crowder 28' 3PT Pullup Jump Shot (11 PTS) (Kaminsky 1 AST),66 - 68,2,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,424,2,5,3,10:45 PM,3:29,MISS Antetokounmpo 5' Layup,,Crowder BLOCK (1 BLK),,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,1
+0042000406,426,4,0,3,10:45 PM,3:28,Lopez REBOUND (Off:2 Def:6),,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,427,1,1,3,10:45 PM,3:17,Holiday 3PT Jump Shot (9 PTS) (Antetokounmpo 1 AST),,,66 - 71,5,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,429,1,41,3,10:45 PM,3:13,,,Booker 2' Running Layup (10 PTS),68 - 71,3,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,430,7,2,3,10:45 PM,3:13,Antetokounmpo Violation:Defensive Goaltending (S.Foster),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1,0,,,,,,1
+0042000406,431,6,2,3,10:45 PM,3:13,Connaughton S.FOUL (P2.T2) (S.Foster),,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,433,3,10,3,10:47 PM,3:13,,,Booker Free Throw 1 of 1 (11 PTS),69 - 71,2,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,434,9,1,3,10:48 PM,3:09,BUCKS Timeout: Regular (Full 3 Short 0),,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,435,8,0,3,10:50 PM,3:09,SUB: Portis FOR Lopez,,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,436,8,0,3,10:50 PM,3:09,SUB: Middleton FOR Connaughton,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,439,1,5,3,10:51 PM,3:00,Antetokounmpo 1' Layup (35 PTS) (Holiday 9 AST),,,69 - 73,4,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,441,1,98,3,10:52 PM,2:45,,,Kaminsky 2' Cutting Layup Shot (2 PTS) (Booker 2 AST),71 - 73,2,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,443,1,101,3,10:52 PM,2:36,Middleton 15' Driving Floating Jump Shot (11 PTS),,,71 - 75,4,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,444,6,1,3,10:52 PM,2:16,Holiday P.FOUL (P1.T3) (E.Lewis),,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,446,8,0,3,10:52 PM,2:16,SUB: Connaughton FOR Tucker,,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,448,2,6,3,10:53 PM,2:08,,,MISS Johnson 1' Driving Layup,,,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,449,4,0,3,10:53 PM,2:07,Connaughton REBOUND (Off:1 Def:3),,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,450,6,2,3,10:53 PM,1:55,,,Crowder S.FOUL (P3.PN) (E.Lewis),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,452,3,11,3,10:53 PM,1:55,Antetokounmpo Free Throw 1 of 2 (36 PTS),,,71 - 76,5,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,453,3,12,3,10:54 PM,1:55,Antetokounmpo Free Throw 2 of 2 (37 PTS),,,71 - 77,6,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,454,2,6,3,10:54 PM,1:46,Portis BLOCK (1 BLK),,MISS Payne 2' Driving Layup,,,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,1
+0042000406,456,4,0,3,10:54 PM,1:45,Connaughton REBOUND (Off:1 Def:4),,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,457,5,1,3,10:54 PM,1:35,Connaughton Bad Pass Turnover (P2.T14),,Crowder STEAL (3 STL),,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,459,1,41,3,10:54 PM,1:30,,,Booker Running Layup (13 PTS),73 - 77,4,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,461,5,2,3,10:55 PM,1:09,Holiday Lost Ball Turnover (P3.T15),,Johnson STEAL (1 STL),,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,463,5,45,3,10:55 PM,1:08,,,Booker Out of Bounds - Bad Pass Turnover Turnover (P4.T12),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,464,2,79,3,10:56 PM,0:50,MISS Antetokounmpo 27' 3PT Pullup Jump Shot,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,465,4,0,3,10:56 PM,0:48,,,Payne REBOUND (Off:0 Def:2),,,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,466,1,108,3,10:56 PM,0:44,,,Kaminsky 2' Cutting Dunk Shot (4 PTS) (Booker 3 AST),75 - 77,2,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,500,5,2,3,10:56 PM,0:28,Antetokounmpo Lost Ball Turnover (P5.T16),,Kaminsky STEAL (1 STL),,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,471,6,1,3,10:56 PM,0:24,Portis P.FOUL (P2.T4) (S.Foster),,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,473,8,0,3,10:57 PM,0:24,SUB: Tucker FOR Antetokounmpo,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,476,6,2,3,10:57 PM,0:05,Portis S.FOUL (P3.PN) (T.Brothers),,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,0
+0042000406,478,8,0,3,10:59 PM,0:05,SUB: Antetokounmpo FOR Connaughton,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,479,8,0,3,10:59 PM,0:05,SUB: Lopez FOR Tucker,,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,480,8,0,3,10:59 PM,0:05,,,SUB: Craig FOR Kaminsky,,,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,5,1628470,Torrey Craig,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,481,8,0,3,10:59 PM,0:05,,,SUB: Bridges FOR Payne,,,5,1626166,Cameron Payne,1610612756.0,Phoenix,Suns,PHX,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,486,3,11,3,10:59 PM,0:05,,,Booker Free Throw 1 of 2 (14 PTS),76 - 77,1,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,487,3,12,3,10:59 PM,0:05,,,Booker Free Throw 2 of 2 (15 PTS),77 - 77,TIE,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,0
+0042000406,488,2,79,3,10:59 PM,0:00,MISS Holiday 27' 3PT Pullup Jump Shot,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,489,4,0,3,10:59 PM,0:00,BUCKS Rebound,,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,490,13,0,3,10:59 PM,0:00,,End of 3rd Period (10:59 PM EST),,77 - 77,TIE,0,0,,,,,,0,0,,,,,,0,0,,,,,,1
+0042000406,497,12,0,4,11:03 PM,12:00,,Start of 4th Period (11:03 PM EST),,77 - 77,TIE,0,0,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,498,2,47,4,11:03 PM,11:36,,,MISS Kaminsky 11' Turnaround Jump Shot,,,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,499,4,0,4,11:03 PM,11:35,Connaughton REBOUND (Off:1 Def:5),,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,502,1,79,4,11:03 PM,11:21,Portis 15' Pullup Jump Shot (12 PTS) (Connaughton 1 AST),,,77 - 79,2,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,506,1,5,4,11:04 PM,11:01,,,Kaminsky 1' Layup (6 PTS) (Booker 4 AST),79 - 79,TIE,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,508,5,45,4,11:04 PM,10:54,Middleton Out of Bounds - Bad Pass Turnover Turnover (P4.T17),,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1,0,,,,,,1
+0042000406,509,8,0,4,11:04 PM,10:54,SUB: Lopez FOR Connaughton,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,511,2,1,4,11:05 PM,10:31,,,MISS Johnson 26' 3PT Jump Shot,,,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,512,4,0,4,11:05 PM,10:30,Holiday REBOUND (Off:1 Def:6),,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,513,1,103,4,11:05 PM,10:23,Holiday 27' 3PT Running Pull-Up Jump Shot (12 PTS),,,79 - 82,3,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,514,1,101,4,11:05 PM,10:14,,,Paul 12' Driving Floating Jump Shot (19 PTS),81 - 82,1,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,515,6,2,4,11:05 PM,10:14,Tucker S.FOUL (P2.T1) (S.Foster),,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,517,3,10,4,11:05 PM,10:14,,,Paul Free Throw 1 of 1 (20 PTS),82 - 82,TIE,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,0
+0042000406,518,2,79,4,11:05 PM,10:04,MISS Holiday 27' 3PT Pullup Jump Shot,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,519,4,0,4,11:05 PM,10:03,Tucker REBOUND (Off:2 Def:3),,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,520,1,78,4,11:05 PM,9:57,Portis 11' Floating Jump Shot (14 PTS) (Tucker 1 AST),,,82 - 84,2,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,522,2,63,4,11:06 PM,9:49,,,MISS Bridges 14' Fadeaway Jumper,,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,523,4,0,4,11:06 PM,9:48,Holiday REBOUND (Off:1 Def:7),,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,524,2,41,4,11:06 PM,9:45,MISS Portis 2' Running Layup,,Johnson BLOCK (1 BLK),,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,1
+0042000406,526,4,0,4,11:06 PM,9:45,,,Suns Rebound,,,3,1610612756,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,528,9,1,4,11:06 PM,9:45,,,Suns Timeout: Regular (Reg.4 Short 0),,,3,1610612756,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,529,18,5,4,11:07 PM,9:45,,Instant Replay4th Period (11:07 PM EST),,82 - 84,2,0,527,,,,,,0,0,,,,,,1,0,,,,,,0
+0042000406,530,8,0,4,11:09 PM,9:45,SUB: Antetokounmpo FOR Lopez,,,,,4,201572,Brook Lopez,1610612749.0,Milwaukee,Bucks,MIL,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,531,8,0,4,11:09 PM,9:45,,,SUB: Crowder FOR Kaminsky,,,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,532,8,0,4,11:09 PM,9:45,,,SUB: Ayton FOR Johnson,,,5,1629661,Cameron Johnson,1610612756.0,Phoenix,Suns,PHX,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,537,2,1,4,11:11 PM,9:29,,,MISS Crowder 29' 3PT Jump Shot,,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,538,4,0,4,11:11 PM,9:26,Antetokounmpo REBOUND (Off:3 Def:8),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,539,5,1,4,11:11 PM,9:16,Antetokounmpo Bad Pass Turnover (P6.T18),,Crowder STEAL (4 STL),,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,541,2,6,4,11:11 PM,8:57,Antetokounmpo BLOCK (4 BLK),,MISS Booker 8' Driving Layup,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1
+0042000406,543,4,0,4,11:12 PM,8:56,,,Crowder REBOUND (Off:1 Def:9),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,544,2,1,4,11:12 PM,8:51,,,MISS Crowder 36' 3PT Jump Shot,,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,545,4,0,4,11:12 PM,8:51,Portis REBOUND (Off:0 Def:3),,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,546,2,102,4,11:12 PM,8:42,MISS Middleton 12' Driving Floating Bank Jump Shot,,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,547,4,0,4,11:12 PM,8:41,Antetokounmpo REBOUND (Off:4 Def:8),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,548,1,97,4,11:12 PM,8:41,Antetokounmpo Tip Layup Shot (39 PTS),,,82 - 86,4,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,549,1,80,4,11:12 PM,8:19,,,Paul 16' Step Back Jump Shot (22 PTS),84 - 86,2,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,550,6,2,4,11:12 PM,8:03,,,Ayton S.FOUL (P5.T1) (S.Foster),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,552,3,11,4,11:13 PM,8:03,Antetokounmpo Free Throw 1 of 2 (40 PTS),,,84 - 87,3,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,553,8,0,4,11:13 PM,8:03,SUB: Connaughton FOR Tucker,,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,554,8,0,4,11:13 PM,8:03,,,SUB: Kaminsky FOR Ayton,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,557,3,12,4,11:14 PM,8:03,Antetokounmpo Free Throw 2 of 2 (41 PTS),,,84 - 88,4,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,558,6,1,4,11:14 PM,7:47,Portis P.FOUL (P4.T2) (T.Brothers),,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,560,6,11,4,11:14 PM,7:47,Portis T.FOUL (P4.T2) (T.Brothers),,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1,0,,,,,,1
+0042000406,561,3,16,4,11:15 PM,7:47,,,MISS Paul Free Throw Technical,,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,0
+0042000406,562,4,1,4,11:15 PM,7:47,,,Suns Rebound,,,3,1610612756,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,563,2,101,4,11:15 PM,7:42,Antetokounmpo BLOCK (5 BLK),,MISS Booker 9' Driving Floating Jump Shot,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1
+0042000406,565,4,0,4,11:15 PM,7:41,Connaughton REBOUND (Off:1 Def:6),,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,566,6,2,4,11:15 PM,7:37,,,Bridges S.FOUL (P3.T2) (S.Foster),,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,568,3,11,4,11:16 PM,7:37,Antetokounmpo Free Throw 1 of 2 (42 PTS),,,84 - 89,5,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,569,3,12,4,11:16 PM,7:37,Antetokounmpo Free Throw 2 of 2 (43 PTS),,,84 - 90,6,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,570,6,2,4,11:17 PM,7:21,Antetokounmpo S.FOUL (P2.T3) (S.Foster),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,572,3,11,4,11:17 PM,7:21,,,Paul Free Throw 1 of 2 (23 PTS),85 - 90,5,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,0
+0042000406,573,3,12,4,11:18 PM,7:21,,,Paul Free Throw 2 of 2 (24 PTS),86 - 90,4,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,574,6,1,4,11:18 PM,7:09,,,Paul P.FOUL (P4.T3) (S.Foster),,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,576,1,6,4,11:18 PM,6:58,Portis 4' Driving Layup (16 PTS) (Holiday 10 AST),,,86 - 92,6,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,578,1,63,4,11:19 PM,6:34,,,Booker 9' Fadeaway Jumper (17 PTS),88 - 92,4,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,579,1,7,4,11:19 PM,6:15,Antetokounmpo 2' Dunk (45 PTS) (Middleton 4 AST),,,88 - 94,6,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,581,5,2,4,11:19 PM,6:06,Holiday STEAL (4 STL),,Paul Lost Ball Turnover (P3.T13),,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,583,2,86,4,11:20 PM,5:48,MISS Middleton 16' Turnaround Fadeaway Shot,,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,584,4,0,4,11:20 PM,5:46,,,Paul REBOUND (Off:1 Def:1),,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,585,6,4,4,11:20 PM,5:38,,,Booker OFF.Foul (P2) (E.Lewis),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,587,5,37,4,11:20 PM,5:38,,,Booker Offensive Foul Turnover (P5.T14),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1,0,,,,,,1
+0042000406,595,8,0,4,11:20 PM,5:38,,,SUB: Ayton FOR Kaminsky,,,5,1626163,Frank Kaminsky,1610612756.0,Phoenix,Suns,PHX,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0
+0042000406,588,2,86,4,11:20 PM,5:19,MISS Antetokounmpo 9' Turnaround Fadeaway Shot,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,589,4,0,4,11:20 PM,5:17,Connaughton REBOUND (Off:2 Def:6),,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,590,2,1,4,11:20 PM,5:15,MISS Connaughton 25' 3PT Jump Shot,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,591,4,0,4,11:20 PM,5:14,,,Booker REBOUND (Off:0 Def:3),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,592,1,78,4,11:21 PM,4:53,,,Crowder 12' Floating Jump Shot (13 PTS) (Ayton 1 AST),90 - 94,4,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,594,9,1,4,11:21 PM,4:50,BUCKS Timeout: Regular (Full 4 Short 0),,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,597,8,0,4,11:24 PM,4:50,SUB: Tucker FOR Connaughton,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,599,1,63,4,11:25 PM,4:35,Middleton 15' Fadeaway Jumper (13 PTS),,,90 - 96,6,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,600,5,2,4,11:25 PM,4:12,Tucker STEAL (1 STL),,Booker Lost Ball Turnover (P6.T15),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,602,6,1,4,11:25 PM,4:11,,,Booker P.FOUL (P3.T4) (E.Lewis),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,604,2,79,4,11:26 PM,4:02,MISS Holiday 16' Pullup Jump Shot,,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,605,4,0,4,11:26 PM,4:00,,,Bridges REBOUND (Off:1 Def:5),,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,606,2,58,4,11:26 PM,3:48,,,MISS Ayton 5' Turnaround Hook Shot,,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,607,4,0,4,11:26 PM,3:47,Middleton REBOUND (Off:0 Def:5),,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,608,1,75,4,11:26 PM,3:37,Antetokounmpo 2' Driving Finger Roll Layup (47 PTS) (Middleton 5 AST),,,90 - 98,8,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,610,2,79,4,11:27 PM,3:18,,,MISS Booker 28' 3PT Pullup Jump Shot,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,611,4,0,4,11:27 PM,3:16,,,Crowder REBOUND (Off:2 Def:9),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,614,1,98,4,11:27 PM,3:08,,,Ayton 3' Cutting Layup Shot (12 PTS) (Booker 5 AST),92 - 98,6,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,1
+0042000406,616,9,1,4,11:27 PM,3:08,BUCKS Timeout: Regular (Full 5 Short 0),,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,617,9,1,4,11:28 PM,3:08,,,Suns Timeout: Regular (Reg.5 Short 0),,,3,1610612756,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,618,1,47,4,11:30 PM,2:43,Antetokounmpo 14' Turnaround Jump Shot (49 PTS) (Holiday 11 AST),,,92 - 100,8,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,620,2,1,4,11:31 PM,2:20,,,MISS Crowder 27' 3PT Jump Shot,,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,621,4,0,4,11:31 PM,2:19,Holiday REBOUND (Off:1 Def:8),,,,,4,201950,Jrue Holiday,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,622,2,1,4,11:31 PM,1:54,MISS Portis 24' 3PT Jump Shot,,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,623,4,0,4,11:31 PM,1:53,,,Crowder REBOUND (Off:2 Def:10),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,624,1,41,4,11:31 PM,1:50,,,Booker 3' Running Layup (19 PTS),94 - 100,6,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,625,5,45,4,11:31 PM,1:33,Middleton Out of Bounds - Bad Pass Turnover Turnover (P5.T19),,,,,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1,0,,,,,,1
+0042000406,626,6,2,4,11:32 PM,1:14,Portis S.FOUL (P5.T4) (E.Lewis),,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,1,0,,,,,,1
+0042000406,628,3,11,4,11:33 PM,1:14,,,Crowder Free Throw 1 of 2 (14 PTS),95 - 100,5,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,629,3,12,4,11:33 PM,1:14,,,Crowder Free Throw 2 of 2 (15 PTS),96 - 100,4,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,630,1,79,4,11:34 PM,0:56,Middleton 17' Pullup Jump Shot (15 PTS) (Antetokounmpo 2 AST),,,96 - 102,6,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,1
+0042000406,632,9,1,4,11:34 PM,0:56,,,Suns Timeout: Regular (Reg.6 Short 0),,,3,1610612756,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,633,8,0,4,11:34 PM,0:56,SUB: Connaughton FOR Portis,,,,,4,1626171,Bobby Portis,1610612749.0,Milwaukee,Bucks,MIL,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0
+0042000406,635,2,1,4,11:36 PM,0:50,,,MISS Booker 26' 3PT Jump Shot,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,636,4,0,4,11:36 PM,0:47,Antetokounmpo REBOUND (Off:4 Def:9),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,637,6,1,4,11:36 PM,0:44,,,Bridges P.FOUL (P4.PN) (T.Brothers),,,5,1628969,Mikal Bridges,1610612756.0,Phoenix,Suns,PHX,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,639,3,11,4,11:36 PM,0:44,Middleton Free Throw 1 of 2 (16 PTS),,,96 - 103,7,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,640,3,12,4,11:37 PM,0:44,Middleton Free Throw 2 of 2 (17 PTS),,,96 - 104,8,4,203114,Khris Middleton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,641,2,79,4,11:37 PM,0:37,,,MISS Paul 28' 3PT Pullup Jump Shot,,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,642,4,0,4,11:37 PM,0:33,Antetokounmpo REBOUND (Off:4 Def:10),,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,643,9,1,4,11:37 PM,0:25,BUCKS Timeout: Regular (Full 6 Short 0),,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,644,6,1,4,11:39 PM,0:19,,,Booker P.FOUL (P4.PN) (T.Brothers),,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,646,3,11,4,11:39 PM,0:19,MISS Connaughton Free Throw 1 of 2,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,647,4,1,4,11:39 PM,0:19,BUCKS Rebound,,,,,2,1610612749,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,648,3,12,4,11:39 PM,0:19,MISS Connaughton Free Throw 2 of 2,,,,,4,1626192,Pat Connaughton,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,649,4,0,4,11:40 PM,0:17,,,Crowder REBOUND (Off:2 Def:11),,,5,203109,Jae Crowder,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,650,1,6,4,11:40 PM,0:11,,,Paul 2' Driving Layup (26 PTS),98 - 104,6,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,651,6,28,4,11:40 PM,0:09,,,Paul Personal Take Foul (P5.PN) (T.Brothers),,,5,101108,Chris Paul,1610612756.0,Phoenix,Suns,PHX,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,1,0,,,,,,1
+0042000406,653,3,11,4,11:41 PM,0:09,Antetokounmpo Free Throw 1 of 2 (50 PTS),,,98 - 105,7,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,654,3,12,4,11:41 PM,0:09,MISS Antetokounmpo Free Throw 2 of 2,,,,,4,203507,Giannis Antetokounmpo,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,655,4,0,4,11:41 PM,0:09,,,Ayton REBOUND (Off:1 Def:5),,,5,1629028,Deandre Ayton,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,656,9,1,4,11:41 PM,0:09,,,Suns Timeout: Regular (Reg.7 Short 0),,,3,1610612756,,,,,,0,0,,,,,,0,0,,,,,,0
+0042000406,657,2,1,4,11:43 PM,0:07,,,MISS Booker 29' 3PT Jump Shot,,,5,1626164,Devin Booker,1610612756.0,Phoenix,Suns,PHX,0,0,,,,,,0,0,,,,,,1
+0042000406,658,4,0,4,11:43 PM,0:06,Tucker REBOUND (Off:2 Def:4),,,,,4,200782,P.J. Tucker,1610612749.0,Milwaukee,Bucks,MIL,0,0,,,,,,0,0,,,,,,1
+0042000406,659,13,0,4,11:44 PM,0:00,,End of 4th Period (11:44 PM EST),,98 - 105,7,0,0,,,,,,0,0,,,,,,0,0,,,,,,1
