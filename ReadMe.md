@@ -31,7 +31,7 @@ please make sure that the readme file is made for the new data
 you can copy and paste the below:
 |Blog|Topic|Link|Created On|
 -->
-|Blog|Theme|Website Link|Created On|
+|Repository|Theme|Website Link|Created On|
 |:----|:---------|:---------|:---------|
 |Image-Downloads|Data Visualisation|[Link](https://cj-mayes.com/2022/08/22/shape-repository-python/)|22 Aug 22|
 |Cricket-Data|Sport, Data Processing|[Link](https://cj-mayes.com/2022/06/07/no-rest-for-the-wicket-python/)|07 June 22|
