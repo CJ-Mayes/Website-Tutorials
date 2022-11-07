@@ -23,6 +23,19 @@
   </p>
 </div>
 
+<!-- ABOUT THE PROJECT -->
+## All Blogs With Code
+
+Below you can view each of the individual blogs the repository links to.
+
+<!-- Team, please amend only to have maximum of the last 12 in here at a time, the data will need to be uploaded and then linked to in brackets
+please make sure that the readme file is made for the new data
+you can copy and paste the below:
+|Blog|Topic|Link|Created On|
+-->
+
+|Blog|Topic|Link|Created On|
+
 <!-- CONTACT -->
 ## Contact
 
