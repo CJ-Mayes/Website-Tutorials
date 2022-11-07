@@ -35,22 +35,22 @@ you can copy and paste the below:
 -->
 |Blog|Theme|Website Link|Created On|
 |:----|:---------|:---------|:---------|
-|Beautiful-Soup-Intro|Data Processing|[Link](https://cj-mayes.com/2022/02/10/web-scraping-with-beautifulsoup-python/)|10th Feb 22|
-|Circular-Packing|Data Processing|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
-|Convex-Hull|Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2022/05/05/convex-hulls-in-tableau/)|05 May 22|
-|Cricket-Data|Sport, Data Processing|[Link](https://cj-mayes.com/2022/06/07/no-rest-for-the-wicket-python/)|07 June 22|
-|Cycling-Script|Sport, Data Processing|No Blog Associated|N/A|
 |Image-Downloads|Data Visualisation|[Link](https://cj-mayes.com/2022/08/22/shape-repository-python/)|22nd Aug 22|
+|Cricket-Data|Sport, Data Processing|[Link](https://cj-mayes.com/2022/06/07/no-rest-for-the-wicket-python/)|07 June 22|
+|Convex-Hull|Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2022/05/05/convex-hulls-in-tableau/)|05 May 22|
+|Youtube-Transcripts|Data Processing|[Link](https://cj-mayes.com/2022/02/22/ironvizfeeder2022-resources/)|22nd Feb 22|
+|Beautiful-Soup-Intro|Data Processing|[Link](https://cj-mayes.com/2022/02/10/web-scraping-with-beautifulsoup-python/)|10th Feb 22|
+|StatsBomb-Intro|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/12/15/statsbomb-intro-sportsvizsunday/)|15 Dec 21|
+|Understat-Events|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/10/13/how-to-create-a-soccer-event-timeline/)|13th Oct 21|
+|Circular-Packing|Data Processing|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
 |NBA-Data|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/08/26/python-from-benchwarmer-to-mvp/)|26 Aug 21|
-|NHL-Data|Sport, Topic|No Blog Associated)|N/A|
+|Rotating-Shapes|Data Visualisation|[Link](https://cj-mayes.com/2021/08/15/taking-a-new-angle-on-visualisations/)|15 Aug 21
+|Radar-Template|Sport, Data Processing|[Link](https://cj-mayes.com/2021/08/01/tackling-radar-charts/)|01 Aug 21|
 |Player-Metrics|Sport, Data Processing|[Link](https://cj-mayes.com/2021/07/07/player-metrics/)|07 July 21|
+|Understat-Code|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/05/07/just-starting-out-with-understat/)|07 May 21|
+|Cycling-Script|Sport, Data Processing|No Blog Associated|N/A|
+|NHL-Data|Sport, Topic|No Blog Associated|N/A|
 
-|Radar-Template|Sport, Data Processing|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
-|Rotating-Shapes|Data Visualisation|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
-|StatsBomb-Intro|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
-|Understat-Code|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
-|Understat-Events|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
-|Youtube-Transcripts|Data Processing|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
 
 
 <!-- CONTACT -->
