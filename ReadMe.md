@@ -35,9 +35,22 @@ you can copy and paste the below:
 -->
 |Blog|Topic|Link|Created On|
 |:----|:---------|:---------|:---------|
-|Blog|Topic|Link|Created On|
-|Blog|Topic|Link|Created On|
-|Blog|Topic|Link|Created On|
+|Beautiful-Soup-Intro|Topic|[Link](https://cj-mayes.com/2022/02/10/web-scraping-with-beautifulsoup-python/)|10th Feb 22|
+|Circular-Packing|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|Convex-Hull|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|Cricket-Data|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|Cycling-Script|Topic|No Blog Associated|N/A|
+|Image-Downloads|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|NBA-Data|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|NHL-Data|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|Player-Metrics|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|Radar-Template|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|Rotating-Shapes|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|StatsBomb-Intro|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|Understat-Code|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|Understat-Events|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|Youtube-Transcripts|Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+
 
 <!-- CONTACT -->
 ## Contact
