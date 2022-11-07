@@ -1,11 +1,9 @@
 <!-- PROJECT LOGO -->
 <br />
-<!-- remove these once I have a dark logo file
 <div align="center">
   <a href="https://pbs.twimg.com/profile_banners/1134539278506180608/1666991426/1500x500">
     <img src="https://pbs.twimg.com/profile_banners/1134539278506180608/1666991426/1500x500" alt="Logo" width="800" height="400">
   </a>
-  -->
   
 <!-- ABOUT THE PROJECT -->
 ## Welcome To CJ-Mayes.com
