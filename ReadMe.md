@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://pbs.twimg.com/profile_banners/1134539278506180608/1666991426/1500x500">
-    <img src="https://pbs.twimg.com/profile_banners/1134539278506180608/1666991426/1500x500" alt="Logo" width="800" height="250">
+  <a href="https://yt3.ggpht.com/Je97xurXK1RkyzyM6LWnoOF5XKMLU2nBWg45pVOQ3J93PX9SoWbpacUQW8U6iRi2KDYB9Qrs=s88-c-k-c0x00ffffff-no-rj">
+    <img src="https://yt3.ggpht.com/Je97xurXK1RkyzyM6LWnoOF5XKMLU2nBWg45pVOQ3J93PX9SoWbpacUQW8U6iRi2KDYB9Qrs=s88-c-k-c0x00ffffff-no-rj" alt="Logo" width="100" height="100">
   </a>
   
 <!-- ABOUT THE PROJECT -->
