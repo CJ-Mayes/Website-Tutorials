@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://pbs.twimg.com/profile_banners/1134539278506180608/1666991426/1500x500">
-    <img src="https://pbs.twimg.com/profile_banners/1134539278506180608/1666991426/1500x500" alt="Logo" width="800" height="400">
+    <img src="https://pbs.twimg.com/profile_banners/1134539278506180608/1666991426/1500x500" alt="Logo" width="800" height="150">
   </a>
   
 <!-- ABOUT THE PROJECT -->
