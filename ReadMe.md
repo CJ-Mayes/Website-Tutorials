@@ -2,8 +2,8 @@
 <br />
 <!-- remove these once I have a dark logo file
 <div align="center">
-  <a href="https://cjmayesblog.files.wordpress.com/2020/12/cropped-smallerfinal.png?w=768&h=769">
-    <img src="https://cjmayesblog.files.wordpress.com/2020/12/cropped-smallerfinal.png?w=768&h=769" alt="Logo" width="300" height="300">
+  <a href="https://pbs.twimg.com/profile_banners/1134539278506180608/1666991426/1500x500">
+    <img src="https://pbs.twimg.com/profile_banners/1134539278506180608/1666991426/1500x500" alt="Logo" width="800" height="400">
   </a>
   -->
   
