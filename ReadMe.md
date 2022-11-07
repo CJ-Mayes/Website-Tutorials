@@ -33,7 +33,10 @@ please make sure that the readme file is made for the new data
 you can copy and paste the below:
 |Blog|Topic|Link|Created On|
 -->
-
+|Blog|Topic|Link|Created On|
+|:----|:---------|:---------|:---------|
+|Blog|Topic|Link|Created On|
+|Blog|Topic|Link|Created On|
 |Blog|Topic|Link|Created On|
 
 <!-- CONTACT -->
