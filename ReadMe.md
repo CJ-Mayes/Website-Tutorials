@@ -37,13 +37,14 @@ you can copy and paste the below:
 |:----|:---------|:---------|:---------|
 |Beautiful-Soup-Intro|Data Processing|[Link](https://cj-mayes.com/2022/02/10/web-scraping-with-beautifulsoup-python/)|10th Feb 22|
 |Circular-Packing|Data Processing|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
-|Convex-Hull|Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
-|Cricket-Data|Sport, Data Processing|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|Convex-Hull|Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2022/05/05/convex-hulls-in-tableau/)|05 May 22|
+|Cricket-Data|Sport, Data Processing|[Link](https://cj-mayes.com/2022/06/07/no-rest-for-the-wicket-python/)|07 June 22|
 |Cycling-Script|Sport, Data Processing|No Blog Associated|N/A|
-|Image-Downloads|Data Visualisation|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
-|NBA-Data|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
-|NHL-Data|Sport, Topic|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
-|Player-Metrics|Sport, Data Processing|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
+|Image-Downloads|Data Visualisation|[Link](https://cj-mayes.com/2022/08/22/shape-repository-python/)|22nd Aug 22|
+|NBA-Data|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/08/26/python-from-benchwarmer-to-mvp/)|26 Aug 21|
+|NHL-Data|Sport, Topic|No Blog Associated)|N/A|
+|Player-Metrics|Sport, Data Processing|[Link](https://cj-mayes.com/2021/07/07/player-metrics/)|07 July 21|
+
 |Radar-Template|Sport, Data Processing|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
 |Rotating-Shapes|Data Visualisation|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
 |StatsBomb-Intro|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21st Sept 21|
