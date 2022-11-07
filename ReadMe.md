@@ -19,11 +19,12 @@
     <br />
     <a href="https://cj-mayes.com/">View Site</a>
     ·
-    ·
     <a href="https://twitter.com/_CJMayes">Tweet Me</a>
   </p>
 </div>
 
 <!-- CONTACT -->
 ## Contact
+
+[Twitter](www.twitter.com/@_CJMayes)
 
