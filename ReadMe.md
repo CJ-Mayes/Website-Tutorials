@@ -49,10 +49,13 @@ you can copy and paste the below:
 |Cycling-Script|Sport, Data Processing|No Blog Associated|N/A|
 |NHL-Data|Sport, Topic|No Blog Associated|N/A|
 
-
+<!-- Details -->
+## Blog Details
+Each code repository may not have a fully scripted readme document, given the length and explanations within the blog. From 2023 Onwards some consistency in ReadMe Files will be introduced around data scope, creation dates, and rankings around ease of replication.
+<br />
+Each blog has an associated theme in line with the website around data processing, data visualisation, and sports.
 
 <!-- CONTACT -->
 ## Contact
-
 [Twitter](www.twitter.com/@_CJMayes)
 
