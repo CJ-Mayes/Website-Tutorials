@@ -1,9 +1,11 @@
 <!-- PROJECT LOGO -->
 <br />
+<!-- remove these once I have a dark logo file
 <div align="center">
   <a href="https://cjmayesblog.files.wordpress.com/2020/12/cropped-smallerfinal.png?w=768&h=769">
     <img src="https://cjmayesblog.files.wordpress.com/2020/12/cropped-smallerfinal.png?w=768&h=769" alt="Logo" width="300" height="300">
   </a>
+  -->
   
 <!-- ABOUT THE PROJECT -->
 ## Welcome To CJ-Mayes.com
