@@ -1,9 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://yt3.ggpht.com/Je97xurXK1RkyzyM6LWnoOF5XKMLU2nBWg45pVOQ3J93PX9SoWbpacUQW8U6iRi2KDYB9Qrs=s88-c-k-c0x00ffffff-no-rj">
-    <img src="https://yt3.ggpht.com/Je97xurXK1RkyzyM6LWnoOF5XKMLU2nBWg45pVOQ3J93PX9SoWbpacUQW8U6iRi2KDYB9Qrs=s88-c-k-c0x00ffffff-no-rj" alt="Logo" width="100" height="100">
-  </a>
+
   
 <!-- ABOUT THE PROJECT -->
 ## Welcome To CJ-Mayes.com
