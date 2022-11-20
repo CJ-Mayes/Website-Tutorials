@@ -31,29 +31,17 @@ please make sure that the readme file is made for the new data
 you can copy and paste the below:
 |Blog|Topic|Link|Created On|
 -->
-|Repository|Theme|Website Link|Created On|
-|:----|:---------|:---------|:---------|
-|Image-Downloads|Data Visualisation|[Link](https://cj-mayes.com/2022/08/22/shape-repository-python/)|22 Aug 22|
-|Cricket-Data|Sport, Data Processing|[Link](https://cj-mayes.com/2022/06/07/no-rest-for-the-wicket-python/)|07 June 22|
-|Convex-Hull|Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2022/05/05/convex-hulls-in-tableau/)|05 May 22|
-|Youtube-Transcripts|Data Processing|[Link](https://cj-mayes.com/2022/02/22/ironvizfeeder2022-resources/)|22 Feb 22|
-|Beautiful-Soup-Intro|Data Processing|[Link](https://cj-mayes.com/2022/02/10/web-scraping-with-beautifulsoup-python/)|10 Feb 22|
-|StatsBomb-Intro|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/12/15/statsbomb-intro-sportsvizsunday/)|15 Dec 21|
-|Understat-Events|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/10/13/how-to-create-a-soccer-event-timeline/)|13 Oct 21|
-|Circular-Packing|Data Processing|[Link](https://cj-mayes.com/2021/09/21/dont-burst-my-bubble/)|21 Sept 21|
-|NBA-Data|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/08/26/python-from-benchwarmer-to-mvp/)|26 Aug 21|
-|Rotating-Shapes|Data Visualisation|[Link](https://cj-mayes.com/2021/08/15/taking-a-new-angle-on-visualisations/)|15 Aug 21
-|Radar-Template|Sport, Data Processing|[Link](https://cj-mayes.com/2021/08/01/tackling-radar-charts/)|01 Aug 21|
-|Player-Metrics|Sport, Data Processing|[Link](https://cj-mayes.com/2021/07/07/player-metrics/)|07 July 21|
-|Understat-Code|Sport, Data Processing, Data Visualisation|[Link](https://cj-mayes.com/2021/05/07/just-starting-out-with-understat/)|07 May 21|
-|Cycling-Script|Sport, Data Processing|No Blog Associated|N/A|
-|NHL-Data|Sport, Topic|No Blog Associated|N/A|
+| Repository                   | Year                   | Website Link                                                         | Comments                                  |
+|:-----------------------------|:-----------------------|:---------------------------------------------------------------------|:------------------------------------------|
+| [cj-mayes.com](cj-mayes.com)                 | 2022     | [Link](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2022) | WIP files, will be fully migrated by 2023 |
+| [cj-mayes.com](cj-mayes.com) | 2021 | [Link](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2021) | IP files, will be fully migrated by 2023                                           |
+
 
 <!-- Details -->
 ## Blog Details
-Each code repository may not have a fully scripted readme document, given the length and explanations within the blog. From 2023 Onwards some consistency in ReadMe Files will be introduced around data scope, creation dates, and rankings around ease of replication.
+Each code repository may not have a fully scripted readme document, given the length of the blogs.
 <br />
-Each blog has an associated theme in line with the website around data processing, data visualisation, and sports.
+Each blog follows the format YYYY-MM-DD
 
 <!-- CONTACT -->
 ## Contact
