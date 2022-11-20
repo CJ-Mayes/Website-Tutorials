@@ -9,9 +9,9 @@
 ## Welcome To CJ-Mayes.com
 
   <p align="center">
-    Within this repository, you will find details of every blog I have posted that requires code from cj-mayes.com
+    Within this repository, you will find details of every blog I have posted on cj-mayes.com
     <br />
-    If you use the code to create a visual, I would love for you to tag me on Twitter @_CJMayes so I can celebrate it with you.
+    If you use the code or resources to create a visual, I would love for you to tag me on Twitter @_CJMayes so I can celebrate it with you.
     <br />
     <br />
     <br />
@@ -22,26 +22,21 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
-## All Blogs With Code
+## All Blogs (Code & Resources)
 
 Below you can view each of the individual blogs the repository links to.
 
-<!-- Team, please amend only to have maximum of the last 12 in here at a time, the data will need to be uploaded and then linked to in brackets
-please make sure that the readme file is made for the new data
-you can copy and paste the below:
-|Blog|Topic|Link|Created On|
--->
-| Repository                   | Year                   | Website Link                                                         | Comments                                  |
-|:-----------------------------|:-----------------------|:---------------------------------------------------------------------|:------------------------------------------|
-| [cj-mayes.com](cj-mayes.com)                 | 2022     | [Link](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2022) | WIP files, will be fully migrated by 2023 |
-| [cj-mayes.com](cj-mayes.com) | 2021 | [Link](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2021) | IP files, will be fully migrated by 2023                                           |
+| Repository                   | Year                   | Website Link                                                                     | Comments                                  |
+|:-----------------------------|:-----------------------|:---------------------------------------------------------------------------------|:------------------------------------------|
+| [cj-mayes.com](cj-mayes.com)                 | 2022     | [2022 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2022) | WIP files, will be fully migrated by 2023 |
+| [cj-mayes.com](cj-mayes.com) | 2021 | [2021 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2021) | IP files, will be fully migrated by 2023                                           |
 
 
 <!-- Details -->
 ## Blog Details
 Each code repository may not have a fully scripted readme document, given the length of the blogs.
 <br />
-Each blog follows the format YYYY-MM-DD
+Each blog follows the format "YYYY-MM-DD Blog Name"
 
 <!-- CONTACT -->
 ## Contact
