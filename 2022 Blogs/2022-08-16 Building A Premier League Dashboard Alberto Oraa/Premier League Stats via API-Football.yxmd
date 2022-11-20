@@ -1,0 +1,567 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="418">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="349">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="511" y="101" width="538" height="151" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Clean JSON</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffff80" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="334">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.JSONParse.JSONParse">
+            <Position x="536" y="152" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <JSON_Field>DownloadData</JSON_Field>
+              <IncludeInOutput value="False" />
+              <SingleField value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="65" source="TextInput:" type="String" />
+                <Field name="x-apisports-key" size="7" source="TextInput:" type="String" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                <Field name="JSON_Name" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="JSON_ValueString" size="1073741823" source="JSONParse: " type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJSONParse" />
+        </Node>
+        <Node ToolID="344">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="644" y="152" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Skip</Mode>
+              <N>13</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Skip 1st 13</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="65" source="TextInput:" type="String" />
+                <Field name="x-apisports-key" size="7" source="TextInput:" type="String" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                <Field name="JSON_Name" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="JSON_ValueString" size="1073741823" source="JSONParse: " type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="345">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Tile.Tile">
+            <Position x="740" y="152" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Method>EqualRecords</Method>
+              <EqualRecords>
+                <NumTiles value="20" />
+                <SortLocale>1033</SortLocale>
+              </EqualRecords>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="65" source="TextInput:" type="String" />
+                <Field name="x-apisports-key" size="7" source="TextInput:" type="String" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                <Field name="JSON_Name" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="JSON_ValueString" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="Tile_Num" type="Int16" />
+                <Field name="Tile_SequenceNum" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTile" />
+        </Node>
+        <Node ToolID="348">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="872" y="152" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>JSON_Name</Field>
+              <RegExExpression value="(\l{8}).{1}(\d{1}).{1}(\l{6}).{1}(\l{9}).{1}(\d{1}).{1}(\d+).(.+)" />
+              <CaseInsensitve value="True" />
+              <Method>Replace</Method>
+              <Replace expression="$7">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>JSON_Name</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="RegExOut1" type="String" size="66" />
+                <Field field="RegExOut2" type="String" size="66" />
+                <Field field="RegExOut3" type="String" size="66" />
+                <Field field="RegExOut4" type="String" size="66" />
+                <Field field="RegExOut5" type="String" size="66" />
+                <Field field="RegExOut6" type="String" size="66" />
+                <Field field="RegExOut7" type="String" size="66" />
+              </ParseComplex>
+              <Match>
+                <Field>URL_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="65" source="TextInput:" type="String" />
+                <Field name="x-apisports-key" size="7" source="TextInput:" type="String" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                <Field name="JSON_Name" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="JSON_ValueString" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="Tile_Num" type="Int16" />
+                <Field name="Tile_SequenceNum" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="347">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="965" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="Tile_Num" />
+              </GroupFields>
+              <HeaderField field="JSON_Name" />
+              <DataField field="JSON_ValueString" />
+              <Methods>
+                <Method method="Concat" />
+                <Separator>,</Separator>
+                <FieldSize value="2048" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Tile_Num" source="CrossTab:Group:Concat:" type="Int16" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Tile_Num" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="331">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1072" y="100" width="347" height="181" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Standings</Caption>
+          <Style TextColor="#314c4a" FillColor="#0080c0" BorderColor="#314c4a" Transparency="50" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="421">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1301" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">C:\Users\Desktop\Premier League Standings.xlsx|||Sheet1</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>RemoveFile</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>Standings</Name>
+              <DefaultAnnotationText>Premier League Standings.xlsx
+Query=Sheet1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="431">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="1097" y="149" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Tile_Num" source="CrossTab:Group:Concat:" type="Int16" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Tile_Num" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="432">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1193" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="group" selected="True" />
+                <SelectField field="RecordID" selected="True" rename="Rank" />
+                <SelectField field="rank" selected="False" />
+                <SelectField field="team_id" selected="False" type="Int16" size="2" />
+                <SelectField field="team_name" selected="True" />
+                <SelectField field="team_logo" selected="True" />
+                <SelectField field="description" selected="True" />
+                <SelectField field="status" selected="True" />
+                <SelectField field="form" selected="True" />
+                <SelectField field="points" selected="True" type="Int16" size="2" />
+                <SelectField field="goalsdifference" selected="False" rename="GoalsDiff" />
+                <SelectField field="goalsDiff" selected="True" rename="goalsdiff" type="Int16" size="2" />
+                <SelectField field="all_draw" selected="True" type="Int16" size="2" />
+                <SelectField field="all_goals_against" selected="True" type="Int16" size="2" />
+                <SelectField field="all_goals_for" selected="True" type="Int16" size="2" />
+                <SelectField field="all_lose" selected="True" type="Int16" size="2" />
+                <SelectField field="all_played" selected="True" type="Int16" size="2" />
+                <SelectField field="all_win" selected="True" type="Int16" size="2" />
+                <SelectField field="home_draw" selected="True" type="Int16" size="2" />
+                <SelectField field="home_goals_against" selected="True" type="Int16" size="2" />
+                <SelectField field="home_goals_for" selected="True" type="Int16" size="2" />
+                <SelectField field="home_lose" selected="True" type="Int16" size="2" />
+                <SelectField field="home_played" selected="True" type="Int16" size="2" />
+                <SelectField field="home_win" selected="True" type="Int16" size="2" />
+                <SelectField field="away_draw" selected="True" type="Int16" size="2" />
+                <SelectField field="away_goals_against" selected="True" type="Int16" size="2" />
+                <SelectField field="away_goals_for" selected="True" type="Int16" size="2" />
+                <SelectField field="away_lose" selected="True" type="Int16" size="2" />
+                <SelectField field="away_played" selected="True" type="Int16" size="2" />
+                <SelectField field="away_win" selected="True" type="Int16" size="2" />
+                <SelectField field="update" selected="True" type="V_String" size="2048" />
+                <SelectField field="Tile_Num" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Rank" source="RecordID: Starting Value=1" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="329">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="54" width="375" height="223" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Request API-Football</Caption>
+          <Style TextColor="#314c4a" FillColor="#c0c0c0" BorderColor="#314c4a" Transparency="50" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="430">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="79" y="103" width="325" height="149" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Standings request</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="2">
+              <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+                <Position x="320" y="152" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <URLField>URL</URLField>
+                  <OutputMode>String</OutputMode>
+                  <CodePage>65001</CodePage>
+                  <EncodeURLs value="True" />
+                  <Headers>
+                    <NameValues />
+                    <Fields orderChanged="False">
+                      <Field name="x-apisports-key" />
+                      <Field name="URL" selected="False" />
+                      <Field name="*Unknown" selected="False" />
+                    </Fields>
+                  </Headers>
+                  <Payload>
+                    <HTTPAction>GET</HTTPAction>
+                    <QueryStringBodyMode>Compose</QueryStringBodyMode>
+                    <ComposeNameValues />
+                    <ComposeFields orderChanged="False">
+                      <Field name="URL" selected="False" />
+                      <Field name="x-apisports-key" selected="False" />
+                      <Field name="*Unknown" selected="False" />
+                    </ComposeFields>
+                  </Payload>
+                  <UserName />
+                  <Password />
+                  <numConnections>2</numConnections>
+                  <Timeout>600</Timeout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="URL" size="65" source="TextInput:" type="String" />
+                    <Field name="x-apisports-key" size="7" source="TextInput:" type="String" />
+                    <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                    <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+            </Node>
+            <Node ToolID="1">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+                <Position x="104" y="152" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <NumRows value="1" />
+                  <Fields>
+                    <Field name="URL" />
+                    <Field name="x-apisports-key" />
+                  </Fields>
+                  <Data>
+                    <r>
+                      <c>https://v3.football.api-sports.io/standings?league=39&amp;season=2022</c>
+                      <c>REMOVED</c>
+                    </r>
+                  </Data>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Standings</AnnotationText>
+                  <DefaultAnnotationText>Standings</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="URL" size="65" source="TextInput:" type="String" />
+                    <Field name="x-apisports-key" size="7" source="TextInput:" type="String" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="334" Connection="Output" />
+      <Destination ToolID="344" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="344" Connection="Output" />
+      <Destination ToolID="345" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="345" Connection="Output" />
+      <Destination ToolID="348" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="348" Connection="Output" />
+      <Destination ToolID="347" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="347" Connection="Output" />
+      <Destination ToolID="431" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="431" Connection="Output" />
+      <Destination ToolID="432" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="432" Connection="Output" />
+      <Destination ToolID="421" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="334" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Premier League Stats via API-Football</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (418)</Name>
+          <ToolId value="418" />
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="True">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</Wiz_CustomGraphic>
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="421" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
