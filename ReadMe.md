@@ -26,7 +26,6 @@
 ## All Blogs (Code & Resources)
 
 - Below you can view each of the individual blogs the repository links to.
-<br/>
 - Do note, Some repositories will remain empty where the blog has no references to code or data.
 <br/>
 
