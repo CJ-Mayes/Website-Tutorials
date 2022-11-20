@@ -23,10 +23,10 @@
 
 Below you can view each of the individual blogs the repository links to.
 
-| Repository                   | Year                   | Website Link                                                                     | Comments                                  |
-|:-----------------------------|:-----------------------|:---------------------------------------------------------------------------------|:------------------------------------------|
-| [cj-mayes.com](cj-mayes.com)                 | 2022     | [2022 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2022) | WIP files, will be fully migrated by 2023 |
-| [cj-mayes.com](cj-mayes.com) | 2021 | [2021 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2021) | IP files, will be fully migrated by 2023                                           |
+| Repository                   | Year                   | Website Link                                                                             | Comments                                  |
+|:-----------------------------|:-----------------------|:-----------------------------------------------------------------------------------------|:------------------------------------------|
+| [cj-mayes.com](cj-mayes.com)                 | 2022     | [2022 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2022%20Blogs) | WIP files, will be fully migrated by 2023 |
+| [cj-mayes.com](cj-mayes.com) | 2021 | [2021 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2021%20Blogs) | IP files, will be fully migrated by 2023                                           |
 
 
 <!-- Details -->
