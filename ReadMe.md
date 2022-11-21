@@ -32,7 +32,7 @@
 
 | Repository                   | Year                   | Website Link                                                                             | Comments                                                                                          |
 |:-----------------------------|:-----------------------|:-----------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------|
-| [cj-mayes.com](cj-mayes.com)                 | 2022     | [2022 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2022%20Blogs) | All files bar deep completion blog have been Migrated, but the site links will take time to amend |
+| [cj-mayes.com](cj-mayes.com)                 | 2022     | [2022 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2022%20Blogs) | All files have been Migrated, but the site links will take time to amend |
 | [cj-mayes.com](cj-mayes.com) | 2021 | [2021 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2021%20Blogs) | All files have been Migrated, but the site links will take time to amend                          |
 
 
