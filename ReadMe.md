@@ -42,9 +42,9 @@
 -  Each code repository may not have a fully scripted readme document, given the length of the blogs.
 <br />
 - Each blog follows the format "YYYY-MM-DD Blog Name"
-
+<br />
 <!-- HOW TO DOWNLOAD XLSX File -->
-
+## Download Material
 <details>
 <summary>How do I download an xlsx?</summary>
 <br>
