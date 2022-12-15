@@ -45,7 +45,7 @@
 <br />
 <!-- HOW TO DOWNLOAD XLSX File -->
 <details>
-## Download Material
+<br>
 <summary>How do I download an xlsx?</summary>
 <br>
 Click through to a dataset, find the sport you like and click download in the top right of the pane. 
