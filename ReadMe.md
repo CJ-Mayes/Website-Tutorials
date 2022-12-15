@@ -44,8 +44,8 @@
 - Each blog follows the format "YYYY-MM-DD Blog Name"
 <br />
 <!-- HOW TO DOWNLOAD XLSX File -->
-## Download Material
 <details>
+## Download Material
 <summary>How do I download an xlsx?</summary>
 <br>
 Click through to a dataset, find the sport you like and click download in the top right of the pane. 
@@ -53,11 +53,10 @@ Click through to a dataset, find the sport you like and click download in the to
 If you get stuck please visit [here](https://www.gitkraken.com/learn/git/github-download#how-to-downlaod-a-file-from-github)
   
 </details>
-
 <br>
-## How do I download a csv?
 <details>
 <br>
+ <summary>How do I download a csv?</summary>
 To download a CSV from GitHub simply navigate to your desired repository.
 Select the CSV file
 <br>
