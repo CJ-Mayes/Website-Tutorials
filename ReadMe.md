@@ -43,20 +43,27 @@
 <br />
 - Each blog follows the format "YYYY-MM-DD Blog Name"
 
-## How To Download Data
+<!-- HOW TO DOWNLOAD XLSX File -->
 
-I recognise not everyone wants to have a GitHub account nor want to learn how to check out or clone repositories. The easiest way to download a specific dataset is to navigate to the data folder
+<details>
+<summary>How do I download an xlsx?</summary>
+<br>
+Click through to a dataset, find the sport you like and click download in the top right of the pane. 
+  
+If you get stuck please visit [here](https://www.gitkraken.com/learn/git/github-download#how-to-downlaod-a-file-from-github)
+  
+</details>
 
-How do I download an xlsx?
-
-Click through to a dataset, find the sport you like and click download in the top right of the pane.
-If you get stuck please visit here
-
-How do I download a csv?
-
-To download a CSV from GitHub simply navigate to your desired repository. Select the CSV file 
+<details>
+<summary>How do I download a csv?</summary>
+<br>
+To download a CSV from GitHub simply navigate to your desired repository.
+Select the CSV file
+<br>
 Right click the Raw button at the top of the file, select Save Link As and choose the location on your computer where you want to save the file, and select Save, making the extension a csv
-If you get stuck please visit here
+  
+If you get stuck please visit [here](https://www.gitkraken.com/learn/git/github-download#how-to-download-a-csv-from-github)
+</details>
 
 <!-- Visualisation -->
 ## Visualisations
