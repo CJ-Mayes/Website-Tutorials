@@ -55,8 +55,8 @@ If you get stuck please visit [here](https://www.gitkraken.com/learn/git/github-
 </details>
 
 <br>
+## How do I download a csv?
 <details>
-<summary>How do I download a csv?</summary>
 <br>
 To download a CSV from GitHub simply navigate to your desired repository.
 Select the CSV file
