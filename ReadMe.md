@@ -54,6 +54,7 @@ If you get stuck please visit [here](https://www.gitkraken.com/learn/git/github-
   
 </details>
 
+<br>
 <details>
 <summary>How do I download a csv?</summary>
 <br>
