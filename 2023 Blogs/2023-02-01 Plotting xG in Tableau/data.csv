@@ -1,0 +1,25 @@
+x,y,xG,result,team,minute,shotType,player,match_id,situation,player_assisted,lastAction
+0.7819999694824219,0.40099998474121096,0.031747519969940186,SavedShot,Arsenal,12,RightFoot,Granit Xhaka,18362,OpenPlay,Martin Odegaard,TakeOn
+0.815,0.5179999923706055,0.07922009378671646,BlockedShot,Arsenal,21,RightFoot,Eddie Nketiah,18362,OpenPlay,Granit Xhaka,Pass
+0.9530000305175781,0.3770000076293945,0.08029112219810486,MissedShots,Arsenal,22,RightFoot,Martin Odegaard,18362,OpenPlay,Bukayo Saka,HeadPass
+0.8440000152587891,0.6859999847412109,0.040984269231557846,BlockedShot,Arsenal,37,LeftFoot,Eddie Nketiah,18362,OpenPlay,Kieran Tierney,Pass
+0.89,0.5420000076293945,0.06556423008441925,MissedShots,Arsenal,45,Head,Eddie Nketiah,18362,SetPiece,Martin Odegaard,Cross
+0.7930000305175782,0.605999984741211,0.02973375841975212,BlockedShot,Arsenal,47,LeftFoot,Martin Odegaard,18362,FromCorner,Gabriel Martinelli,Pass
+0.7659999847412109,0.4179999923706055,0.023140650242567062,MissedShots,Arsenal,47,RightFoot,Thomas Partey,18362,OpenPlay,Martin Odegaard,Pass
+0.6980000305175781,0.41900001525878905,0.0146480742841959,MissedShots,Arsenal,52,LeftFoot,Martin Odegaard,18362,OpenPlay,Ben White,Pass
+0.9059999847412109,0.47200000762939454,0.4328654110431671,Goal,Arsenal,52,LeftFoot,Bukayo Saka,18362,OpenPlay,Martin Odegaard,Rebound
+0.9690000152587891,0.6959999847412109,0.05447377637028694,Goal,Arsenal,58,LeftFoot,Gabriel Martinelli,18362,OpenPlay,Granit Xhaka,Pass
+0.9119999694824219,0.3609999847412109,0.3242679238319397,Goal,Arsenal,68,RightFoot,Eddie Nketiah,18362,OpenPlay,Martin Odegaard,Pass
+0.7,0.4879999923706055,0.03798319026827812,BlockedShot,Arsenal,75,LeftFoot,Granit Xhaka,18362,DirectFreekick,,Standard
+0.805,0.35,0.03563642129302025,MissedShots,Arsenal,76,LeftFoot,Martin Odegaard,18362,OpenPlay,Bukayo Saka,Pass
+0.8230000305175781,0.4209999847412109,0.07093518227338791,MissedShots,Arsenal,81,LeftFoot,Martin Odegaard,18362,OpenPlay,,BallRecovery
+0.9,0.365,0.10603724420070648,BlockedShot,Arsenal,84,LeftFoot,Martin Odegaard,18362,OpenPlay,Bukayo Saka,Pass
+0.965999984741211,0.4640000152587891,0.46709296107292175,SavedShot,Arsenal,84,Head,William Saliba,18362,FromCorner,Bukayo Saka,Aerial
+0.775,0.6079999923706054,0.01899096556007862,SavedShot,West Ham,20,RightFoot,Said Benrahma,18362,FromCorner,,None
+0.885,0.5,0.7611688375473022,Goal,West Ham,26,RightFoot,Said Benrahma,18362,Penalty,,Standard
+0.840999984741211,0.655,0.04576690495014191,MissedShots,West Ham,39,LeftFoot,Michail Antonio,18362,SetPiece,Lucas Paquetá,Chipped
+0.909000015258789,0.3220000076293945,0.08035717904567719,SavedShot,West Ham,45,RightFoot,Michail Antonio,18362,OpenPlay,Tomas Soucek,Pass
+0.6919999694824219,0.575,0.013417420908808708,MissedShots,West Ham,65,RightFoot,Thilo Kehrer,18362,OpenPlay,Declan Rice,Pass
+0.870999984741211,0.6759999847412109,0.058455027639865875,MissedShots,West Ham,72,LeftFoot,Said Benrahma,18362,OpenPlay,Lucas Paquetá,Pass
+0.7819999694824219,0.46799999237060547,0.0323164276778698,MissedShots,West Ham,89,LeftFoot,Lucas Paquetá,18362,FromCorner,Declan Rice,Pass
+0.7519999694824219,0.64,0.01604260317981243,SavedShot,West Ham,93,RightFoot,Pablo Fornals,18362,OpenPlay,Said Benrahma,Pass
