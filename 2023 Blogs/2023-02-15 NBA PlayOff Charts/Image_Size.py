@@ -1,9 +1,8 @@
 from PIL import Image
 
-foo = Image.open('Original/Boston_Celtics.png')  # Large Image
-foo.size  # (815, 905)
-
+foo = Image.open('Original/Miami_Heat.png')  # Large Image
+foo.size  # (1200, 1656)
 # downsize the image with an ANTIALIAS filter (gives the highest quality)
-foo = foo.resize((815, 905), Image.ANTIALIAS)
+foo = foo.resize((300, 414), Image.ANTIALIAS)
 
-foo.save('Scaled/Boston_Celtics.png', quality=95)  # Reduced Quality
+foo.save('Scaled/Miami_Heat.png', quality=2)  # Reduced Quality
