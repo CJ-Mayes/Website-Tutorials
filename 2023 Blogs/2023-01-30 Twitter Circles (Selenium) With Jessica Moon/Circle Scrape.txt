@@ -1,0 +1,155 @@
+#import packages to open/interact with/scrape page
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+#import packages to program in manual pauses
+from time import *
+
+#import package to create dataframe and send to a file
+import pandas as pd
+
+#call on the appropriate webdriver
+driver = webdriver.Firefox()
+
+#have the web driver get the page
+driver.get('https://twittercircle.com/')
+
+#have the driver wait up until 30 seconds before throwing an exception error in the script
+driver.implicitly_wait(30)
+
+#Update with your username
+my_username='@VizByMoon'
+
+#dataframe1 lists
+my_circle=[] #people in my list of 45
+my_rank=[] #rank of people in my 45
+circle_ring=[] #1=inner, 2=middle, 3=outer of my circle
+
+#dataframe2 lists
+search_user=[] #person from my circle
+user_rank=[] #person from my circle's rank of person in their circle
+user_circle=[] #1=inner, 2=middle, 3=outer of their circle
+circle_person=[] #people in my circle person's circle
+is_me=[] #is the person me
+common=[] #is the person in my circle as well
+
+userpath='//*[@id="username"]' #xpath of the user field
+clickpath='//*[@id="generate"]' #xpath of the generate button
+first_circle='//*[@id="circle1"]'#xpath of first circle list
+second_circle='//*[@id="circle2"]'#xpath of second circle list
+third_circle='//*[@id="circle3"]'#xpath of third circle list
+
+sleep_time=5
+
+#Enter your username
+inputElement=driver.find_element(By.XPATH,userpath)
+
+#wait x seconds before executing next line
+sleep(sleep_time)
+
+#input username in the site's field
+inputElement.send_keys(my_username)
+
+#wait x seconds before executing next line
+sleep(sleep_time)
+
+#click the generate button
+driver.find_element(By.XPATH,clickpath).click()
+
+#wait x seconds before executing next line
+sleep(sleep_time)
+
+#repetitive code for scraping your circles
+def my_circle_peeps(iterate_list, num_ring):
+    for thing in iterate_list:
+        #isolates username
+        my_circle.append((thing.text[3:len(thing.text)].strip()))
+        #isolates rank
+        my_rank.append(thing.text[0:3].strip())
+        #designates inner (1), middle (2), outer (3)
+        circle_ring.append((num_ring))
+
+#repetitive code for scraping circle's circles
+def circle_circles(user_input, iterate_list, num_ring):
+    for thing in iterate_list:
+        user=(thing.text[3:len(thing.text)].strip())
+        search_user.append(user_input)
+        circle_person.append(user)
+        user_rank.append(thing.text[0:3].strip())
+        user_circle.append((num_ring))
+        if user==my_username:
+            is_me.append('yes')
+        else:
+            is_me.append('no')
+        if user in my_circle:
+            common.append('yes')
+        else:
+            common.append('no')
+        print(user_input+' - '+user)
+        
+
+#get the circle 1 users
+first_followers=driver.find_element(By.XPATH, first_circle)
+follower_list=first_followers.find_elements(By.TAG_NAME, "li")
+sleep(sleep_time)
+
+#loop through the list
+my_circle_peeps(follower_list, 1)
+
+#get the circle 2 users
+second_followers=driver.find_element(By.XPATH, second_circle)
+follower_list2=second_followers.find_elements(By.TAG_NAME, "li")
+sleep(sleep_time)
+
+my_circle_peeps(follower_list2, 2)
+
+ #get the circle 3 users   
+third_followers=driver.find_element(By.XPATH,third_circle)
+sleep(sleep_time)
+follower_list3=third_followers.find_elements(By.TAG_NAME, "li")
+
+my_circle_peeps(follower_list3, 3)
+
+#loop through the users in your circle to find who is in their circle
+for follower in my_circle:
+    driver.get('https://twittercircle.com/')
+    driver.implicitly_wait(30)
+    inputElement=driver.find_element(By.XPATH,userpath)
+    sleep(sleep_time)
+    inputElement.send_keys(follower)
+    sleep(sleep_time)
+    driver.find_element(By.XPATH,clickpath).click()
+    sleep(sleep_time)
+    first_followers=driver.find_element(By.XPATH,first_circle)
+    sleep(sleep_time)
+    follower_list=first_followers.find_elements(By.TAG_NAME, "li")
+
+    
+    #loop through the follower 1 list to extract the rank and user
+    circle_circles(follower, follower_list, 1)
+    
+    second_followers=driver.find_element(By.XPATH,second_circle)
+    sleep(sleep_time)
+    follower_list2=second_followers.find_elements(By.TAG_NAME, "li")
+    
+    circle_circles(follower, follower_list2, 2)
+    
+    third_followers=driver.find_element(By.XPATH,third_circle)
+    sleep(sleep_time)
+    follower_list3=third_followers.find_elements(By.TAG_NAME, "li")
+    
+    circle_circles(follower, follower_list3, 3)
+   
+    sleep(sleep_time)
+
+#create a dataframe out of your circle data
+final_frame = pd.DataFrame({'My Circle':my_circle, 'My Rank': my_rank, 'Circle Ring':circle_ring})
+
+#create a dataframe out of your circle's circles data
+user_frame = pd.DataFrame({'User':search_user,'Circle Person':circle_person,'User rank':user_rank,'User Ring':user_circle,'Is Me':is_me,'Common':common})
+
+#merge the two dataframes so they match up on your circle person
+final_frame2=final_frame.merge(user_frame, left_on='My Circle', right_on='User',how='left')
+
+#send to csv
+final_frame2.to_csv('TwitterCircle.csv', mode='w', index=False, header=True)
