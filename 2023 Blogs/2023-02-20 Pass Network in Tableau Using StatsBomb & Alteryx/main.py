@@ -10,15 +10,15 @@ from statsbombpy import sb
 import pandas as pd
 import numpy as np
 
-# Get competitions
+# Get competitions - using statsbomb open data
 comp = sb.competitions()
 comp.to_csv('competitions.csv', index=False)
 
-# UEFA Women's Euro
+# UEFA Women's Euro taken from competition csv
 df = sb.matches(competition_id=53, season_id=106)
 df.to_csv('matches.csv', index=False)
 
-# Find a match_id required - England Germany 2-1 in the final
+# Find a match_id required - England Germany 2-1 in the final, blog example
 match = 3847567
 match_events = sb.events(match_id=match)
 
@@ -53,16 +53,16 @@ data = df['tactics'].tolist()
 
 n = 0
 starting = pd.DataFrame(columns=['Names'])
-#print(starting)
 
+#Print both teams lineup and export that to a CSV
 for item in data:
     names = [player['player']['name'] for player in data[n]['lineup']]
     df_a = pd.DataFrame(names, columns=['Names'])
     starting = starting.append(df_a, ignore_index = True)
     n = n+1
-
 starting.to_csv('starting.csv', index=False)
 
+# If you need a copy of a pitch or want to create your own - check out MPLSoccer for more
 pitch = pitch = Pitch(pitch_type='statsbomb', pitch_color='#ffffff', line_color='#555555')
 fig, ax = pitch.draw()
 fig.show()
