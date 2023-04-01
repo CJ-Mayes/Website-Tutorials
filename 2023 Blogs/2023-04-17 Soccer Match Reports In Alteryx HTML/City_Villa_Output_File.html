@@ -1,0 +1,1587 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Final//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	</head>
+	<body>
+		<div><script src='https://whitelist.alteryx.com/v1/downloads/v1/lib/plotly/plotly.min.21.0.18.js'></script><script src='https://whitelist.alteryx.com/v1/downloads/v1/lib/plotly/md5.min.js'></script></div>
+		<div><script>window.ayxChartQueue = [];</script></div>
+		<div style="font-family: Arial; font-size: 12.00pt; font-style: normal; font-weight: normal; color: black; ">
+			<table cellpadding="10.000000">
+				<tbody>
+					<tr>
+						<td style="text-align: center; vertical-align: middle; ">
+							<div>
+								<table align="center" width="100%">
+									<tbody>
+										<tr>
+											<td style="vertical-align: middle; ">
+												<div style="text-align: left; width: 100%; font-family: Arial; font-size: 14.00pt; "><span style="font-family: Arial; font-size: 16.00pt; ">Created on CJ-Mayes.com</span></div>
+											</td>
+											<td style="text-align: right; vertical-align: middle; "><img src="City_Villa_Output_File_files/9a6c28be1c047fe044cc256c7f7bbbc7.png" width="150">											</img></td>
+										</tr>
+									</tbody>
+								</table>
+<br/>								<div style="text-align: left; width: 100%; font-family: Arial; font-size: 14.00pt; ">
+									<hr/>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td style="vertical-align: middle; ">
+							<div style="width: 100%; font-family: Arial; font-size: 14.00pt; ">
+								<div style="text-align: center; "><span style="font-family: Calibri; font-size: 36.00pt; color: #0080c0; ">Manchester City</span><span style="font-family: Calibri; font-size: 36.00pt; ">&nbsp;vs&nbsp;</span><span style="font-family: Calibri; font-size: 36.00pt; color: #800040; ">Aston Villa&nbsp;</span><span style="font-family: Calibri; font-size: 36.00pt; ">Shot Map&nbsp;</span></div>
+								<div style="text-align: center; "><span style="font-family: Calibri; font-size: 22.00pt; ">EPL 2021/2022</span></div>
+								<div style="font-family: Calibri; ">&nbsp;</div>
+								<div style="text-align: center; "><span style="font-family: Calibri; ">This report is an example output from one of the final matches in the English Premier League Season 21/22</span></div>
+								<div style="text-align: center; "><span style="font-family: Calibri; ">The game ended with a score of 3-2 to&nbsp;</span><span style="font-family: Calibri; font-weight: bold; color: #0080c0; ">Manchester City</span><span style="font-family: Calibri; ">. You can see the full match report on Understat using match ID&nbsp;</span><span style="font-family: Calibri; font-weight: bold; ">16754</span></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center; vertical-align: middle; ">
+							<table cellpadding="5.000000" cellspacing="1.000000" align="center">
+								<tbody>
+									<tr>
+										<td style="vertical-align: bottom; "><img src="City_Villa_Output_File_files/6055911230e95da8447e25b817e7666a.png" width="768">										</img></td>
+										<td style="vertical-align: bottom; ">
+											<table style="background-color: #f0f0f0; ">
+												<tbody>
+													<tr>
+														<td style="background-color: #f0f0f0; vertical-align: middle; width: 28px; "><img src="City_Villa_Output_File_files/051238a4a20a6dca2d6d46ccc6933a8b.png" width="16">														</img></td>
+														<td style="background-color: #f0f0f0; text-align: left; vertical-align: middle; font-family: Arial; font-size: 10.00pt; ">Manchester City</td>
+													</tr>
+													<tr>
+														<td style="background-color: #f0f0f0; vertical-align: middle; width: 28px; "><img src="City_Villa_Output_File_files/ade567551b059c85ab20c94ef4b1affc.png" width="16">														</img></td>
+														<td style="background-color: #f0f0f0; text-align: left; vertical-align: middle; font-family: Arial; font-size: 10.00pt; ">Aston Villa</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center; vertical-align: middle; ">
+							<div>
+								<div>
+									<div>
+										<table cellpadding="10.000000" align="center" style="border: solid silver 1.00pt; ">
+											<thead>
+												<tr style="background-color: #f4f4f4; ">
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">match_id</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">date</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Player</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Minute</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Result</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">xG</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Situation</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Home Or Away Team</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Player ID</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Shot Type</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Home Team</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Away Team</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Home Goals</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Away Goals</div>
+													</td>
+													<td style="border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Player Assisted</div>
+													</td>
+													<td style="text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Last Action</div>
+													</td>
+												</tr>
+											</thead>
+											<tbody>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Fernandinho</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.06</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">SetPiece</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">614</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Head</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Kevin De Bruyne</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Cross</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">JoÃ£o Cancelo</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">4</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">BlockedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.06</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2379</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Phil Foden</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Pass</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Phil Foden</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">23</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">BlockedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.1</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">6055</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Gabriel Jesus</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Pass</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">JoÃ£o Cancelo</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">27</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">BlockedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.04</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2379</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">LeftFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">John Stones</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Chipped</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Gabriel Jesus</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">30</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.06</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">5543</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Phil Foden</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">BallRecovery</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Matthew Cash</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">36</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Goal</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.06</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">a</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">8864</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Head</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Lucas Digne</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aerial</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Ollie Watkins</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">40</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">BlockedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.08</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">a</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">8865</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Philippe Coutinho</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Pass</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Philippe Coutinho</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">41</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.02</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">a</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">488</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Ollie Watkins</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">None</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Kevin De Bruyne</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">43</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">BlockedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.06</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">447</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">LeftFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Gabriel Jesus</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">None</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">JoÃ£o Cancelo</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">44</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">BlockedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.02</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2379</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Bernardo Silva</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Pass</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">JoÃ£o Cancelo</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">46</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">BlockedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.02</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2379</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">LeftFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Bernardo Silva</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Pass</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Kevin De Bruyne</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">47</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.06</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">447</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aerial</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aymeric Laporte</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">47</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">SavedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.06</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">FromCorner</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2498</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Head</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Riyad Mahrez</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Cross</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Riyad Mahrez</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">49</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">BlockedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.14</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">750</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">LeftFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Oleksandr Zinchenko</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Pass</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Gabriel Jesus</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">49</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.58</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">5543</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">JoÃ£o Cancelo</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Cross</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Rodri</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">50</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.02</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2496</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Riyad Mahrez</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Pass</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">John Stones</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">53</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">BlockedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.06</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">FromCorner</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">586</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Head</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Kevin De Bruyne</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aerial</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Gabriel Jesus</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">66</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">BlockedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.06</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">5543</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">LeftFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Phil Foden</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Cross</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Kevin De Bruyne</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">67</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.06</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">DirectFreekick</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">447</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Standard</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Philippe Coutinho</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">68</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Goal</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.08</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">a</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">488</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Ollie Watkins</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">HeadPass</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Phil Foden</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">70</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.1</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">6055</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Rodri</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">TakeOn</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Kevin De Bruyne</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">72</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.14</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">447</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Raheem Sterling</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Pass</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Ilkay GÃ¼ndogan</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">73</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.06</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">SetPiece</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">314</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Head</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Kevin De Bruyne</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aerial</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Ilkay GÃ¼ndogan</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">75</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Goal</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.5</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">314</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Head</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Raheem Sterling</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Cross</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">John Stones</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">76</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">SavedShot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.08</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">FromCorner</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">586</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Head</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Kevin De Bruyne</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Cross</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Rodri</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">77</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Goal</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.04</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2496</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Oleksandr Zinchenko</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Pass</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Rodri</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">79</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.04</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2496</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">JoÃ£o Cancelo</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Chipped</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Kevin De Bruyne</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">80</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">MissedShots</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.04</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">447</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">None</div>
+													</td>
+												</tr>
+												<tr style="background-color: white; ">
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">16754</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2022-05-22</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Ilkay GÃ¼ndogan</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">80</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Goal</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: left; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">0.9</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">OpenPlay</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">h</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">314</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">RightFoot</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Manchester City</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Aston Villa</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">3</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">2</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; border-right-color: silver; border-right-style: solid; border-right-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Kevin De Bruyne</div>
+													</td>
+													<td style="border-top-color: silver; border-top-style: solid; border-top-width: 1.00pt; text-align: right; vertical-align: top; font-family: Calibri; ">
+														<div style="margin-left: 10.00pt; margin-right: 10.00pt; ">Rebound</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div><script>var ayxWaitAndRender = function () {if (!window.ayxChartQueue) return; if (window.Plotly) {clearTimeout(window.ayxChartTimer);window.ayxChartQueue.forEach(function(cb){cb();})} else {clearTimeout(window.ayxChartTimer);window.ayxChartTimer = setTimeout(ayxWaitAndRender, 500);}};ayxWaitAndRender();</script></div>
+	</body>
+</html>
+ 
