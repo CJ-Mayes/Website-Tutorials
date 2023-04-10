@@ -1,0 +1,666 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="174" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CJ_Activities.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Activity ID" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Activity Date" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Activity Name" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Activity Type" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Activity Description" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Elapsed Time" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Distance" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Max Heart Rate" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Relative Effort" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Commute" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Activity Private Note" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Activity Gear" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Filename" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Athlete Weight" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Bike Weight" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Elapsed Time2" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Moving Time" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Distance2" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Max Speed" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Average Speed" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Elevation Gain" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Elevation Loss" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Elevation Low" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Elevation High" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Max Grade" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Average Grade" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Average Positive Grade" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Average Negative Grade" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Max Cadence" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Average Cadence" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Max Heart Rate2" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Average Heart Rate" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Max Watts" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Average Watts" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Calories" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Max Temperature" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Average Temperature" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Relative Effort2" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Total Work" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Number of Runs" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Uphill Time" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Downhill Time" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Other Time" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Perceived Exertion" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.type&quot;&gt;Type&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.start_time&quot;&gt;Start Time&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Weighted Average Power" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Power Count" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Prefer Perceived Exertion" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Perceived Relative Effort" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Commute2" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Total Weight Lifted" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="From Upload" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Grade Adjusted Distance" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Weather Observation Time" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Weather Condition" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Weather Temperature" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Apparent Temperature" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Dewpoint" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Humidity" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Weather Pressure" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Wind Speed" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Wind Gust" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Wind Bearing" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Precipitation Intensity" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Sunrise Time" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Sunset Time" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Moon Phase" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Bike" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Gear" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Precipitation Probability" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Precipitation Type" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Cloud Cover" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Weather Visibility" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="UV Index" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Weather Ozone" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.jump_count&quot;&gt;Jump Count&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.total_grit&quot;&gt;Total Grit&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.avg_flow&quot;&gt;Avg Flow&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.flagged&quot;&gt;Flagged&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.avg_elapsed_speed&quot;&gt;Avg Elapsed Speed&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.dirt_distance&quot;&gt;Dirt Distance&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.newly_explored_distance&quot;&gt;Newly Explored Distance&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.newly_explored_dirt_distance&quot;&gt;Newly Explored Dirt Distance&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.sport_type&quot;&gt;Sport Type&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.total_steps&quot;&gt;Total Steps&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+            <Field name="Media" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\CJ_Activities.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Activity Date" selected="True" type="String" size="254" />
+            <SelectField field="Activity Description" selected="False" />
+            <SelectField field="Elapsed Time" selected="True" type="Int16" size="2" />
+            <SelectField field="Distance" selected="True" rename="Distance KM's" type="Double" size="8" />
+            <SelectField field="Relative Effort" selected="False" />
+            <SelectField field="Commute" selected="False" />
+            <SelectField field="Activity Private Note" selected="False" />
+            <SelectField field="Activity Gear" selected="False" />
+            <SelectField field="Filename" selected="True" rename="Gpx Filename" />
+            <SelectField field="Athlete Weight" selected="False" />
+            <SelectField field="Bike Weight" selected="False" />
+            <SelectField field="Elapsed Time2" selected="False" />
+            <SelectField field="Distance2" selected="True" rename="Distance Metres" />
+            <SelectField field="Average Positive Grade" selected="False" />
+            <SelectField field="Average Negative Grade" selected="False" />
+            <SelectField field="Max Cadence" selected="False" />
+            <SelectField field="Average Cadence" selected="False" />
+            <SelectField field="Max Heart Rate2" selected="False" />
+            <SelectField field="Max Watts" selected="False" />
+            <SelectField field="Average Watts" selected="False" />
+            <SelectField field="Calories" selected="False" />
+            <SelectField field="Max Temperature" selected="False" />
+            <SelectField field="Average Temperature" selected="False" />
+            <SelectField field="Relative Effort2" selected="False" />
+            <SelectField field="Total Work" selected="False" />
+            <SelectField field="Number of Runs" selected="False" />
+            <SelectField field="Uphill Time" selected="False" />
+            <SelectField field="Downhill Time" selected="False" />
+            <SelectField field="Other Time" selected="False" />
+            <SelectField field="Perceived Exertion" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.type&quot;&gt;Type&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.start_time&quot;&gt;Start Time&lt;/span&gt;" selected="False" />
+            <SelectField field="Weighted Average Power" selected="False" />
+            <SelectField field="Power Count" selected="False" />
+            <SelectField field="Prefer Perceived Exertion" selected="False" />
+            <SelectField field="Perceived Relative Effort" selected="False" />
+            <SelectField field="Commute2" selected="False" />
+            <SelectField field="Total Weight Lifted" selected="False" />
+            <SelectField field="From Upload" selected="False" />
+            <SelectField field="Grade Adjusted Distance" selected="False" />
+            <SelectField field="Weather Observation Time" selected="False" />
+            <SelectField field="Weather Condition" selected="False" />
+            <SelectField field="Weather Temperature" selected="False" />
+            <SelectField field="Apparent Temperature" selected="False" />
+            <SelectField field="Dewpoint" selected="False" />
+            <SelectField field="Humidity" selected="False" />
+            <SelectField field="Weather Pressure" selected="False" />
+            <SelectField field="Wind Speed" selected="False" />
+            <SelectField field="Wind Gust" selected="False" />
+            <SelectField field="Wind Bearing" selected="False" />
+            <SelectField field="Precipitation Intensity" selected="False" />
+            <SelectField field="Sunrise Time" selected="False" />
+            <SelectField field="Sunset Time" selected="False" />
+            <SelectField field="Moon Phase" selected="False" />
+            <SelectField field="Bike" selected="False" />
+            <SelectField field="Gear" selected="False" />
+            <SelectField field="Precipitation Probability" selected="False" />
+            <SelectField field="Precipitation Type" selected="False" />
+            <SelectField field="Cloud Cover" selected="False" />
+            <SelectField field="Weather Visibility" selected="False" />
+            <SelectField field="UV Index" selected="False" />
+            <SelectField field="Weather Ozone" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.jump_count&quot;&gt;Jump Count&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.total_grit&quot;&gt;Total Grit&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.avg_flow&quot;&gt;Avg Flow&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.flagged&quot;&gt;Flagged&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.avg_elapsed_speed&quot;&gt;Avg Elapsed Speed&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.dirt_distance&quot;&gt;Dirt Distance&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.newly_explored_distance&quot;&gt;Newly Explored Distance&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.newly_explored_dirt_distance&quot;&gt;Newly Explored Dirt Distance&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.sport_type&quot;&gt;Sport Type&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.total_steps&quot;&gt;Total Steps&lt;/span&gt;" selected="False" />
+            <SelectField field="Media" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="642" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Date</InputFieldName>
+          <Language>English</Language>
+          <Format>dd-Mon-yyyy</Format>
+          <OutputFieldName>DateTime</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="378" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Activity Date</Field>
+          <RegExExpression value="^(.+?)," />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Activity Date</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="Date" type="V_String" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>Activity ID_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="486" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF LENGTH([Date]) = 10 THEN &quot;0&quot;+[Date]&#xA;ELSE&#xA;[Date]&#xA;ENDIF&#xA;" field="Date" size="254" type="V_String" />
+            <FormulaField expression="Replace([Date], &quot; &quot;, &quot;-&quot;)" field="Date" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date = IF LENGTH([Date]) = 10 THEN "0"+[Date]
+ELSE
+[Date]
+ENDIF
+
+Date = Replace(...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="750" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DateTime" selected="True" rename="Date" type="V_String" size="10" />
+            <SelectField field="Activity ID" selected="True" />
+            <SelectField field="Activity Date" selected="False" />
+            <SelectField field="Activity Name" selected="True" />
+            <SelectField field="Activity Type" selected="True" />
+            <SelectField field="Elapsed Time" selected="True" />
+            <SelectField field="Distance KM's" selected="True" />
+            <SelectField field="Max Heart Rate" selected="True" />
+            <SelectField field="Gpx Filename" selected="True" />
+            <SelectField field="Moving Time" selected="True" />
+            <SelectField field="Distance Metres" selected="True" />
+            <SelectField field="Max Speed" selected="True" />
+            <SelectField field="Average Speed" selected="True" />
+            <SelectField field="Elevation Gain" selected="True" />
+            <SelectField field="Elevation Loss" selected="True" />
+            <SelectField field="Elevation Low" selected="True" />
+            <SelectField field="Elevation High" selected="True" />
+            <SelectField field="Max Grade" selected="True" />
+            <SelectField field="Average Grade" selected="True" />
+            <SelectField field="Average Heart Rate" selected="True" />
+            <SelectField field="Power Count" selected="True" />
+            <SelectField field="Date" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="858" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Distance KM's] &gt; 20
+and [Activity Type] = 'Run'</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Distance KM's] &gt; 20
+and [Activity Type] = 'Run'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="174" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>20230410041029-77044-data.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="type" size="254" source="File: C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt" type="V_WString" />
+            <Field name="time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt" type="V_WString" />
+            <Field name="latitude" size="254" source="File: C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt" type="V_WString" />
+            <Field name="longitude" size="254" source="File: C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt" type="V_WString" />
+            <Field name="altitude (m)" size="254" source="File: C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt" type="V_WString" />
+            <Field name="pace (min/km)" size="254" source="File: C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt" type="V_WString" />
+            <Field name="distance (km)" size="254" source="File: C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt" type="V_WString" />
+            <Field name="distance_interval (m)" size="254" source="File: C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt" type="V_WString" />
+            <Field name="hr" size="254" source="File: C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt" type="V_WString" />
+            <Field name="name" size="254" source="File: C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt" type="V_WString" />
+            <Field name="desc" size="254" source="File: C:\Users\Cj.Mayes\Downloads\20230410041029-77044-data.txt" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="666" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="left([time],10)" field="Date" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Date = left([time],10)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="534" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="hr" selected="False" />
+            <SelectField field="name" selected="False" />
+            <SelectField field="desc" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1062" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Date" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Date" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Date" selected="False" rename="Right_Date" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings>
+        <Position x="282" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"type","time","latitude","longitude","altitude (m)","pace (min/km)","distance (km)","distance_interval (m)","hr","name","desc"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="402" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-04-10 12:26:00</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>T</Operand>
+              <StartDate>2023-04-10 12:26:00</StartDate>
+              <EndDate>2023-04-10 12:26:00</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[type] = "T"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1194" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="64" MaxRecords="">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\Strava_Maps.hyper</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Strava_Maps.hyper</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="14" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output26" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Strava_Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="c0b1f8fa-42f7-40a9-946c-8ba0861b833f" />
+      <Telemetry>
+        <PreviousWorkflowId value="64b5a305-1465-4271-88b1-66a6f7223bc4" />
+        <OriginWorkflowId value="64b5a305-1465-4271-88b1-66a6f7223bc4" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
