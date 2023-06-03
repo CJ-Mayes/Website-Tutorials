@@ -1,0 +1,1319 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="Path">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>False</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>player_shot_data_EPL.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="A Team" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Date" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Goal" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="H A" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="H Team" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Last Action" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Match Id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Player" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Player Assisted" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Player Id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Result" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Season" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Shot Type" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Situation" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="A Goals" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="F1" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="H Goals" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Minute" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="X" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="X G" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Y" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_34504_3860213166794761954f9ff070e11f8b_\Engine_14728_990aa1cc1251484db283c2d9ab663363_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="23" />
+          <Fields>
+            <Field name="X" />
+            <Field name="Y" />
+            <Field name="Gr" />
+            <Field name="SN" />
+            <Field name="Area" />
+          </Fields>
+          <Data>
+            <r>
+              <c>125</c>
+              <c>85</c>
+              <c>4</c>
+              <c>3</c>
+              <c>Half</c>
+            </r>
+            <r>
+              <c>62.5</c>
+              <c>0</c>
+              <c>4</c>
+              <c>5</c>
+              <c>Half</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>0</c>
+              <c>4</c>
+              <c>4</c>
+              <c>Half</c>
+            </r>
+            <r>
+              <c>62.5</c>
+              <c>0</c>
+              <c>4</c>
+              <c>1</c>
+              <c>Half</c>
+            </r>
+            <r>
+              <c>62.5</c>
+              <c>85</c>
+              <c>4</c>
+              <c>2</c>
+              <c>Half</c>
+            </r>
+            <r>
+              <c>105</c>
+              <c>16.15</c>
+              <c>5</c>
+              <c>1</c>
+              <c>Box</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>16.15</c>
+              <c>5</c>
+              <c>2</c>
+              <c>Box</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>68.85</c>
+              <c>5</c>
+              <c>3</c>
+              <c>Box</c>
+            </r>
+            <r>
+              <c>105</c>
+              <c>68.85</c>
+              <c>5</c>
+              <c>4</c>
+              <c>Box</c>
+            </r>
+            <r>
+              <c>105</c>
+              <c>16.15</c>
+              <c>5</c>
+              <c>5</c>
+              <c>Box</c>
+            </r>
+            <r>
+              <c>117.5</c>
+              <c>31.45</c>
+              <c>6</c>
+              <c>1</c>
+              <c>6 Yard</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>31.45</c>
+              <c>6</c>
+              <c>2</c>
+              <c>6 Yard</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>53.55</c>
+              <c>6</c>
+              <c>3</c>
+              <c>6 Yard</c>
+            </r>
+            <r>
+              <c>117.5</c>
+              <c>53.55</c>
+              <c>6</c>
+              <c>4</c>
+              <c>6 Yard</c>
+            </r>
+            <r>
+              <c>117.5</c>
+              <c>31.45</c>
+              <c>6</c>
+              <c>5</c>
+              <c>6 Yard</c>
+            </r>
+            <r>
+              <c>62.5</c>
+              <c>0</c>
+              <c>7</c>
+              <c>1</c>
+              <c>Half Exc</c>
+            </r>
+            <r>
+              <c>62.5</c>
+              <c>85</c>
+              <c>7</c>
+              <c>2</c>
+              <c>Half Exc</c>
+            </r>
+            <r>
+              <c>61.5</c>
+              <c>85</c>
+              <c>7</c>
+              <c>3</c>
+              <c>Half Exc</c>
+            </r>
+            <r>
+              <c>61.5</c>
+              <c>0</c>
+              <c>7</c>
+              <c>4</c>
+              <c>Half Exc</c>
+            </r>
+            <r>
+              <c>62.5</c>
+              <c>0</c>
+              <c>7</c>
+              <c>5</c>
+              <c>Half Exc</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>37</c>
+              <c>8</c>
+              <c>1</c>
+              <c>Goal</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>48</c>
+              <c>8</c>
+              <c>2</c>
+              <c>Goal</c>
+            </r>
+            <r>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="269" y="281" width="337" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Prep Half A Pitch</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+            <Position x="354" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields fieldX="X1" fieldY="Y1" />
+              <Mode>Int</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="294" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="tonumber([X])*1000" field="X1" size="8" type="Double" />
+                <FormulaField expression="tonumber([Y])*1000" field="Y1" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[X1 = tonumber([X])*1000
+Y1 = tonumber([Y])*1000
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolyBuild.PolyBuild">
+            <Position x="426" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SpatialObj field="Centroid" />
+              <GroupField field="Gr" />
+              <BuildType>SequencePolyline</BuildType>
+              <SequenceField field="SN" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolyBuild" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="522" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_34504_3860213166794761954f9ff070e11f8b_\Engine_14728_8190ccc932e64abf80f478cd954de602_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Map</DefaultTab>
+                  <Hints>
+                    <Map>
+                      <BaseMap>[No Base Map]</BaseMap>
+                    </Map>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="365" y="689" width="240" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Amend Field Names &amp; Union</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="390" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="X" selected="True" rename="Pitch_X" />
+                <SelectField field="Y" selected="True" rename="Pitch_Y" />
+                <SelectField field="Gr" selected="True" rename="Pitch_ID" />
+                <SelectField field="SN" selected="True" rename="Pitch_SN" />
+                <SelectField field="Area" selected="True" rename="Pitch_Name" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="510" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Pitch_X]/100" field="Pitch_X" size="8" type="Double" />
+                <FormulaField expression="[Pitch_Y]/100" field="Pitch_Y" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Pitch_X = [Pitch_X]/100
+Pitch_Y = [Pitch_Y]/100
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1625" y="689" width="205" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Final Output</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1746" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\Jack_Grealish_23_eg3.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Jack_Grealish_23_eg3.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1650" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>ByName</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="Pitch_X" source="Formula: [Pitch_X]/100" type="Double" column="1" />
+                    <Field name="Pitch_Y" source="Formula: [Pitch_Y]/100" type="Double" column="2" />
+                    <Field name="Pitch_ID" source="TextInput:" type="Byte" column="3" />
+                    <Field name="Pitch_SN" source="TextInput:" type="Byte" column="4" />
+                    <Field name="Pitch_Name" size="8" source="TextInput:" type="String" column="5" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#2">
+                  <RecordInfo>
+                    <Field name="Date" source="DateTime: To dd/MM/yyyy hh:mm:ss" type="DateTime" column="6" />
+                    <Field name="Match ID" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="7" />
+                    <Field name="Action ID" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="8" />
+                    <Field name="Player ID" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="9" />
+                    <Field name="Player" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="10" />
+                    <Field name="Home Or Away" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="11" />
+                    <Field name="Home Team" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="12" />
+                    <Field name="Away Team" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="13" />
+                    <Field name="Player Assisted" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="14" />
+                    <Field name="Result" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="15" />
+                    <Field name="Season" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="16" />
+                    <Field name="Shot Type" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="17" />
+                    <Field name="Situation" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="18" />
+                    <Field name="Away Goals" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="19" />
+                    <Field name="Home Goals" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="20" />
+                    <Field name="Minute" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="21" />
+                    <Field name="X" size="254" source="Formula: ToNumber([X])*1.25*100000" type="V_WString" column="22" />
+                    <Field name="Y" size="254" source="Formula: ToNumber([Y])*0.85*100000" type="V_WString" column="23" />
+                    <Field name="xG" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" column="24" />
+                    <Field name="GridName" size="20" source="MakeGrid: Name" type="V_String" column="25" />
+                    <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=Grid" type="Int32" column="26" />
+                    <Field name="CentroidX" source="Formula: [CentroidX]*1000000" type="Double" column="27" />
+                    <Field name="CentroidY" source="Formula: [CentroidY]*1000000" type="Double" column="28" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ManualDelayed</Mode>
+              <SetOutputOrder value="True" />
+              <OutputOrder>
+                <Connection>#2</Connection>
+                <Connection>#1</Connection>
+              </OutputOrder>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1073" y="220" width="541" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Matching Shots To The Tile</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialMatch.SpatialMatch">
+            <Position x="1098" y="269" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Target SpatialObj="Centroid" />
+              <Universe SpatialObj="Grid" />
+              <Method method="Intersects" />
+              <SelectConfiguration>
+                <Configuration outputConnection="Matched">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+              <IntersectPoly value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Centroid Where Target Intersects Universe Grid</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialMatch" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1182" y="269" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="GridName" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="GridName" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_GridName" selected="True" rename="Right_GridName" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1266" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1338" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[CentroidX]*10" field="CentroidX" size="8" type="Double" />
+                <FormulaField expression="[CentroidY]*10" field="CentroidY" size="8" type="Double" />
+                <FormulaField expression="[X]/100000" field="X" size="4" type="Float" />
+                <FormulaField expression="[Y]/100000" field="Y" size="4" type="Float" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>CentroidX = [CentroidX]*10
+CentroidY = [CentroidY]*10
+X = [X]/100000
+Y = [Y]/100...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1434" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Date" selected="True" />
+                <SelectField field="Match ID" selected="True" />
+                <SelectField field="Action ID" selected="True" />
+                <SelectField field="Player ID" selected="True" />
+                <SelectField field="Player" selected="True" />
+                <SelectField field="Home Or Away" selected="True" />
+                <SelectField field="Home Team" selected="True" />
+                <SelectField field="Away Team" selected="True" />
+                <SelectField field="Player Assisted" selected="True" />
+                <SelectField field="Result" selected="True" />
+                <SelectField field="Season" selected="True" />
+                <SelectField field="Shot Type" selected="True" />
+                <SelectField field="Situation" selected="True" />
+                <SelectField field="Away Goals" selected="True" />
+                <SelectField field="Home Goals" selected="True" />
+                <SelectField field="Minute" selected="True" />
+                <SelectField field="X" selected="True" />
+                <SelectField field="Y" selected="True" />
+                <SelectField field="xG" selected="True" />
+                <SelectField field="Centroid" selected="False" />
+                <SelectField field="GridName" selected="True" />
+                <SelectField field="Grid" selected="False" />
+                <SelectField field="Right_GridName" selected="False" />
+                <SelectField field="Split_SequenceNum" selected="True" />
+                <SelectField field="CentroidX" selected="True" />
+                <SelectField field="CentroidY" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1530" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_34504_3860213166794761954f9ff070e11f8b_\Engine_14728_a182cb28996949a582627c4c49b48c70_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="436" y="436" width="626" height="230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Build Grid</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="654" y="582" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_34504_3860213166794761954f9ff070e11f8b_\Engine_14728_059490882359452a83acad1020bc6105_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Map</DefaultTab>
+                  <Hints>
+                    <Map>
+                      <BaseMap>[No Base Map]</BaseMap>
+                    </Map>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolySplit.PolySplit">
+            <Position x="714" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SpatialObj field="Grid" />
+              <SplitTo type="Point" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolySplit" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialInfo.SpatialInfo">
+            <Position x="786" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SpatialObj field="Split_SpatialObj" />
+              <SelectedItems>
+                <Item name="CentroidXY" />
+              </SelectedItems>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialInfo" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="882" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Split_SpatialObj" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="978" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_34504_3860213166794761954f9ff070e11f8b_\Engine_14728_07a95d0422924d0aa5de0b2cb5844320_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="461" y="485" width="138" height="133" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>To Amend</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="21">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.MakeGrid.MakeGrid">
+                <Position x="486" y="534" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SpatialObjIn>SpatialObj_Built</SpatialObjIn>
+                  <GridSize value="0.3675" />
+                  <Units>Miles</Units>
+                  <GridPerObject value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>0.3675 Miles Grid</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxMakeGrid" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="269" y="40" width="660" height="207" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Prep Player Points</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="366" y="137" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="A Team" selected="True" rename="Away Team" />
+                <SelectField field="Date" selected="False" type="DateTime" size="19" />
+                <SelectField field="DateTime_Out" selected="True" rename="Date" />
+                <SelectField field="Goal" selected="False" />
+                <SelectField field="H A" selected="True" rename="Home Or Away" />
+                <SelectField field="H Team" selected="True" rename="Home Team" />
+                <SelectField field="Id" selected="True" rename="Action ID" />
+                <SelectField field="Last Action" selected="False" />
+                <SelectField field="Match Id" selected="True" rename="Match ID" />
+                <SelectField field="Player" selected="True" />
+                <SelectField field="Player Assisted" selected="True" />
+                <SelectField field="Player Id" selected="True" rename="Player ID" />
+                <SelectField field="Result" selected="True" />
+                <SelectField field="Season" selected="True" />
+                <SelectField field="Shot Type" selected="True" />
+                <SelectField field="Situation" selected="True" />
+                <SelectField field="A Goals" selected="True" rename="Away Goals" />
+                <SelectField field="F1" selected="False" />
+                <SelectField field="H Goals" selected="True" rename="Home Goals" />
+                <SelectField field="Minute" selected="True" />
+                <SelectField field="X" selected="True" type="Float" size="4" />
+                <SelectField field="Y" selected="True" type="Float" size="4" />
+                <SelectField field="X G" selected="True" rename="xG" />
+                <SelectField field="FileName" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="294" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Date</InputFieldName>
+              <Language>English</Language>
+              <Format>dd/MM/yyyy hh:mm:ss</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date From:
+dd/MM/yyyy hh:mm:ss</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="426" y="137" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="ToNumber([X])*1.25*100000" field="X" size="4" type="Float" />
+                <FormulaField expression="ToNumber([Y])*0.85*100000" field="Y" size="4" type="Float" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[X = ToNumber([X])*1.25*100000
+Y = ToNumber([Y])*0.85*100000
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+            <Position x="678" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields fieldX="X" fieldY="Y" />
+              <Mode>Int</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="762" y="133" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Centroid" action="SpatialObjCombine" rename="SpatialObjCombine_Centroid" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="846" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_34504_3860213166794761954f9ff070e11f8b_\Engine_14728_87cded71051741a5b6f8c4567be2d105_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Map</DefaultTab>
+                  <Hints>
+                    <Map>
+                      <BaseMap>[No Base Map]</BaseMap>
+                    </Map>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="509" y="89" width="138" height="133" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>To Amend</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="17">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="534" y="138" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>=</Operator>
+                    <Field>Player</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2023-06-02 14:56:58</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>Jack Grealish</Operand>
+                      <StartDate>2023-06-02 14:56:58</StartDate>
+                      <EndDate>2023-06-02 14:56:58</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[Player] = "Jack Grealish"</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Matched" />
+      <Destination ToolID="32" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Right" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Join" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="32" Connection="Right" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Universe" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="23" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="False" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Shot_Map_Flow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="cce56fd7-2979-43db-a949-948d2795c70f" />
+      <Telemetry>
+        <PreviousWorkflowId value="57b98f36-8d01-412a-abcb-5f43ffa3e92f" />
+        <OriginWorkflowId value="3394aebf-32cb-481b-a383-d620de1c398a" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
