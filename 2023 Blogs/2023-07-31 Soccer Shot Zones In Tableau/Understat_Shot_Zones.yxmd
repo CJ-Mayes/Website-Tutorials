@@ -1,0 +1,2571 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="354" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[X]*1000" field="X * 1000" size="8" type="Double" />
+            <FormulaField expression="[Y]*1000" field="Y * 1000" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[X * 1000 = [X]*1000
+Y * 1000 = [Y]*1000
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="702" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="tonumber([X])*1.2*100000" field="X *" size="8" type="Double" />
+            <FormulaField expression="tonumber([Y])*0.8*100000" field="Y *" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[X * = tonumber([X])*1.2*100000
+Y * = tonumber([Y])*0.8*100000
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="846" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="X *" fieldY="Y *" />
+          <Mode>Int</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="678" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="X * 1000" fieldY="Y * 1000" />
+          <Mode>Int</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolyBuild.PolyBuild">
+        <Position x="774" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Centroid" />
+          <GroupField field="Pitch Part" />
+          <BuildType>SequencePolygon</BuildType>
+          <SequenceField field="SN" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolyBuild" />
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="858" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_20224_65144437fbe143eb8f41e287fd2af8dd_\Engine_24184_835bc68a757d4a8bab670516113b8604_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="95">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="27" />
+          <Fields>
+            <Field name="X" />
+            <Field name="Y" />
+            <Field name="Gr" />
+            <Field name="SN" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>85</c>
+              <c>1</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>85</c>
+              <c>1</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>0</c>
+              <c>1</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>16.15</c>
+              <c>2</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>16.15</c>
+              <c>2</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>68.85</c>
+              <c>2</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>68.85</c>
+              <c>2</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>16.15</c>
+              <c>2</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>31.45</c>
+              <c>3</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>53.55</c>
+              <c>3</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>7.5</c>
+              <c>53.55</c>
+              <c>3</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>7.5</c>
+              <c>31.45</c>
+              <c>3</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>31.45</c>
+              <c>3</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>62.5</c>
+              <c>0</c>
+              <c>4</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>62.5</c>
+              <c>85</c>
+              <c>4</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>105</c>
+              <c>16.15</c>
+              <c>5</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>16.15</c>
+              <c>5</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>68.85</c>
+              <c>5</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>105</c>
+              <c>68.85</c>
+              <c>5</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>105</c>
+              <c>16.15</c>
+              <c>5</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>117.5</c>
+              <c>31.45</c>
+              <c>6</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>31.45</c>
+              <c>6</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>53.55</c>
+              <c>6</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>117.5</c>
+              <c>53.55</c>
+              <c>6</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>117.5</c>
+              <c>31.45</c>
+              <c>6</c>
+              <c>5</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FootballPitch</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="99">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="534" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="If [H A] = 'h' then ToNumber([X]) else ToNumber([X])*-1+1&#xA;endif" field="X" size="254" type="V_WString" />
+            <FormulaField expression="if [H A] = 'h' then ToNumber([Y]) else   ToNumber([Y])*-1+1&#xA;endif" field="Y" size="254" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>X = If [H A] = 'h' then ToNumber([X]) else ToNumber([X])*-1+1
+endif
+Y = if [H A]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="131">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Goal" selected="False" />
+            <SelectField field="Last Action" selected="False" />
+            <SelectField field="F1" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="136">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialMatch.SpatialMatch">
+        <Position x="1266" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Target SpatialObj="Centroid" />
+          <Universe SpatialObj="SpatialObj_Built" />
+          <Method method="Intersects" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Matched">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+          <IntersectPoly value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Centroid Where Target Intersects Universe SpatialObj_Built</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialMatch" />
+    </Node>
+    <Node ToolID="140">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="30" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="130" />
+          <Fields>
+            <Field name="X" />
+            <Field name="Y" />
+            <Field name="Gr" />
+            <Field name="SN" />
+            <Field name="Pitch Part" />
+            <Field name="Include In Zone" />
+            <Field name="Zone Label" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>99</c>
+              <c>Left Half Pitch</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>80</c>
+              <c>2</c>
+              <c>99</c>
+              <c>Left Half Pitch</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>60</c>
+              <c>80</c>
+              <c>3</c>
+              <c>99</c>
+              <c>Left Half Pitch</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>60</c>
+              <c>0</c>
+              <c>4</c>
+              <c>99</c>
+              <c>Left Half Pitch</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>0</c>
+              <c>5</c>
+              <c>99</c>
+              <c>Left Half Pitch</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>60</c>
+              <c>0</c>
+              <c>1</c>
+              <c>98</c>
+              <c>Right Half Pitch</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>60</c>
+              <c>80</c>
+              <c>2</c>
+              <c>98</c>
+              <c>Right Half Pitch</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>120</c>
+              <c>80</c>
+              <c>3</c>
+              <c>98</c>
+              <c>Right Half Pitch</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>120</c>
+              <c>0</c>
+              <c>4</c>
+              <c>98</c>
+              <c>Right Half Pitch</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>60</c>
+              <c>0</c>
+              <c>5</c>
+              <c>98</c>
+              <c>Right Half Pitch</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>30</c>
+              <c>1</c>
+              <c>97</c>
+              <c>Left 6 Yard Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>50</c>
+              <c>2</c>
+              <c>97</c>
+              <c>Left 6 Yard Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>6</c>
+              <c>50</c>
+              <c>3</c>
+              <c>97</c>
+              <c>Left 6 Yard Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>6</c>
+              <c>30</c>
+              <c>4</c>
+              <c>97</c>
+              <c>Left 6 Yard Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>30</c>
+              <c>5</c>
+              <c>97</c>
+              <c>Left 6 Yard Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>35</c>
+              <c>1</c>
+              <c>96</c>
+              <c>Left Goal</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>45</c>
+              <c>2</c>
+              <c>96</c>
+              <c>Left Goal</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>-2</c>
+              <c>45</c>
+              <c>3</c>
+              <c>96</c>
+              <c>Left Goal</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>-2</c>
+              <c>35</c>
+              <c>4</c>
+              <c>96</c>
+              <c>Left Goal</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>35</c>
+              <c>5</c>
+              <c>96</c>
+              <c>Left Goal</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>120</c>
+              <c>35</c>
+              <c>1</c>
+              <c>95</c>
+              <c>Right Goal</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>120</c>
+              <c>45</c>
+              <c>2</c>
+              <c>95</c>
+              <c>Right Goal</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>122</c>
+              <c>45</c>
+              <c>3</c>
+              <c>95</c>
+              <c>Right Goal</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>122</c>
+              <c>35</c>
+              <c>4</c>
+              <c>95</c>
+              <c>Right Goal</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>120</c>
+              <c>35</c>
+              <c>5</c>
+              <c>95</c>
+              <c>Right Goal</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>120</c>
+              <c>30</c>
+              <c>1</c>
+              <c>94</c>
+              <c>Right 6 Yard Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>120</c>
+              <c>50</c>
+              <c>2</c>
+              <c>94</c>
+              <c>Right 6 Yard Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>114</c>
+              <c>50</c>
+              <c>3</c>
+              <c>94</c>
+              <c>Right 6 Yard Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>114</c>
+              <c>30</c>
+              <c>4</c>
+              <c>94</c>
+              <c>Right 6 Yard Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>120</c>
+              <c>30</c>
+              <c>5</c>
+              <c>94</c>
+              <c>Right 6 Yard Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>18</c>
+              <c>1</c>
+              <c>93</c>
+              <c>Left Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>62</c>
+              <c>2</c>
+              <c>93</c>
+              <c>Left Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>18</c>
+              <c>62</c>
+              <c>3</c>
+              <c>93</c>
+              <c>Left Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>18</c>
+              <c>18</c>
+              <c>4</c>
+              <c>93</c>
+              <c>Left Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>18</c>
+              <c>5</c>
+              <c>93</c>
+              <c>Left Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>120</c>
+              <c>18</c>
+              <c>1</c>
+              <c>92</c>
+              <c>Right Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>120</c>
+              <c>62</c>
+              <c>2</c>
+              <c>92</c>
+              <c>Right Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>102</c>
+              <c>62</c>
+              <c>3</c>
+              <c>92</c>
+              <c>Right Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>102</c>
+              <c>18</c>
+              <c>4</c>
+              <c>92</c>
+              <c>Right Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>120</c>
+              <c>18</c>
+              <c>5</c>
+              <c>92</c>
+              <c>Right Box</c>
+              <c>N</c>
+              <c />
+            </r>
+            <r>
+              <c>0</c>
+              <c>35</c>
+              <c>1</c>
+              <c>91</c>
+              <c>Left Zone 1</c>
+              <c>Y</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>45</c>
+              <c>2</c>
+              <c>91</c>
+              <c>Left Zone 1</c>
+              <c>Y</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>45</c>
+              <c>3</c>
+              <c>91</c>
+              <c>Left Zone 1</c>
+              <c>Y</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>35</c>
+              <c>4</c>
+              <c>91</c>
+              <c>Left Zone 1</c>
+              <c>Y</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>35</c>
+              <c>5</c>
+              <c>91</c>
+              <c>Left Zone 1</c>
+              <c>Y</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>35</c>
+              <c>1</c>
+              <c>90</c>
+              <c>Right Zone 1</c>
+              <c>Y</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>45</c>
+              <c>2</c>
+              <c>90</c>
+              <c>Right Zone 1</c>
+              <c>Y</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>45</c>
+              <c>3</c>
+              <c>90</c>
+              <c>Right Zone 1</c>
+              <c>Y</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>35</c>
+              <c>4</c>
+              <c>90</c>
+              <c>Right Zone 1</c>
+              <c>Y</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>35</c>
+              <c>5</c>
+              <c>90</c>
+              <c>Right Zone 1</c>
+              <c>Y</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>45</c>
+              <c>1</c>
+              <c>91</c>
+              <c>Left Zone 2A</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>50</c>
+              <c>2</c>
+              <c>91</c>
+              <c>Left Zone 2A</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>50</c>
+              <c>3</c>
+              <c>91</c>
+              <c>Left Zone 2A</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>45</c>
+              <c>4</c>
+              <c>91</c>
+              <c>Left Zone 2A</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>45</c>
+              <c>5</c>
+              <c>91</c>
+              <c>Left Zone 2A</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>45</c>
+              <c>1</c>
+              <c>91</c>
+              <c>Right Zone 2A</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>50</c>
+              <c>2</c>
+              <c>91</c>
+              <c>Right Zone 2A</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>50</c>
+              <c>3</c>
+              <c>91</c>
+              <c>Right Zone 2A</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>45</c>
+              <c>4</c>
+              <c>91</c>
+              <c>Right Zone 2A</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>45</c>
+              <c>5</c>
+              <c>91</c>
+              <c>Right Zone 2A</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>30</c>
+              <c>1</c>
+              <c>91</c>
+              <c>Left Zone 2B</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>35</c>
+              <c>2</c>
+              <c>91</c>
+              <c>Left Zone 2B</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>35</c>
+              <c>3</c>
+              <c>91</c>
+              <c>Left Zone 2B</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>30</c>
+              <c>4</c>
+              <c>91</c>
+              <c>Left Zone 2B</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>30</c>
+              <c>5</c>
+              <c>91</c>
+              <c>Left Zone 2B</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>30</c>
+              <c>1</c>
+              <c>91</c>
+              <c>Right Zone 2B</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>35</c>
+              <c>2</c>
+              <c>91</c>
+              <c>Right Zone 2B</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>35</c>
+              <c>3</c>
+              <c>91</c>
+              <c>Right Zone 2B</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>30</c>
+              <c>4</c>
+              <c>91</c>
+              <c>Right Zone 2B</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>30</c>
+              <c>5</c>
+              <c>91</c>
+              <c>Right Zone 2B</c>
+              <c>Y</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>30</c>
+              <c>1</c>
+              <c>90</c>
+              <c>Left Zone 3</c>
+              <c>Y</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>50</c>
+              <c>2</c>
+              <c>90</c>
+              <c>Left Zone 3</c>
+              <c>Y</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>50</c>
+              <c>3</c>
+              <c>90</c>
+              <c>Left Zone 3</c>
+              <c>Y</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>30</c>
+              <c>4</c>
+              <c>90</c>
+              <c>Left Zone 3</c>
+              <c>Y</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>30</c>
+              <c>5</c>
+              <c>90</c>
+              <c>Left Zone 3</c>
+              <c>Y</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>30</c>
+              <c>1</c>
+              <c>89</c>
+              <c>Right Zone 3</c>
+              <c>Y</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>50</c>
+              <c>2</c>
+              <c>89</c>
+              <c>Right Zone 3</c>
+              <c>Y</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>50</c>
+              <c>3</c>
+              <c>89</c>
+              <c>Right Zone 3</c>
+              <c>Y</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>30</c>
+              <c>4</c>
+              <c>89</c>
+              <c>Right Zone 3</c>
+              <c>Y</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>30</c>
+              <c>5</c>
+              <c>89</c>
+              <c>Right Zone 3</c>
+              <c>Y</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>50</c>
+              <c>1</c>
+              <c>88</c>
+              <c>Left Zone 4A</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>62</c>
+              <c>2</c>
+              <c>88</c>
+              <c>Left Zone 4A</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>62</c>
+              <c>3</c>
+              <c>88</c>
+              <c>Left Zone 4A</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>50</c>
+              <c>4</c>
+              <c>88</c>
+              <c>Left Zone 4A</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>50</c>
+              <c>5</c>
+              <c>88</c>
+              <c>Left Zone 4A</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>18</c>
+              <c>1</c>
+              <c>87</c>
+              <c>Left Zone 4B</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>30</c>
+              <c>2</c>
+              <c>87</c>
+              <c>Left Zone 4B</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>30</c>
+              <c>3</c>
+              <c>87</c>
+              <c>Left Zone 4B</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>18</c>
+              <c>4</c>
+              <c>87</c>
+              <c>Left Zone 4B</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>18</c>
+              <c>5</c>
+              <c>87</c>
+              <c>Left Zone 4B</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>50</c>
+              <c>1</c>
+              <c>86</c>
+              <c>Right Zone 4A</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>62</c>
+              <c>2</c>
+              <c>86</c>
+              <c>Right Zone 4A</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>62</c>
+              <c>3</c>
+              <c>86</c>
+              <c>Right Zone 4A</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>50</c>
+              <c>4</c>
+              <c>86</c>
+              <c>Right Zone 4A</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>50</c>
+              <c>5</c>
+              <c>86</c>
+              <c>Right Zone 4A</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>18</c>
+              <c>1</c>
+              <c>85</c>
+              <c>Right Zone 4B</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>30</c>
+              <c>2</c>
+              <c>85</c>
+              <c>Right Zone 4B</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>30</c>
+              <c>3</c>
+              <c>85</c>
+              <c>Right Zone 4B</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>18</c>
+              <c>4</c>
+              <c>85</c>
+              <c>Right Zone 4B</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>18</c>
+              <c>5</c>
+              <c>85</c>
+              <c>Right Zone 4B</c>
+              <c>Y</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>62</c>
+              <c>1</c>
+              <c>84</c>
+              <c>Left Zone 5A</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>80</c>
+              <c>2</c>
+              <c>84</c>
+              <c>Left Zone 5A</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>80</c>
+              <c>3</c>
+              <c>84</c>
+              <c>Left Zone 5A</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>62</c>
+              <c>4</c>
+              <c>84</c>
+              <c>Left Zone 5A</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>62</c>
+              <c>5</c>
+              <c>84</c>
+              <c>Left Zone 5A</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>83</c>
+              <c>Left Zone 5B</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>18</c>
+              <c>2</c>
+              <c>83</c>
+              <c>Left Zone 5B</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>18</c>
+              <c>3</c>
+              <c>83</c>
+              <c>Left Zone 5B</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>0</c>
+              <c>4</c>
+              <c>83</c>
+              <c>Left Zone 5B</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>0</c>
+              <c>5</c>
+              <c>83</c>
+              <c>Left Zone 5B</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>62</c>
+              <c>1</c>
+              <c>82</c>
+              <c>Right Zone 5A</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>80</c>
+              <c>2</c>
+              <c>82</c>
+              <c>Right Zone 5A</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>80</c>
+              <c>3</c>
+              <c>82</c>
+              <c>Right Zone 5A</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>62</c>
+              <c>4</c>
+              <c>82</c>
+              <c>Right Zone 5A</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>62</c>
+              <c>5</c>
+              <c>82</c>
+              <c>Right Zone 5A</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>0</c>
+              <c>1</c>
+              <c>81</c>
+              <c>Right Zone 5B</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>18</c>
+              <c>2</c>
+              <c>81</c>
+              <c>Right Zone 5B</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>18</c>
+              <c>3</c>
+              <c>81</c>
+              <c>Right Zone 5B</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>0</c>
+              <c>4</c>
+              <c>81</c>
+              <c>Right Zone 5B</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>0</c>
+              <c>5</c>
+              <c>81</c>
+              <c>Right Zone 5B</c>
+              <c>Y</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>18</c>
+              <c>1</c>
+              <c>80</c>
+              <c>Left Zone 6</c>
+              <c>Y</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>62</c>
+              <c>2</c>
+              <c>80</c>
+              <c>Left Zone 6</c>
+              <c>Y</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>62</c>
+              <c>3</c>
+              <c>80</c>
+              <c>Left Zone 6</c>
+              <c>Y</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>18</c>
+              <c>4</c>
+              <c>80</c>
+              <c>Left Zone 6</c>
+              <c>Y</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>18</c>
+              <c>5</c>
+              <c>80</c>
+              <c>Left Zone 6</c>
+              <c>Y</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>18</c>
+              <c>1</c>
+              <c>79</c>
+              <c>Right Zone 6</c>
+              <c>Y</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>62</c>
+              <c>2</c>
+              <c>79</c>
+              <c>Right Zone 6</c>
+              <c>Y</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>62</c>
+              <c>3</c>
+              <c>79</c>
+              <c>Right Zone 6</c>
+              <c>Y</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>18</c>
+              <c>4</c>
+              <c>79</c>
+              <c>Right Zone 6</c>
+              <c>Y</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>18</c>
+              <c>5</c>
+              <c>79</c>
+              <c>Right Zone 6</c>
+              <c>Y</c>
+              <c>6</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="142">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.ReportMap.ReportMap">
+        <Position x="858" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TemporaryFileLocationXML>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_20224_65144437fbe143eb8f41e287fd2af8dd_\Engine_24184_b3db9410f9e447f7b618e9e53857c16a_.xml</TemporaryFileLocationXML>
+          <IsMetric value="False" />
+          <ImageWidth>8</ImageWidth>
+          <ImageHeight>6</ImageHeight>
+          <ImageResolution>1</ImageResolution>
+          <ReferenceMap />
+          <BackgroundColor>#fdfeff</BackgroundColor>
+          <DropShadow>False</DropShadow>
+          <ScaleUnits>Miles</ScaleUnits>
+          <ExpandExtent>10</ExpandExtent>
+          <MinimumWidth>0.5</MinimumWidth>
+          <DataConnections>
+            <DataConnection name="#1">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#1</Connection>
+              <FileName />
+              <SpatialObj />
+              <GroupField />
+              <ThemeField />
+              <LabelField>Pitch Part</LabelField>
+            </DataConnection>
+          </DataConnections>
+          <Layers>
+            <Layer name="Base Layers - Points" order="0">
+              <DisplayName>Base Layers - Points</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="Base Layers - Lines" order="1">
+              <DisplayName>Base Layers - Lines</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="1" order="2">
+              <LayerType>Polygons</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <baseLabelOverriden value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>#1</DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PolygonStyle FillColor="#988576" HatchColor="#000000" HatchStyle="single" Hatched="false" Opacity="90" OutlineColor="#000000" OutlineSize="3" UseFillColor="false" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="Base Layers - Polygons" order="3">
+              <DisplayName>Base Layers - Polygons</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+          </Layers>
+          <Legend>
+            <LegendStyle Position="Right" UseCommaSeparators="false" />
+          </Legend>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxReportMap" />
+    </Node>
+    <Node ToolID="143">
+      <GuiSettings>
+        <Position x="534" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"X","Y","Gr","SN","Pitch Part","Include In Zone","X * 1000","Y * 1000"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="145">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="354" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[X]*1000" field="X * 1000" size="8" type="Double" />
+            <FormulaField expression="[Y]*1000" field="Y * 1000" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[X * 1000 = [X]*1000
+Y * 1000 = [Y]*1000
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="146">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="678" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="X * 1000" fieldY="Y * 1000" />
+          <Mode>Int</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="147">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolyBuild.PolyBuild">
+        <Position x="774" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Centroid" />
+          <GroupField field="Pitch Part" />
+          <BuildType>SequencePolygon</BuildType>
+          <SequenceField field="SN" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolyBuild" />
+    </Node>
+    <Node ToolID="148">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.ReportMap.ReportMap">
+        <Position x="870" y="834" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TemporaryFileLocationXML>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_20224_65144437fbe143eb8f41e287fd2af8dd_\Engine_24184_5f45ca1c870a46cf9abcc6a07b7253cc_.xml</TemporaryFileLocationXML>
+          <IsMetric value="False" />
+          <ImageWidth>8</ImageWidth>
+          <ImageHeight>6</ImageHeight>
+          <ImageResolution>1</ImageResolution>
+          <ReferenceMap />
+          <BackgroundColor>#fdfeff</BackgroundColor>
+          <DropShadow>False</DropShadow>
+          <ScaleUnits>Miles</ScaleUnits>
+          <ExpandExtent>10</ExpandExtent>
+          <MinimumWidth>0.5</MinimumWidth>
+          <DataConnections>
+            <DataConnection name="#1">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#1</Connection>
+            </DataConnection>
+          </DataConnections>
+          <Layers>
+            <Layer name="Base Layers - Points" order="0">
+              <DisplayName>Base Layers - Points</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="Base Layers - Lines" order="1">
+              <DisplayName>Base Layers - Lines</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="1" order="2">
+              <LayerType>Polygons</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <baseLabelOverriden value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>#1</DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="False" />
+              <ZoomToLayer value="False" />
+              <Disable value="False" />
+              <PolygonStyle FillColor="#988576" HatchColor="#000000" HatchStyle="single" Hatched="false" Opacity="90" OutlineColor="#000000" OutlineSize="3" UseFillColor="false" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="Base Layers - Polygons" order="3">
+              <DisplayName>Base Layers - Polygons</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+          </Layers>
+          <Legend>
+            <LegendStyle Position="Right" UseCommaSeparators="false" />
+          </Legend>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxReportMap" />
+    </Node>
+    <Node ToolID="149">
+      <GuiSettings>
+        <Position x="534" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"X","Y","Gr","SN","Pitch Part","Include In Zone","X * 1000","Y * 1000"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="150">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="174" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Include In Zone</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-06-16 13:01:55</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Y</Operand>
+              <StartDate>2023-06-16 13:01:55</StartDate>
+              <EndDate>2023-06-16 13:01:55</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Include In Zone] = "Y"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="151">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>player_shot_data_EPL.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="A Team" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Date" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Goal" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="H A" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="H Team" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Last Action" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Match Id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Player" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Player Assisted" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Player Id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Result" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Season" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Shot Type" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Situation" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="A Goals" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="F1" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="H Goals" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Minute" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="X" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="X G" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+            <Field name="Y" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\player_shot_data_EPL.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="155">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.ReportMap.ReportMap">
+        <Position x="1074" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TemporaryFileLocationXML>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_20224_65144437fbe143eb8f41e287fd2af8dd_\Engine_24184_cc1fd86da8c243caba1a3fb4ed09773c_.xml</TemporaryFileLocationXML>
+          <IsMetric value="False" />
+          <ImageWidth>8</ImageWidth>
+          <ImageHeight>6</ImageHeight>
+          <ImageResolution>1</ImageResolution>
+          <ReferenceMap />
+          <BackgroundColor>#fdfeff</BackgroundColor>
+          <DropShadow>False</DropShadow>
+          <ScaleUnits>Miles</ScaleUnits>
+          <ExpandExtent>10</ExpandExtent>
+          <MinimumWidth>0.5</MinimumWidth>
+          <DataConnections>
+            <DataConnection name="#1">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#1</Connection>
+            </DataConnection>
+            <DataConnection name="#2">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#2</Connection>
+              <FileName />
+              <SpatialObj />
+              <GroupField />
+              <ThemeField>Pitch Part</ThemeField>
+              <LabelField />
+            </DataConnection>
+          </DataConnections>
+          <Layers>
+            <Layer name="Base Layers - Points" order="0">
+              <DisplayName>Base Layers - Points</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="Base Layers - Lines" order="1">
+              <DisplayName>Base Layers - Lines</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="1" order="2">
+              <LayerType>Polygons</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <baseLabelOverriden value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>#2</DisplayName>
+              <DataConnection>#2</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PolygonStyle FillColor="#988576" HatchColor="#000000" HatchStyle="single" Hatched="false" Opacity="90" OutlineColor="#000000" OutlineSize="3" UseFillColor="false" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="Base Layers - Polygons" order="3">
+              <DisplayName>Base Layers - Polygons</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="2" order="1001">
+              <DisplayName>High</DisplayName>
+              <DataConnection />
+              <LayerType>Polygons</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>1</ThemeBandNumber>
+            </Layer>
+            <Layer name="3" order="1002">
+              <DisplayName>Above Average</DisplayName>
+              <DataConnection />
+              <LayerType>Polygons</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>2</ThemeBandNumber>
+            </Layer>
+            <Layer name="4" order="1003">
+              <DisplayName>Average</DisplayName>
+              <DataConnection />
+              <LayerType>Polygons</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>3</ThemeBandNumber>
+            </Layer>
+            <Layer name="5" order="1004">
+              <DisplayName>Below Average</DisplayName>
+              <DataConnection />
+              <LayerType>Polygons</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>4</ThemeBandNumber>
+            </Layer>
+            <Layer name="6" order="1005">
+              <DisplayName>Low</DisplayName>
+              <DataConnection />
+              <LayerType>Polygons</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>5</ThemeBandNumber>
+            </Layer>
+          </Layers>
+          <Legend>
+            <LegendStyle Position="Right" UseCommaSeparators="false" />
+          </Legend>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxReportMap" />
+    </Node>
+    <Node ToolID="157">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1446" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="H A" action="GroupBy" rename="H A" />
+            <SummarizeField field="Pitch Part" action="GroupBy" rename="Pitch Part" />
+            <SummarizeField field="Id" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="158">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1554" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Pitch Part" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Pitch Part" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Pitch Part" selected="True" rename="Right_Pitch Part" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="159">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1674" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="160">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1866" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="X" selected="True" rename="Pitch X" />
+            <SelectField field="Y" selected="True" rename="Pitch Y" />
+            <SelectField field="Gr" selected="True" rename="Pitch Gr" />
+            <SelectField field="SN" selected="True" rename="Pitch SN" />
+            <SelectField field="Include In Zone" selected="True" rename="Pitch Zone" />
+            <SelectField field="H A" selected="True" rename="Pitch H A" />
+            <SelectField field="Count" selected="True" rename="Pitch Count" />
+            <SelectField field="Right_Pitch Part" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="161">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1770" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="// Scale back down&#xA;[X *]/1000" field="X *" size="8" type="Double" />
+            <FormulaField expression="// Scale back down&#xA;[Y *]/1000" field="Y *" size="8" type="Double" />
+            <FormulaField expression="'Raw'" field="Dataset" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>X * = // Scale back down
+[X *]/1000
+Y * = // Scale back down
+[Y *]/1000
+Dataset ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="162">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1650" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Centroid" selected="False" />
+            <SelectField field="Pitch Part" selected="False" />
+            <SelectField field="SpatialObj_Built" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="163">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1962" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="164">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2058" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_20224_65144437fbe143eb8f41e287fd2af8dd_\Engine_24184_841e636436444d9abee5439f6466f60a_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="165">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2058" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\ShotZones-18520.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ShotZones-18520.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="166">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1770" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'Pitch'" field="Dataset" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Dataset = 'Pitch'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="167">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="161" y="77" width="138" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>To Amend</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="156">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="186" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Match Id</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-06-16 13:15:41</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>18520</Operand>
+                  <StartDate>2023-06-16 13:15:41</StartDate>
+                  <EndDate>2023-06-16 13:15:41</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Match Id] = "18520"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="68" y="1688" width="656" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#ffffff" Transparency="1" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="78" y="1722" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="143" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="136" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="136" Connection="Universe" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="155" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="147" Connection="Output" />
+      <Destination ToolID="155" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="142" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="99" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="131" Connection="Output" />
+      <Destination ToolID="99" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="136" Connection="Matched" />
+      <Destination ToolID="157" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="136" Connection="Matched" />
+      <Destination ToolID="162" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="140" Connection="Output" />
+      <Destination ToolID="150" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="140" Connection="Output" />
+      <Destination ToolID="158" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="157" Connection="Output" />
+      <Destination ToolID="158" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="143" Connection="Output26" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="145" Connection="Output" />
+      <Destination ToolID="149" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="146" Connection="Output" />
+      <Destination ToolID="147" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="147" Connection="Output" />
+      <Destination ToolID="148" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="149" Connection="Output26" />
+      <Destination ToolID="146" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="150" Connection="True" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="150" Connection="False" />
+      <Destination ToolID="145" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="151" Connection="Output" />
+      <Destination ToolID="156" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="158" Connection="Right" />
+      <Destination ToolID="159" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="158" Connection="Join" />
+      <Destination ToolID="159" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="159" Connection="Output" />
+      <Destination ToolID="166" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="160" Connection="Output" />
+      <Destination ToolID="163" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="161" Connection="Output" />
+      <Destination ToolID="163" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="162" Connection="Output" />
+      <Destination ToolID="161" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="163" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="163" Connection="Output" />
+      <Destination ToolID="165" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="166" Connection="Output" />
+      <Destination ToolID="160" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="156" Connection="True" />
+      <Destination ToolID="131" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Understat_Shot_Zones</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="147c3449-5e7e-4b7f-af93-24bd95682b01" />
+      <Telemetry>
+        <PreviousWorkflowId value="fbc10cae-0ced-4504-86a6-254fa026e295" />
+        <OriginWorkflowId value="e4c6d0f0-4c60-4107-a7c6-92a2f6ba82f4" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

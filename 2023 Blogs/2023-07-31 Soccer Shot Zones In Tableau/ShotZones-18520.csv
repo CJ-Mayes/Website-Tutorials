@@ -1,0 +1,162 @@
+A Team,Date,H A,H Team,Id,Match Id,Player,Player Assisted,Player Id,Result,Season,Shot Type,Situation,A Goals,H Goals,Minute,X,X G,Y,X *,Y *,Dataset,Pitch X,Pitch Y,Pitch Gr,Pitch SN,Pitch Part,Pitch Zone,Zone Label,Pitch H A,Pitch Count
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528743,18520,Marcus Rashford,,556,Goal,2022,LeftFoot,OpenPlay,1,4,77,0.974000015,0.931012392,0.515999985,116.8800018,41.2799988,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528742,18520,Marcus Rashford,Bruno Fernandes,556,SavedShot,2022,RightFoot,OpenPlay,1,4,77,0.910999985,0.541046381,0.474000015,109.3199982,37.9200012,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528741,18520,Marcus Rashford,Fred,556,MissedShots,2022,RightFoot,OpenPlay,1,4,77,0.813000031,0.033359934,0.706999969,97.56000372,56.55999752,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528748,18520,Marcus Rashford,Scott McTominay,556,SavedShot,2022,LeftFoot,OpenPlay,1,4,91,0.863000031,0.099240698,0.392000008,103.56000372,31.36000064,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528750,18520,Marcus Rashford,Fred,556,BlockedShot,2022,RightFoot,OpenPlay,1,4,92,0.755,0.025117671,0.33,90.6,26.4,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528724,18520,Kai Havertz,Lewis Hall,5220,MissedShots,2022,Head,OpenPlay,1,4,31,0.070999985,0.392677605,0.464000015,8.5199982,37.1200012,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528738,18520,Kai Havertz,César Azpilicueta,5220,SavedShot,2022,Head,OpenPlay,1,4,61,0.095,0.054534927,0.462000008,11.4,36.96000064,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528736,18520,Lewis Hall,Enzo Fernández,10216,SavedShot,2022,LeftFoot,FromCorner,1,4,58,0.103000031,0.049473897,0.68,12.36000372,54.4,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528726,18520,Kai Havertz,Wesley Fofana,5220,BlockedShot,2022,LeftFoot,OpenPlay,1,4,38,0.216999969,0.023500122,0.677000008,26.03999628,54.16000064,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528727,18520,Lewis Hall,Mykhailo Mudryk,10216,BlockedShot,2022,LeftFoot,OpenPlay,1,4,41,0.100999985,0.057630617,0.375999985,12.1199982,30.0799988,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528745,18520,Hakim Ziyech,David Datro Fofana,8992,BlockedShot,2022,LeftFoot,OpenPlay,1,4,84,0.275,0.007863528,0.721000004,33,57.68000032,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528737,18520,Mykhailo Mudryk,,11305,SavedShot,2022,RightFoot,FromCorner,1,4,58,0.215999985,0.035748418,0.487000008,25.9199982,38.96000064,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528746,18520,João Félix,Hakim Ziyech,7892,Goal,2022,RightFoot,OpenPlay,1,4,88,0.184000015,0.088733464,0.54,22.0800018,43.2,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528720,18520,Carney Chukwuemeka,Noni Madueke,9356,MissedShots,2022,RightFoot,OpenPlay,1,4,2,0.163000031,0.027283156,0.711000004,19.56000372,56.88000032,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528721,18520,Mykhailo Mudryk,Lewis Hall,11305,MissedShots,2022,RightFoot,OpenPlay,1,4,3,0.088000031,0.478672236,0.47,10.56000372,37.6,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528728,18520,Conor Gallagher,César Azpilicueta,9040,MissedShots,2022,RightFoot,OpenPlay,1,4,43,0.241999969,0.025021518,0.445,29.03999628,35.6,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528729,18520,Conor Gallagher,Enzo Fernández,9040,MissedShots,2022,RightFoot,OpenPlay,1,4,45,7.69999689999999e-02,0.419730842,0.587999992,9.23999627999999,47.03999936,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,a,Manchester United,528732,18520,Mykhailo Mudryk,Lewis Hall,11305,SavedShot,2022,RightFoot,OpenPlay,1,4,49,0.228000031,0.024533909,0.565,27.36000372,45.2,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528722,18520,Casemiro,Christian Eriksen,2248,Goal,2022,Head,SetPiece,1,4,5,0.913000031,0.110130593,0.514000015,109.56000372,41.1200012,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528740,18520,Fred,Alejandro Garnacho,6817,BlockedShot,2022,LeftFoot,OpenPlay,1,4,75,0.795,0.038082685,0.6,95.4,48,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528730,18520,Anthony Martial,Jadon Sancho,553,Goal,2022,LeftFoot,OpenPlay,1,4,50,0.956999969,0.617141128,0.559000015,114.83999628,44.7200012,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528723,18520,Antony,Anthony Martial,11094,MissedShots,2022,LeftFoot,OpenPlay,1,4,12,0.765,0.025093373,0.312999992,91.8,25.03999936,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528734,18520,Christian Eriksen,,646,SavedShot,2022,LeftFoot,OpenPlay,1,4,51,0.97,0.800188959,0.485,116.4,38.8,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528747,18520,Alejandro Garnacho,Jadon Sancho,10552,SavedShot,2022,LeftFoot,OpenPlay,1,4,89,0.925999985,0.372073621,0.604000015,111.1199982,48.3200012,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528725,18520,Jadon Sancho,Marcus Rashford,6345,BlockedShot,2022,RightFoot,OpenPlay,1,4,34,0.871999969,0.142737061,0.537999992,104.63999628,43.03999936,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528733,18520,Aaron Wan-Bissaka,Tyrell Malacia,5584,BlockedShot,2022,RightFoot,OpenPlay,1,4,51,0.915999985,0.124078430,0.590999985,109.9199982,47.2799988,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528744,18520,Alejandro Garnacho,Marcus Rashford,10552,BlockedShot,2022,RightFoot,OpenPlay,1,4,83,0.854000015,0.120901421,0.542999992,102.4800018,43.43999936,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528735,18520,Casemiro,Jadon Sancho,2248,MissedShots,2022,RightFoot,OpenPlay,1,4,51,0.771999969,0.019388637,0.459000015,92.63999628,36.7200012,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528749,18520,Scott McTominay,Jadon Sancho,5560,SavedShot,2022,RightFoot,OpenPlay,1,4,92,0.918000031,0.557787061,0.457000008,110.16000372,36.56000064,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528731,18520,Bruno Fernandes,Jadon Sancho,1228,ShotOnPost,2022,RightFoot,OpenPlay,1,4,46,0.861999969,0.123000711,0.442000008,103.43999628,35.36000064,Raw,,,,,,,,,
+Chelsea,25/05/2023 19:00:00,h,Manchester United,528739,18520,Bruno Fernandes,,1228,Goal,2022,RightFoot,Penalty,1,4,72,0.885,0.761168838,0.5,106.2,40,Raw,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,30,1,97,Left 6 Yard Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,50,2,97,Left 6 Yard Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,50,3,97,Left 6 Yard Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,30,4,97,Left 6 Yard Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,30,5,97,Left 6 Yard Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,18,1,93,Left Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,62,2,93,Left Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,18,62,3,93,Left Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,18,18,4,93,Left Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,18,5,93,Left Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,35,1,96,Left Goal,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,45,2,96,Left Goal,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,-2,45,3,96,Left Goal,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,-2,35,4,96,Left Goal,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,35,5,96,Left Goal,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,0,1,99,Left Half Pitch,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,80,2,99,Left Half Pitch,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,80,3,99,Left Half Pitch,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,0,4,99,Left Half Pitch,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,0,5,99,Left Half Pitch,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,35,1,91,Left Zone 1,Y,1,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,45,2,91,Left Zone 1,Y,1,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,45,3,91,Left Zone 1,Y,1,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,35,4,91,Left Zone 1,Y,1,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,35,5,91,Left Zone 1,Y,1,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,45,1,91,Left Zone 2A,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,50,2,91,Left Zone 2A,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,50,3,91,Left Zone 2A,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,45,4,91,Left Zone 2A,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,45,5,91,Left Zone 2A,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,30,1,91,Left Zone 2B,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,35,2,91,Left Zone 2B,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,35,3,91,Left Zone 2B,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,30,4,91,Left Zone 2B,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,30,5,91,Left Zone 2B,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,30,1,90,Left Zone 3,Y,3,a,5
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,50,2,90,Left Zone 3,Y,3,a,5
+,,,,,,,,,,,,,,,,,,,,,Pitch,18,50,3,90,Left Zone 3,Y,3,a,5
+,,,,,,,,,,,,,,,,,,,,,Pitch,18,30,4,90,Left Zone 3,Y,3,a,5
+,,,,,,,,,,,,,,,,,,,,,Pitch,6,30,5,90,Left Zone 3,Y,3,a,5
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,50,1,88,Left Zone 4A,Y,4,a,1
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,62,2,88,Left Zone 4A,Y,4,a,1
+,,,,,,,,,,,,,,,,,,,,,Pitch,18,62,3,88,Left Zone 4A,Y,4,a,1
+,,,,,,,,,,,,,,,,,,,,,Pitch,18,50,4,88,Left Zone 4A,Y,4,a,1
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,50,5,88,Left Zone 4A,Y,4,a,1
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,18,1,87,Left Zone 4B,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,30,2,87,Left Zone 4B,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,18,30,3,87,Left Zone 4B,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,18,18,4,87,Left Zone 4B,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,18,5,87,Left Zone 4B,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,62,1,84,Left Zone 5A,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,80,2,84,Left Zone 5A,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,80,3,84,Left Zone 5A,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,62,4,84,Left Zone 5A,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,62,5,84,Left Zone 5A,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,0,1,83,Left Zone 5B,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,18,2,83,Left Zone 5B,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,18,3,83,Left Zone 5B,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,0,4,83,Left Zone 5B,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,0,0,5,83,Left Zone 5B,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,18,18,1,80,Left Zone 6,Y,6,a,7
+,,,,,,,,,,,,,,,,,,,,,Pitch,18,62,2,80,Left Zone 6,Y,6,a,7
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,62,3,80,Left Zone 6,Y,6,a,7
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,18,4,80,Left Zone 6,Y,6,a,7
+,,,,,,,,,,,,,,,,,,,,,Pitch,18,18,5,80,Left Zone 6,Y,6,a,7
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,30,1,94,Right 6 Yard Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,50,2,94,Right 6 Yard Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,50,3,94,Right 6 Yard Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,30,4,94,Right 6 Yard Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,30,5,94,Right 6 Yard Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,18,1,92,Right Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,62,2,92,Right Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,102,62,3,92,Right Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,102,18,4,92,Right Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,18,5,92,Right Box,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,35,1,95,Right Goal,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,45,2,95,Right Goal,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,122,45,3,95,Right Goal,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,122,35,4,95,Right Goal,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,35,5,95,Right Goal,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,0,1,98,Right Half Pitch,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,80,2,98,Right Half Pitch,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,80,3,98,Right Half Pitch,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,0,4,98,Right Half Pitch,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,0,5,98,Right Half Pitch,N,,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,35,1,90,Right Zone 1,Y,1,h,3
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,45,2,90,Right Zone 1,Y,1,h,3
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,45,3,90,Right Zone 1,Y,1,h,3
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,35,4,90,Right Zone 1,Y,1,h,3
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,35,5,90,Right Zone 1,Y,1,h,3
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,45,1,91,Right Zone 2A,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,50,2,91,Right Zone 2A,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,50,3,91,Right Zone 2A,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,45,4,91,Right Zone 2A,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,45,5,91,Right Zone 2A,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,30,1,91,Right Zone 2B,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,35,2,91,Right Zone 2B,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,35,3,91,Right Zone 2B,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,30,4,91,Right Zone 2B,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,30,5,91,Right Zone 2B,Y,2,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,30,1,89,Right Zone 3,Y,3,h,10
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,50,2,89,Right Zone 3,Y,3,h,10
+,,,,,,,,,,,,,,,,,,,,,Pitch,102,50,3,89,Right Zone 3,Y,3,h,10
+,,,,,,,,,,,,,,,,,,,,,Pitch,102,30,4,89,Right Zone 3,Y,3,h,10
+,,,,,,,,,,,,,,,,,,,,,Pitch,114,30,5,89,Right Zone 3,Y,3,h,10
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,50,1,86,Right Zone 4A,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,62,2,86,Right Zone 4A,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,102,62,3,86,Right Zone 4A,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,102,50,4,86,Right Zone 4A,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,50,5,86,Right Zone 4A,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,18,1,85,Right Zone 4B,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,30,2,85,Right Zone 4B,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,102,30,3,85,Right Zone 4B,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,102,18,4,85,Right Zone 4B,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,18,5,85,Right Zone 4B,Y,4,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,62,1,82,Right Zone 5A,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,80,2,82,Right Zone 5A,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,80,3,82,Right Zone 5A,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,62,4,82,Right Zone 5A,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,62,5,82,Right Zone 5A,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,0,1,81,Right Zone 5B,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,18,2,81,Right Zone 5B,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,18,3,81,Right Zone 5B,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,0,4,81,Right Zone 5B,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,120,0,5,81,Right Zone 5B,Y,5,,
+,,,,,,,,,,,,,,,,,,,,,Pitch,102,18,1,79,Right Zone 6,Y,6,h,5
+,,,,,,,,,,,,,,,,,,,,,Pitch,102,62,2,79,Right Zone 6,Y,6,h,5
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,62,3,79,Right Zone 6,Y,6,h,5
+,,,,,,,,,,,,,,,,,,,,,Pitch,60,18,4,79,Right Zone 6,Y,6,h,5
+,,,,,,,,,,,,,,,,,,,,,Pitch,102,18,5,79,Right Zone 6,Y,6,h,5
