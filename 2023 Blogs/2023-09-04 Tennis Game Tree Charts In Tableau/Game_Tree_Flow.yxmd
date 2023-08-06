@@ -1,0 +1,1160 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="222" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>False</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2023-wimbledon-points.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="match_id" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="ElapsedTime" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="SetNo" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1GamesWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2GamesWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="SetWinner" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="GameNo" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="GameWinner" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="PointNumber" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="PointWinner" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="PointServer" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="Speed_KMH" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="Rally" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1Score" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2Score" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1Momentum" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2Momentum" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1PointsWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2PointsWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1Ace" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2Ace" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1Winner" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2Winner" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1DoubleFault" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2DoubleFault" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1UnfErr" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2UnfErr" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1NetPoint" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2NetPoint" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1NetPointWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2NetPointWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1BreakPoint" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2BreakPoint" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1BreakPointWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2BreakPointWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1FirstSrvIn" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2FirstSrvIn" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1FirstSrvWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2FirstSrvWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1SecondSrvIn" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2SecondSrvIn" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1SecondSrvWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2SecondSrvWon" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1ForcedError" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2ForcedError" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="History" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="Speed_MPH" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1BreakPointMissed" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2BreakPointMissed" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="ServeIndicator" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="Serve_Direction" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="Winner_FH" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="Winner_BH" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="ServingTo" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1TurningPoint" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2TurningPoint" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="ServeNumber" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="WinnerType" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="WinnerShotType" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P1DistanceRun" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="P2DistanceRun" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="RallyCount" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="ServeWidth" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="ServeDepth" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+            <Field name="ReturnDepth" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-points.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="210" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2023-wimbledon-matches.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="match_id" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="slam" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="match_num" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="player1" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="player2" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="status" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="winner" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="event_name" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="round" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="court_name" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="court_id" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="player1id" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="player2id" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="nation1" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+            <Field name="nation2" size="254" source="File: C:\Users\Cj.Mayes\Downloads\2023-wimbledon-matches.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="match_num" selected="True" type="Int16" size="2" />
+            <SelectField field="status" selected="False" />
+            <SelectField field="winner" selected="False" />
+            <SelectField field="event_name" selected="False" />
+            <SelectField field="round" selected="False" />
+            <SelectField field="court_name" selected="False" />
+            <SelectField field="court_id" selected="False" />
+            <SelectField field="player1id" selected="False" />
+            <SelectField field="player2id" selected="False" />
+            <SelectField field="nation1" selected="False" />
+            <SelectField field="nation2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1002" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Max_match_num" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="match_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="498" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="match_id" selected="True" type="Int16" size="2" />
+            <SelectField field="SetNo" selected="True" type="Int16" size="2" />
+            <SelectField field="P1GamesWon" selected="True" type="Int16" size="2" />
+            <SelectField field="P2GamesWon" selected="True" type="Int16" size="2" />
+            <SelectField field="SetWinner" selected="True" type="Int16" size="2" />
+            <SelectField field="GameNo" selected="True" type="Int16" size="2" />
+            <SelectField field="GameWinner" selected="True" type="Int16" size="2" />
+            <SelectField field="PointNumber" selected="True" type="Int16" size="2" />
+            <SelectField field="PointWinner" selected="True" type="Int16" size="2" />
+            <SelectField field="PointServer" selected="True" type="Int16" size="2" />
+            <SelectField field="Speed_KMH" selected="True" type="Int16" size="2" />
+            <SelectField field="Rally" selected="False" type="String" size="254" />
+            <SelectField field="P1Momentum" selected="True" type="Int16" size="2" />
+            <SelectField field="P2Momentum" selected="True" type="Int16" size="2" />
+            <SelectField field="P1PointsWon" selected="True" type="Int16" size="2" />
+            <SelectField field="P2PointsWon" selected="True" type="Int16" size="2" />
+            <SelectField field="P1Ace" selected="True" type="Int16" size="2" />
+            <SelectField field="P2Ace" selected="True" type="Int16" size="2" />
+            <SelectField field="P1Winner" selected="True" type="Int16" size="2" />
+            <SelectField field="P2Winner" selected="True" type="Int16" size="2" />
+            <SelectField field="P1DoubleFault" selected="True" type="Int16" size="2" />
+            <SelectField field="P2DoubleFault" selected="True" type="Int16" size="2" />
+            <SelectField field="P1UnfErr" selected="True" type="Int16" size="2" />
+            <SelectField field="P2UnfErr" selected="True" type="Int16" size="2" />
+            <SelectField field="P1NetPoint" selected="True" type="Int16" size="2" />
+            <SelectField field="P2NetPoint" selected="True" type="Int16" size="2" />
+            <SelectField field="P1NetPointWon" selected="True" type="Int16" size="2" />
+            <SelectField field="P2NetPointWon" selected="True" type="Int16" size="2" />
+            <SelectField field="P1BreakPoint" selected="True" type="Int16" size="2" />
+            <SelectField field="P2BreakPoint" selected="True" type="Int16" size="2" />
+            <SelectField field="P1BreakPointWon" selected="True" type="Int16" size="2" />
+            <SelectField field="P2BreakPointWon" selected="True" type="Int16" size="2" />
+            <SelectField field="P1FirstSrvIn" selected="False" />
+            <SelectField field="P2FirstSrvIn" selected="False" />
+            <SelectField field="P1FirstSrvWon" selected="False" />
+            <SelectField field="P2FirstSrvWon" selected="False" />
+            <SelectField field="P1SecondSrvIn" selected="False" />
+            <SelectField field="P2SecondSrvIn" selected="False" />
+            <SelectField field="P1SecondSrvWon" selected="False" />
+            <SelectField field="P2SecondSrvWon" selected="False" />
+            <SelectField field="P1ForcedError" selected="False" />
+            <SelectField field="P2ForcedError" selected="False" />
+            <SelectField field="History" selected="False" />
+            <SelectField field="Speed_MPH" selected="True" type="Int16" size="2" />
+            <SelectField field="P1BreakPointMissed" selected="True" type="Int16" size="2" />
+            <SelectField field="P2BreakPointMissed" selected="True" type="Int16" size="2" />
+            <SelectField field="ServeIndicator" selected="True" type="Int16" size="2" />
+            <SelectField field="Serve_Direction" selected="False" />
+            <SelectField field="Winner_FH" selected="False" />
+            <SelectField field="Winner_BH" selected="False" />
+            <SelectField field="ServingTo" selected="False" />
+            <SelectField field="P1TurningPoint" selected="False" />
+            <SelectField field="P2TurningPoint" selected="False" />
+            <SelectField field="ServeNumber" selected="True" type="Int16" size="2" />
+            <SelectField field="WinnerType" selected="True" type="Int16" size="2" />
+            <SelectField field="P1DistanceRun" selected="True" type="Double" size="8" />
+            <SelectField field="P2DistanceRun" selected="True" type="Double" size="8" />
+            <SelectField field="RallyCount" selected="True" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="630" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>PointWinner</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-08-04 11:42:36</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>0</Operand>
+              <StartDate>2023-08-04 11:42:36</StartDate>
+              <EndDate>2023-08-04 11:42:36</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[PointWinner] != 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="354" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="right([match_id],4)" field="match_id" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[match_id = right([match_id],4)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1110" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Max_match_num" selected="False" />
+            <SelectField field="match_id" selected="False" />
+            <SelectField field="ElapsedTime" selected="False" />
+            <SelectField field="SetNo" selected="False" />
+            <SelectField field="P1GamesWon" selected="False" />
+            <SelectField field="P2GamesWon" selected="False" />
+            <SelectField field="SetWinner" selected="False" />
+            <SelectField field="GameNo" selected="False" />
+            <SelectField field="GameWinner" selected="False" />
+            <SelectField field="Speed_KMH" selected="False" />
+            <SelectField field="P1Momentum" selected="False" />
+            <SelectField field="P2Momentum" selected="False" />
+            <SelectField field="P1Ace" selected="False" />
+            <SelectField field="P2Ace" selected="False" />
+            <SelectField field="P1DoubleFault" selected="False" />
+            <SelectField field="P2DoubleFault" selected="False" />
+            <SelectField field="P1UnfErr" selected="False" />
+            <SelectField field="P2UnfErr" selected="False" />
+            <SelectField field="P1NetPoint" selected="False" />
+            <SelectField field="P2NetPoint" selected="False" />
+            <SelectField field="P1NetPointWon" selected="False" />
+            <SelectField field="P2NetPointWon" selected="False" />
+            <SelectField field="P1BreakPoint" selected="False" />
+            <SelectField field="P2BreakPoint" selected="False" />
+            <SelectField field="P1BreakPointWon" selected="False" />
+            <SelectField field="P2BreakPointWon" selected="False" />
+            <SelectField field="Speed_MPH" selected="False" />
+            <SelectField field="P1BreakPointMissed" selected="False" />
+            <SelectField field="P2BreakPointMissed" selected="False" />
+            <SelectField field="ServeIndicator" selected="False" />
+            <SelectField field="ServeNumber" selected="False" />
+            <SelectField field="WinnerType" selected="False" />
+            <SelectField field="WinnerShotType" selected="False" />
+            <SelectField field="P1DistanceRun" selected="False" />
+            <SelectField field="P2DistanceRun" selected="False" />
+            <SelectField field="RallyCount" selected="False" />
+            <SelectField field="ServeWidth" selected="False" />
+            <SelectField field="ServeDepth" selected="False" />
+            <SelectField field="ReturnDepth" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="210" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="36" />
+          <Fields>
+            <Field name="Origin X" />
+            <Field name="Origin Y" />
+            <Field name="P1 Score" />
+            <Field name="P2 Score" />
+            <Field name="P1 Next Score" />
+            <Field name="P2 Next Score" />
+            <Field name="End X" />
+            <Field name="End Y" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>15</c>
+              <c>1</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>15</c>
+              <c>0</c>
+              <c>-1</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>0</c>
+              <c>15</c>
+              <c>0</c>
+              <c>30</c>
+              <c>2</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>0</c>
+              <c>15</c>
+              <c>15</c>
+              <c>15</c>
+              <c>0</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>2</c>
+              <c>0</c>
+              <c>30</c>
+              <c>0</c>
+              <c>40</c>
+              <c>3</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>2</c>
+              <c>0</c>
+              <c>30</c>
+              <c>15</c>
+              <c>30</c>
+              <c>1</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>1</c>
+              <c>0</c>
+              <c>40</c>
+              <c>0</c>
+              <c>0</c>
+              <c>3</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>1</c>
+              <c>0</c>
+              <c>40</c>
+              <c>15</c>
+              <c>40</c>
+              <c>2</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>-1</c>
+              <c>3</c>
+              <c>15</c>
+              <c>0</c>
+              <c>15</c>
+              <c>15</c>
+              <c>0</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>-1</c>
+              <c>3</c>
+              <c>15</c>
+              <c>0</c>
+              <c>30</c>
+              <c>0</c>
+              <c>-2</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>15</c>
+              <c>15</c>
+              <c>15</c>
+              <c>30</c>
+              <c>1</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>15</c>
+              <c>15</c>
+              <c>30</c>
+              <c>15</c>
+              <c>-1</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>15</c>
+              <c>30</c>
+              <c>15</c>
+              <c>40</c>
+              <c>2</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>15</c>
+              <c>30</c>
+              <c>30</c>
+              <c>30</c>
+              <c>0</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>1</c>
+              <c>15</c>
+              <c>40</c>
+              <c>0</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>1</c>
+              <c>15</c>
+              <c>40</c>
+              <c>30</c>
+              <c>40</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>-2</c>
+              <c>2</c>
+              <c>30</c>
+              <c>0</c>
+              <c>30</c>
+              <c>15</c>
+              <c>-1</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>-2</c>
+              <c>2</c>
+              <c>30</c>
+              <c>0</c>
+              <c>40</c>
+              <c>0</c>
+              <c>-3</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>-1</c>
+              <c>2</c>
+              <c>30</c>
+              <c>15</c>
+              <c>30</c>
+              <c>30</c>
+              <c>0</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>-1</c>
+              <c>2</c>
+              <c>30</c>
+              <c>15</c>
+              <c>40</c>
+              <c>15</c>
+              <c>-2</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>2</c>
+              <c>30</c>
+              <c>30</c>
+              <c>30</c>
+              <c>40</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>2</c>
+              <c>30</c>
+              <c>30</c>
+              <c>40</c>
+              <c>30</c>
+              <c>-1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>30</c>
+              <c>40</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>30</c>
+              <c>40</c>
+              <c>40</c>
+              <c>40</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>-3</c>
+              <c>1</c>
+              <c>40</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>-3</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>-3</c>
+              <c>1</c>
+              <c>40</c>
+              <c>0</c>
+              <c>40</c>
+              <c>15</c>
+              <c>-2</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>-2</c>
+              <c>1</c>
+              <c>40</c>
+              <c>15</c>
+              <c>0</c>
+              <c>0</c>
+              <c>-2</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>-2</c>
+              <c>1</c>
+              <c>40</c>
+              <c>15</c>
+              <c>40</c>
+              <c>30</c>
+              <c>-1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>-1</c>
+              <c>1</c>
+              <c>40</c>
+              <c>30</c>
+              <c>0</c>
+              <c>0</c>
+              <c>-1</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>-1</c>
+              <c>1</c>
+              <c>40</c>
+              <c>30</c>
+              <c>40</c>
+              <c>40</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>40</c>
+              <c>40</c>
+              <c>40</c>
+              <c>AD</c>
+              <c>0.5</c>
+              <c>0.5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>40</c>
+              <c>40</c>
+              <c>AD</c>
+              <c>40</c>
+              <c>-0.5</c>
+              <c>0.5</c>
+            </r>
+            <r>
+              <c>0.5</c>
+              <c>0.5</c>
+              <c>40</c>
+              <c>AD</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0.5</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>0.5</c>
+              <c>0.5</c>
+              <c>40</c>
+              <c>AD</c>
+              <c>40</c>
+              <c>40</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>-0.5</c>
+              <c>0.5</c>
+              <c>AD</c>
+              <c>40</c>
+              <c>0</c>
+              <c>0</c>
+              <c>-0.5</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>-0.5</c>
+              <c>0.5</c>
+              <c>AD</c>
+              <c>40</c>
+              <c>40</c>
+              <c>40</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1206" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Max_Match</UpdateField_Name>
+          <CreateField_Name>P1 Next Score</CreateField_Name>
+          <CreateField_Type>String</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Row+1:P1Score]</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Row+1:P1Score]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1338" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Max_Match</UpdateField_Name>
+          <CreateField_Name>P2 Next Score</CreateField_Name>
+          <CreateField_Type>String</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Row+1:P2Score]</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Row+1:P2Score]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1470" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="P1Score" />
+            <Field field="P2Score" />
+            <Field field="P1 Next Score" />
+            <Field field="P2 Next Score" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="P1 Score" />
+            <Field field="P2 Score" />
+            <Field field="P1 Next Score" />
+            <Field field="P2 Next Score" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_P1 Next Score" selected="True" rename="Right_P1 Next Score" input="Right_" />
+                <SelectField field="Right_P2 Next Score" selected="True" rename="Right_P2 Next Score" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1746" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\Game_Tree.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Game_Tree.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1554" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="PointServer" action="GroupBy" rename="PointServer" />
+            <SummarizeField field="PointNumber" action="CountDistinct" rename="CountDistinct_PointNumber" />
+            <SummarizeField field="Origin X" action="GroupBy" rename="Origin X" />
+            <SummarizeField field="Origin Y" action="GroupBy" rename="Origin Y" />
+            <SummarizeField field="P1 Score" action="GroupBy" rename="P1 Score" />
+            <SummarizeField field="P2 Score" action="GroupBy" rename="P2 Score" />
+            <SummarizeField field="P1 Next Score" action="GroupBy" rename="P1 Next Score" />
+            <SummarizeField field="P2 Next Score" action="GroupBy" rename="P2 Next Score" />
+            <SummarizeField field="End X" action="GroupBy" rename="End X" />
+            <SummarizeField field="End Y" action="GroupBy" rename="End Y" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1650" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType size="6">String</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="473" y="209" width="397" height="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>To Amend Based On Player</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="498" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[player1] + ' - ' + [player2]" field="Match" size="1073741823" type="V_WString" />
+                <FormulaField expression="contains([Match], 'Carlos Alcaraz')" field="Carlos Matches" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Match = [player1] + ' - ' + [player2]
+Carlos Matches = contains([Match], 'Carlos...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="630" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Carlos Matches</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-08-04 11:32:07</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>-1</Operand>
+                  <StartDate>2023-08-04 11:32:07</StartDate>
+                  <EndDate>2023-08-04 11:32:07</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Carlos Matches] = "-1"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="786" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="match_num" action="Max" rename="Max_match_num" />
+                <SummarizeField field="Match" action="Max" rename="Max_Match" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="23" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Game_Tree_Flow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="ff938a7d-2696-4917-bb39-95d940e60166" />
+      <Telemetry>
+        <PreviousWorkflowId value="38671dbe-6a4c-4a26-8183-4ffa08d48364" />
+        <OriginWorkflowId value="38671dbe-6a4c-4a26-8183-4ffa08d48364" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
