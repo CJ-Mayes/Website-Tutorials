@@ -9,7 +9,6 @@ np.set_printoptions(threshold=sys.maxsize)
 # Read data from file
 data = pd.read_csv('data.csv')
 
-
 # Create variables for X, Y coordinates
 x = data['hc_x']
 y = data['hc_y']
