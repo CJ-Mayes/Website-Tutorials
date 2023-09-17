@@ -1,0 +1,1254 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="28" y="352" width="1868" height="551" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Shots Workflow</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="53" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>match_events.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="50_50" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="ball_receipt_outcome" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="ball_recovery_offensive" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="ball_recovery_recovery_failure" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="block_deflection" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="carry_end_location" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="clearance_aerial_won" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="clearance_body_part" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="clearance_head" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="clearance_left_foot" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="clearance_other" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="clearance_right_foot" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="counterpress" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="dribble_nutmeg" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="dribble_outcome" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="dribble_overrun" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="duel_outcome" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="duel_type" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="duration" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="foul_committed_advantage" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="foul_committed_card" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="foul_committed_penalty" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="foul_committed_type" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="foul_won_advantage" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="foul_won_defensive" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="goalkeeper_body_part" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="goalkeeper_end_location" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="goalkeeper_outcome" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="goalkeeper_position" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="goalkeeper_technique" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="goalkeeper_type" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="index" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="interception_outcome" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="location" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="match_id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="minute" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="miscontrol_aerial_won" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="off_camera" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="out" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_aerial_won" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_angle" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_assisted_shot_id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_body_part" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_cross" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_cut_back" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_deflected" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_end_location" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_goal_assist" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_height" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_inswinging" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_length" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_no_touch" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_outcome" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_outswinging" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_recipient" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_shot_assist" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_straight" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_switch" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_technique" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_through_ball" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="pass_type" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="period" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="play_pattern" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="player" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="player_id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="position" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="possession" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="possession_team" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="possession_team_id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="related_events" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="second" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="shot_aerial_won" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="shot_body_part" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="shot_deflected" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="shot_end_location" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="shot_first_time" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="shot_freeze_frame" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="shot_key_pass_id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="shot_outcome" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="shot_statsbomb_xg" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="shot_technique" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="shot_type" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="substitution_outcome" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="substitution_replacement" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="tactics" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="team" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="team_id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="timestamp" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="type" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+                <Field name="under_pressure" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_events.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="53" y="702" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_frames.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>match_frames.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_frames.csv" type="V_String" />
+                <Field name="visible_area" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_frames.csv" type="V_String" />
+                <Field name="match_id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_frames.csv" type="V_String" />
+                <Field name="teammate" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_frames.csv" type="V_String" />
+                <Field name="actor" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_frames.csv" type="V_String" />
+                <Field name="keeper" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_frames.csv" type="V_String" />
+                <Field name="location" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\match_frames.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1086" y="690" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="id" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="id" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_id" selected="True" rename="Right_id" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1770" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC_Spain_England_Shots.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>WWC_Spain_England_Shots.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1662" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="id" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="id" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_id" selected="True" rename="Right_id" input="Right_" />
+                    <SelectField field="Right_minute" selected="True" rename="Right_minute" input="Right_" />
+                    <SelectField field="Right_Right_id" selected="True" rename="Right_Right_id" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="185" y="653" width="253" height="224" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Freeze Frame Data</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="38">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+                <Position x="210" y="702" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Field>location</Field>
+                  <ErrorHandling>Last</ErrorHandling>
+                  <RootName>location</RootName>
+                  <Delimeters value="," />
+                  <NumFields value="2" />
+                  <Flags value="0" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+            </Node>
+            <Node ToolID="39">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="282" y="702" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="Replace([location1], &quot;[&quot;, &quot;&quot;)" field="Player Location X" size="1073741823" type="V_WString" />
+                    <FormulaField expression="Replace([location2], &quot;]&quot;, &quot;&quot;)" field="Player Location Y" size="1073741823" type="V_WString" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Player Location X = Replace([location1], "[", "")
+Player Location Y = Replace([l...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="40">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="354" y="702" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="location" selected="False" />
+                    <SelectField field="location1" selected="False" />
+                    <SelectField field="location2" selected="False" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1145" y="425" width="469" height="195" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Small Multiples</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="42">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1170" y="486" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="id" selected="True" />
+                    <SelectField field="minute" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="43">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+                <Position x="1242" y="486" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UniqueFields>
+                    <Field field="id" />
+                  </UniqueFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+            </Node>
+            <Node ToolID="44">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="1458" y="474" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="FLOOR([RecordID]/3)" field="Column" size="1073741823" type="V_WString" />
+                    <FormulaField expression="MOD([RecordID],3)" field="Row" size="1073741823" type="V_WString" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[Column = FLOOR([RecordID]/3)
+Row = MOD([RecordID],3)
+]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="45">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+                <Position x="1386" y="474" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FieldName>RecordID</FieldName>
+                  <StartValue>0</StartValue>
+                  <FieldType>Int32</FieldType>
+                  <FieldSize>6</FieldSize>
+                  <Position>0</Position>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+            </Node>
+            <Node ToolID="46">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="1314" y="474" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="1033">
+                    <Field field="minute" order="Ascending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>minute - Ascending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="47">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1530" y="474" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="RecordID" selected="False" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="184" y="424" width="253" height="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>General Cleansing</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="15">
+              <GuiSettings>
+                <Position x="209" y="473" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="Check Box (135)">False</Value>
+                  <Value name="Check Box (136)">True</Value>
+                  <Value name="List Box (11)">"50_50","ball_receipt_outcome","ball_recovery_offensive","ball_recovery_recovery_failure","block_deflection","carry_end_location","clearance_aerial_won","clearance_body_part","clearance_head","clearance_left_foot","clearance_other","clearance_right_foot","counterpress","dribble_nutmeg","dribble_outcome","dribble_overrun","duel_outcome","duel_type","duration","foul_committed_advantage","foul_committed_card","foul_committed_penalty","foul_committed_type","foul_won_advantage","foul_won_defensive","goalkeeper_body_part","goalkeeper_end_location","goalkeeper_outcome","goalkeeper_position","goalkeeper_technique","goalkeeper_type","id","index","interception_outcome","location","match_id","minute","miscontrol_aerial_won","off_camera","out","pass_aerial_won","pass_angle","pass_assisted_shot_id","pass_body_part","pass_cross","pass_cut_back","pass_deflected","pass_end_location","pass_goal_assist","pass_height","pass_inswinging","pass_length","pass_no_touch","pass_outcome","pass_outswinging","pass_recipient","pass_shot_assist","pass_straight","pass_switch","pass_technique","pass_through_ball","pass_type","period","play_pattern","player","player_id","position","possession","possession_team","possession_team_id","related_events","second","shot_aerial_won","shot_body_part","shot_deflected","shot_end_location","shot_first_time","shot_freeze_frame","shot_key_pass_id","shot_outcome","shot_statsbomb_xg","shot_technique","shot_type","substitution_outcome","substitution_replacement","tactics","team","team_id","timestamp","type","under_pressure"</Value>
+                  <Value name="Check Box (84)">False</Value>
+                  <Value name="Check Box (117)">False</Value>
+                  <Value name="Check Box (15)">False</Value>
+                  <Value name="Check Box (109)">False</Value>
+                  <Value name="Check Box (122)">False</Value>
+                  <Value name="Check Box (53)">False</Value>
+                  <Value name="Check Box (58)">False</Value>
+                  <Value name="Check Box (70)">False</Value>
+                  <Value name="Check Box (77)">False</Value>
+                  <Value name="Drop Down (81)">upper</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Cleanse.yxmc" />
+            </Node>
+            <Node ToolID="17">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="281" y="473" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="1033">
+                    <Field field="index" order="Ascending" />
+                    <Field field="timestamp" order="Ascending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>index - Ascending
+timestamp - Ascending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="19">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="353" y="473" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="50_50" selected="False" />
+                    <SelectField field="ball_recovery_offensive" selected="False" />
+                    <SelectField field="ball_recovery_recovery_failure" selected="False" />
+                    <SelectField field="block_deflection" selected="False" />
+                    <SelectField field="clearance_aerial_won" selected="False" />
+                    <SelectField field="clearance_body_part" selected="False" />
+                    <SelectField field="clearance_head" selected="False" />
+                    <SelectField field="clearance_left_foot" selected="False" />
+                    <SelectField field="clearance_other" selected="False" />
+                    <SelectField field="clearance_right_foot" selected="False" />
+                    <SelectField field="counterpress" selected="False" />
+                    <SelectField field="duel_outcome" selected="False" />
+                    <SelectField field="duel_type" selected="False" />
+                    <SelectField field="foul_committed_advantage" selected="False" />
+                    <SelectField field="foul_committed_card" selected="False" />
+                    <SelectField field="foul_committed_penalty" selected="False" />
+                    <SelectField field="foul_committed_type" selected="False" />
+                    <SelectField field="foul_won_advantage" selected="False" />
+                    <SelectField field="foul_won_defensive" selected="False" />
+                    <SelectField field="match_id" selected="False" />
+                    <SelectField field="miscontrol_aerial_won" selected="False" />
+                    <SelectField field="off_camera" selected="False" />
+                    <SelectField field="out" selected="False" />
+                    <SelectField field="tactics" selected="False" />
+                    <SelectField field="team_id" selected="False" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="473" y="401" width="589" height="255" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Shot Data</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="26">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+                <Position x="750" y="450" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Field>location</Field>
+                  <ErrorHandling>Last</ErrorHandling>
+                  <RootName>location</RootName>
+                  <Delimeters value="," />
+                  <NumFields value="2" />
+                  <Flags value="0" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+            </Node>
+            <Node ToolID="24">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="654" y="462" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>[shot_outcome] != 'Blocked' 
+and [shot_outcome] != 'Off T' 
+and [shot_outcome] != 'Wayward'</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[shot_outcome] != 'Blocked' 
+and [shot_outcome] != 'Off T' 
+and [shot_outcome] !...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="22">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="498" y="473" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>=</Operator>
+                    <Field>type</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2023-09-14 13:18:58</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>Shot</Operand>
+                      <StartDate>2023-09-14 13:18:58</StartDate>
+                      <EndDate>2023-09-14 13:18:58</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[type] = "Shot"</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="21">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="582" y="461" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="duration" selected="True" />
+                    <SelectField field="id" selected="True" />
+                    <SelectField field="location" selected="True" />
+                    <SelectField field="minute" selected="True" />
+                    <SelectField field="player" selected="True" />
+                    <SelectField field="possession_team" selected="True" />
+                    <SelectField field="shot_body_part" selected="True" />
+                    <SelectField field="shot_deflected" selected="True" />
+                    <SelectField field="shot_end_location" selected="True" />
+                    <SelectField field="shot_freeze_frame" selected="True" />
+                    <SelectField field="shot_key_pass_id" selected="True" />
+                    <SelectField field="shot_outcome" selected="True" />
+                    <SelectField field="shot_statsbomb_xg" selected="True" />
+                    <SelectField field="shot_technique" selected="True" />
+                    <SelectField field="shot_type" selected="True" />
+                    <SelectField field="team" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="29">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="906" y="450" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="Replace([location1], &quot;[&quot;, &quot;&quot;)" field="location1" size="254" type="V_String" />
+                    <FormulaField expression="Replace([location2], &quot;]&quot;, &quot;&quot;)" field="location2" size="254" type="V_String" />
+                    <FormulaField expression="Replace([shot_end_location1], &quot;[&quot;, &quot;&quot;)" field="shot_end_location1" size="254" type="V_String" />
+                    <FormulaField expression="Replace([shot_end_location2], &quot;]&quot;, &quot;&quot;)" field="shot_end_location2" size="254" type="V_String" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>location1 = Replace([location1], "[", "")
+location2 = Replace([location2], "]", ...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="31">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+                <Position x="822" y="450" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Field>shot_end_location</Field>
+                  <ErrorHandling>Last</ErrorHandling>
+                  <RootName>shot_end_location</RootName>
+                  <Delimeters value="," />
+                  <NumFields value="2" />
+                  <Flags value="0" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+            </Node>
+            <Node ToolID="30">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="978" y="450" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="location" selected="False" />
+                    <SelectField field="player" selected="True" rename="Shot Taker" />
+                    <SelectField field="shot_end_location" selected="False" />
+                    <SelectField field="location1" selected="True" rename="Location X" type="Float" size="4" />
+                    <SelectField field="location2" selected="True" rename="Location Y" type="Float" size="4" />
+                    <SelectField field="shot_end_location1" selected="True" rename="Shot End Location X" type="Float" size="4" />
+                    <SelectField field="shot_end_location2" selected="True" rename="Shot End Location Y" type="Float" size="4" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="29" y="5" width="433" height="321" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Reference Data</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>competitions.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="competition_id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+                <Field name="season_id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+                <Field name="country_name" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+                <Field name="competition_name" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+                <Field name="competition_gender" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+                <Field name="competition_youth" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+                <Field name="competition_international" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+                <Field name="season_name" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+                <Field name="match_updated" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+                <Field name="match_updated_360" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+                <Field name="match_available_360" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+                <Field name="match_available" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\competitions.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>matches.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="match_id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="match_date" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="kick_off" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="competition" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="season" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="home_team" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="away_team" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="home_score" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="away_score" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="match_status" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="match_status_360" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="last_updated" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="last_updated_360" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="match_week" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="competition_stage" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="stadium" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="referee" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="home_managers" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="away_managers" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="data_version" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="shot_fidelity_version" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+                <Field name="xy_fidelity_version" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\WWC\matches.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="162" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[season_id] = "107" and 
+[competition_id] = "72"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[season_id] = "107" and 
+[competition_id] = "72"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="282" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="competition_youth" selected="False" />
+                <SelectField field="competition_international" selected="False" />
+                <SelectField field="match_updated" selected="False" />
+                <SelectField field="match_updated_360" selected="False" />
+                <SelectField field="match_available" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="162" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>match_id</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-09-14 13:05:10</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>3906390</Operand>
+                  <StartDate>2023-09-14 13:05:10</StartDate>
+                  <EndDate>2023-09-14 13:05:10</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[match_id] = "3906390"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="282" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="competition" selected="False" />
+                <SelectField field="season" selected="False" />
+                <SelectField field="match_status" selected="False" />
+                <SelectField field="match_status_360" selected="False" />
+                <SelectField field="last_updated" selected="False" />
+                <SelectField field="last_updated_360" selected="False" />
+                <SelectField field="match_week" selected="False" />
+                <SelectField field="data_version" selected="False" />
+                <SelectField field="shot_fidelity_version" selected="False" />
+                <SelectField field="xy_fidelity_version" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="378" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_27524_289310aca8324414b7d0b33b538afb8c_\Engine_19984_58d9937fa11a47b8a012bb6074549a8e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="378" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_27524_289310aca8324414b7d0b33b538afb8c_\Engine_19984_7516fcc55a694e0a833acb3c92235373_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="15" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Join" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Join" />
+      <Destination ToolID="48" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Join" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="37" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="37" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Unique" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output26" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="True" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>WWC</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0f7daf24-71d5-46d3-8be9-bdeeb7deb776" />
+      <Telemetry>
+        <PreviousWorkflowId value="44f6cc53-4453-4396-b101-d7fa842ef735" />
+        <OriginWorkflowId value="7ad7c911-041c-4137-9045-0880b6a5a202" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
