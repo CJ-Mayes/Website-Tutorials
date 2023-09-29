@@ -1,0 +1,73 @@
+Index,Minute,Second,Player_Name,Player_ID,Position_Name,Substitution_Outcome,Player_Replacement,Team,Type,11_Pitch,Position_ID
+1,0,0,Catalina Thomas Coll Lluch,45295,Goalkeeper,,,"Spain Women's",,1,1
+1,0,0,Ona Batlle Pascual,46639,Right Back,,,"Spain Women's",,2,2
+1,0,0,Irene Paredes Hernandez,10165,Right Center Back,,,"Spain Women's",,3,3
+1,0,0,Laia Codina Panedas,32694,Left Center Back,,,"Spain Women's",,4,5
+1,0,0,Olga  Carmona García,49836,Left Back,,,"Spain Women's",,5,6
+1,0,0,Teresa Abelleira Dueñas,49835,Left Defensive Midfield,,,"Spain Women's",,6,11
+1,0,0,Aitana Bonmati Conca,15284,Right Center Midfield,,,"Spain Women's",,7,13
+1,0,0,Alba María Redondo Ferrer,50151,Right Wing,,,"Spain Women's",,8,17
+1,0,0,Jennifer Hermoso Fuentes,10151,Center Attacking Midfield,,,"Spain Women's",,9,19
+1,0,0,María Francesca Caldentey Oliver,10161,Left Wing,,,"Spain Women's",,10,21
+1,0,0,Salma Paralluelo Ayingono,222682,Center Forward,,,"Spain Women's",,11,23
+2,0,0,Mary Alexandra Earps,31538,Goalkeeper,,,"England Women's",,1,1
+2,0,0,Jessica Carter,19422,Right Center Back,,,"England Women's",,2,3
+2,0,0,Millie Bright,4642,Center Back,,,"England Women's",,3,4
+2,0,0,Alex Greenwood,10252,Left Center Back,,,"England Women's",,4,5
+2,0,0,Lucy Bronze,10178,Right Wing Back,,,"England Women's",,5,7
+2,0,0,Rachel Daly,5058,Left Wing Back,,,"England Women's",,6,8
+2,0,0,Georgia Stanway,4643,Right Defensive Midfield,,,"England Women's",,7,9
+2,0,0,Keira Walsh,4658,Left Defensive Midfield,,,"England Women's",,8,11
+2,0,0,Ella Toone,31534,Center Attacking Midfield,,,"England Women's",,9,19
+2,0,0,Alessia Russo,47521,Right Center Forward,,,"England Women's",,10,22
+2,0,0,Lauren Hemp,15555,Left Center Forward,,,"England Women's",,11,24
+1915,45,0,Rachel Daly,5058.0,Left Wing Back,Tactical,Chloe Kelly,"England Women's",Substitution,,
+1916,45,0,Alessia Russo,47521.0,Right Center Forward,Tactical,Lauren James,"England Women's",Substitution,,
+1917,45,0,Mary Alexandra Earps,31538,Goalkeeper,,,"England Women's",,1,1
+1917,45,0,Lucy Bronze,10178,Right Back,,,"England Women's",,2,2
+1917,45,0,Millie Bright,4642,Right Center Back,,,"England Women's",,3,3
+1917,45,0,Alex Greenwood,10252,Left Center Back,,,"England Women's",,4,5
+1917,45,0,Jessica Carter,19422,Left Back,,,"England Women's",,5,6
+1917,45,0,Georgia Stanway,4643,Right Defensive Midfield,,,"England Women's",,6,9
+1917,45,0,Keira Walsh,4658,Left Defensive Midfield,,,"England Women's",,7,11
+1917,45,0,Chloe Kelly,15570,Right Wing,,,"England Women's",,8,17
+1917,45,0,Ella Toone,31534,Center Attacking Midfield,,,"England Women's",,9,19
+1917,45,0,Lauren James,31531,Left Wing,,,"England Women's",,10,21
+1917,45,0,Lauren Hemp,15555,Center Forward,,,"England Women's",,11,23
+2527,59,29,Alba María Redondo Ferrer,50151.0,Right Wing,Tactical,Oihane Hernández Zurbano,"Spain Women's",Substitution,,
+2780,72,42,Laia Codina Panedas,32694.0,Left Center Back,Injury,Ivana Andrés Sanz,"Spain Women's",Substitution,,
+3054,86,43,Ella Toone,31534.0,Center Attacking Midfield,Tactical,Bethany England,"England Women's",Substitution,,
+3072,87,31,Mary Alexandra Earps,31538,Goalkeeper,,,"England Women's",,1,1
+3072,87,31,Lucy Bronze,10178,Right Center Back,,,"England Women's",,2,3
+3072,87,31,Jessica Carter,19422,Center Back,,,"England Women's",,3,4
+3072,87,31,Alex Greenwood,10252,Left Center Back,,,"England Women's",,4,5
+3072,87,31,Lauren Hemp,15555,Right Wing Back,,,"England Women's",,5,7
+3072,87,31,Chloe Kelly,15570,Left Wing Back,,,"England Women's",,6,8
+3072,87,31,Georgia Stanway,4643,Right Defensive Midfield,,,"England Women's",,7,9
+3072,87,31,Keira Walsh,4658,Left Defensive Midfield,,,"England Women's",,8,11
+3072,87,31,Lauren James,31531,Center Attacking Midfield,,,"England Women's",,9,19
+3072,87,31,Millie Bright,4642,Right Center Forward,,,"England Women's",,10,22
+3072,87,31,Bethany England,15550,Left Center Forward,,,"England Women's",,11,24
+3081,87,42,Catalina Thomas Coll Lluch,45295,Goalkeeper,,,"Spain Women's",,1,1
+3081,87,42,Ona Batlle Pascual,46639,Right Back,,,"Spain Women's",,2,2
+3081,87,42,Ivana Andrés Sanz,49831,Right Center Back,,,"Spain Women's",,3,3
+3081,87,42,Irene Paredes Hernandez,10165,Left Center Back,,,"Spain Women's",,4,5
+3081,87,42,Olga  Carmona García,49836,Left Back,,,"Spain Women's",,5,6
+3081,87,42,Teresa Abelleira Dueñas,49835,Left Defensive Midfield,,,"Spain Women's",,6,11
+3081,87,42,Aitana Bonmati Conca,15284,Right Center Midfield,,,"Spain Women's",,7,13
+3081,87,42,Oihane Hernández Zurbano,49889,Right Wing,,,"Spain Women's",,8,17
+3081,87,42,Jennifer Hermoso Fuentes,10151,Center Attacking Midfield,,,"Spain Women's",,9,19
+3081,87,42,María Francesca Caldentey Oliver,10161,Left Wing,,,"Spain Women's",,10,21
+3081,87,42,Salma Paralluelo Ayingono,222682,Center Forward,,,"Spain Women's",,11,23
+3139,89,38,María Francesca Caldentey Oliver,10161.0,Left Wing,Tactical,Alexia Putellas Segura,"Spain Women's",Substitution,,
+3140,89,42,Catalina Thomas Coll Lluch,45295,Goalkeeper,,,"Spain Women's",,1,1
+3140,89,42,Ona Batlle Pascual,46639,Right Back,,,"Spain Women's",,2,2
+3140,89,42,Ivana Andrés Sanz,49831,Right Center Back,,,"Spain Women's",,3,3
+3140,89,42,Irene Paredes Hernandez,10165,Left Center Back,,,"Spain Women's",,4,5
+3140,89,42,Olga  Carmona García,49836,Left Back,,,"Spain Women's",,5,6
+3140,89,42,Teresa Abelleira Dueñas,49835,Center Defensive Midfield,,,"Spain Women's",,6,10
+3140,89,42,Aitana Bonmati Conca,15284,Right Center Midfield,,,"Spain Women's",,7,13
+3140,89,42,Alexia Putellas Segura,10143,Left Center Midfield,,,"Spain Women's",,8,15
+3140,89,42,Oihane Hernández Zurbano,49889,Right Wing,,,"Spain Women's",,9,17
+3140,89,42,Salma Paralluelo Ayingono,222682,Left Wing,,,"Spain Women's",,10,21
+3140,89,42,Jennifer Hermoso Fuentes,10151,Center Forward,,,"Spain Women's",,11,23
