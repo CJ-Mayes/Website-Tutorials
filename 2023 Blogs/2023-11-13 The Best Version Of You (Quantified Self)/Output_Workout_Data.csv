@@ -1,0 +1,160 @@
+Date_Use,Duration (min),Activity name,Activity Strain,Energy burned (cal),Max HR (bpm),Average HR (bpm),HR Zone 1 %,HR Zone 2 %,HR Zone 3 %,HR Zone 4 %,HR Zone 5 %,GPS enabled,exercise_title,set_index,set_type,weight_kg,reps
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Lateral Raise (Dumbbell),0,normal,7.5,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Lateral Raise (Dumbbell),1,normal,10,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Lateral Raise (Dumbbell),2,normal,10,12
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Lateral Raise (Dumbbell),3,normal,12.5,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Lateral Raise (Dumbbell),4,normal,12.5,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Lateral Raise (Dumbbell),5,normal,12.5,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Shoulder Press (Dumbbell),0,normal,12.5,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Shoulder Press (Dumbbell),1,normal,12.5,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Shoulder Press (Dumbbell),2,normal,12.5,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Shoulder Press (Dumbbell),3,normal,12.5,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Plate Front Raise,0,normal,10,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Plate Front Raise,1,normal,10,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Plate Front Raise,2,normal,10,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Plate Front Raise,3,normal,10,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Shrug (Dumbbell),0,normal,20,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Shrug (Dumbbell),1,normal,20,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Shrug (Dumbbell),2,normal,20,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Shrug (Dumbbell),3,normal,20,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Crunch,0,normal,,12
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Crunch,1,normal,,12
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Crunch,2,normal,,12
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Lying Leg Raise,0,normal,,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Lying Leg Raise,1,normal,,10
+2023-09-11,32,Weightlifting,5.9,137.0,150,109,49,26,17,0,0,false,Lying Leg Raise,2,normal,,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Lying Leg Raise,0,normal,,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Lying Leg Raise,1,normal,,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Lying Leg Raise,2,normal,,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Lying Leg Raise,3,normal,,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Lying Leg Raise,4,normal,,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Squat (Dumbbell),0,normal,20,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Squat (Dumbbell),1,normal,30,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Squat (Dumbbell),2,normal,30,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Squat (Dumbbell),3,normal,30,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Squat (Dumbbell),4,normal,30,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Squat (Dumbbell),5,normal,30,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Bulgarian Split Squat,0,warmup,,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Bulgarian Split Squat,1,normal,20,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Bulgarian Split Squat,2,normal,20,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Bulgarian Split Squat,3,normal,20,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Cable Pull Through,0,normal,22.5,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Cable Pull Through,1,normal,22.5,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Cable Pull Through,2,normal,22.5,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Cable Pull Through,3,normal,22.5,10
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Bicycle Crunch,0,normal,,40
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Bicycle Crunch,1,normal,,40
+2023-09-12,36,Weightlifting,6.7,180.0,149,102,17,20,26,0,0,false,Bicycle Crunch,2,normal,,40
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Push Up,0,normal,,12
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Push Up,1,normal,,12
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Push Up,2,normal,,12
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Incline Bench Press (Dumbbell),0,normal,17.5,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Incline Bench Press (Dumbbell),1,normal,20,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Incline Bench Press (Dumbbell),2,normal,25,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Lateral Raise (Dumbbell),0,normal,7.5,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Lateral Raise (Dumbbell),1,normal,12.5,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Lateral Raise (Dumbbell),2,normal,12.5,12
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Bench Press (Dumbbell),0,normal,20,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Bench Press (Dumbbell),1,normal,25,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Bench Press (Dumbbell),2,normal,30,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Lying Leg Raise,0,normal,,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Lying Leg Raise,1,normal,,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Lying Leg Raise,2,normal,,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Shoulder Press (Dumbbell),0,normal,10,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Shoulder Press (Dumbbell),1,normal,15,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Shoulder Press (Dumbbell),2,normal,15,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Hex Press (Dumbbell),0,normal,10,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Hex Press (Dumbbell),1,normal,15,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Hex Press (Dumbbell),2,normal,15,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Plate Front Raise,0,normal,10,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Plate Front Raise,1,normal,10,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Plate Front Raise,2,normal,10,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Crunch (Weighted),0,normal,10,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Crunch (Weighted),1,normal,10,10
+2023-09-13,54,Weightlifting,7.2,231.0,153,100,26,18,18,1,0,false,Crunch (Weighted),2,normal,10,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Lat Pulldown (Cable),0,warmup,27.5,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Lat Pulldown (Cable),1,normal,35,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Lat Pulldown (Cable),2,normal,40,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Lat Pulldown (Cable),3,normal,40,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Lat Pulldown (Cable),4,normal,40,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Dumbbell Row,0,normal,25,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Dumbbell Row,1,normal,25,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Dumbbell Row,2,normal,25,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Bicep Curl (Cable),0,normal,20,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Bicep Curl (Cable),1,normal,30,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Bicep Curl (Cable),2,normal,30,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Bicep Curl (Cable),3,normal,30,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Rear Delt Reverse Fly (Dumbbell),0,normal,12.5,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Rear Delt Reverse Fly (Dumbbell),1,normal,12.5,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Rear Delt Reverse Fly (Dumbbell),2,normal,12.5,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Iso-Lateral Row (Machine),0,normal,30,12
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Iso-Lateral Row (Machine),1,normal,45,12
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Iso-Lateral Row (Machine),2,normal,45,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Hammer Curl (Dumbbell),0,normal,10,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Hammer Curl (Dumbbell),1,normal,10,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Hammer Curl (Dumbbell),2,normal,16,10
+2023-09-19,36,Weightlifting,4.7,79.0,136,98,55,9,0,0,0,false,Hammer Curl (Dumbbell),3,normal,16,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Treadmill,0,normal,,
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Treadmill,1,normal,,
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Treadmill,2,normal,,
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Treadmill,3,normal,,
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Treadmill,4,normal,,
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Treadmill,5,normal,,
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Treadmill,6,normal,,
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Bench Press (Dumbbell),0,normal,12.5,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Bench Press (Dumbbell),1,normal,20,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Bench Press (Dumbbell),2,normal,25,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Bench Press (Dumbbell),3,normal,25,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Bench Press (Dumbbell),4,normal,25,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Bench Press (Dumbbell),5,normal,25,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Lateral Raise (Dumbbell),0,normal,7.5,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Lateral Raise (Dumbbell),1,normal,10,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Lateral Raise (Dumbbell),2,normal,10,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Lateral Raise (Dumbbell),3,normal,10,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Lateral Raise (Dumbbell),4,normal,10,10
+2023-09-20,35,Weightlifting,7.3,247.0,163,124,8,51,30,1,0,false,Lateral Raise (Dumbbell),5,normal,10,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Bench Press (Dumbbell),0,normal,30,3
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Bench Press (Dumbbell),1,normal,35,3
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Bench Press (Dumbbell),2,normal,40,1
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Treadmill,0,normal,,
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Treadmill,1,normal,,
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Treadmill,2,normal,,
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Treadmill,3,normal,,
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Treadmill,4,normal,,
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Treadmill,5,normal,,
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Treadmill,6,normal,,
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Treadmill,7,normal,,
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Treadmill,8,normal,,
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Iso-Lateral Row (Machine),0,normal,30,12
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Iso-Lateral Row (Machine),1,normal,45,12
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Bicep Curl (Cable),0,normal,20,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Bicep Curl (Cable),1,normal,30,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Hammer Curl (Dumbbell),0,normal,10,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Lat Pulldown (Cable),0,normal,35,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Shrug (Dumbbell),0,normal,20,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Shrug (Dumbbell),1,normal,20,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Rear Delt Reverse Fly (Dumbbell),0,normal,12.5,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Crunch (Weighted),0,normal,10,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Crunch (Weighted),1,normal,10,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Crunch (Weighted),2,normal,10,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Lying Leg Raise,0,normal,,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Lying Leg Raise,1,normal,,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Lying Leg Raise,2,normal,,10
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Bicycle Crunch,0,normal,,40
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Bicycle Crunch,1,normal,,40
+2023-09-22,45,Weightlifting,6.3,192.0,160,98,7,25,14,0,0,false,Bicycle Crunch,2,normal,,40
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Lateral Raise (Dumbbell),0,normal,7.5,10
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Lateral Raise (Dumbbell),1,normal,10,10
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Lateral Raise (Dumbbell),2,normal,10,10
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Lateral Raise (Dumbbell),3,normal,10,10
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Lateral Raise (Dumbbell),4,normal,10,10
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Bench Press (Dumbbell),0,normal,20,10
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Bench Press (Dumbbell),1,normal,30,8
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Bench Press (Dumbbell),2,normal,30,8
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Bench Press (Dumbbell),3,normal,30,8
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Shoulder Press (Dumbbell),0,normal,10,10
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Shoulder Press (Dumbbell),1,normal,10,10
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Shoulder Press (Dumbbell),2,normal,10,10
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Hex Press (Dumbbell),0,normal,15,10
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Hex Press (Dumbbell),1,normal,15,10
+2023-09-25,33,Weightlifting,4.1,43.0,124,84,20,0,0,0,0,false,Hex Press (Dumbbell),2,normal,15,10

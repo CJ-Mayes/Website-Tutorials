@@ -1,0 +1,1160 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="678" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Activity name</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-09-29 15:49:05</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Weightlifting</Operand>
+              <StartDate>2023-09-29 15:49:05</StartDate>
+              <EndDate>2023-09-29 15:49:05</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Activity name] = "Weightlifting"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="894" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="DateTime_Out" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Date_Use" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1014" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1122" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date_Use" selected="True" />
+            <SelectField field="Cycle start time" selected="False" />
+            <SelectField field="Duration (min)" selected="True" />
+            <SelectField field="Activity name" selected="True" />
+            <SelectField field="Activity Strain" selected="True" />
+            <SelectField field="Energy burned (cal)" selected="True" />
+            <SelectField field="Cycle end time" selected="False" />
+            <SelectField field="Cycle timezone" selected="False" />
+            <SelectField field="Workout start time" selected="False" />
+            <SelectField field="Workout end time" selected="False" />
+            <SelectField field="Max HR (bpm)" selected="True" />
+            <SelectField field="Average HR (bpm)" selected="True" />
+            <SelectField field="HR Zone 1 %" selected="True" />
+            <SelectField field="HR Zone 2 %" selected="True" />
+            <SelectField field="HR Zone 3 %" selected="True" />
+            <SelectField field="HR Zone 4 %" selected="True" />
+            <SelectField field="HR Zone 5 %" selected="True" />
+            <SelectField field="GPS enabled" selected="True" />
+            <SelectField field="Distance (meters)" selected="False" />
+            <SelectField field="Altitude gain (meters)" selected="False" />
+            <SelectField field="Altitude change (meters)" selected="False" />
+            <SelectField field="DateTime_Out" selected="False" />
+            <SelectField field="title" selected="False" />
+            <SelectField field="start_time" selected="False" />
+            <SelectField field="end_time" selected="False" />
+            <SelectField field="description" selected="False" />
+            <SelectField field="exercise_title" selected="True" />
+            <SelectField field="superset_id" selected="False" />
+            <SelectField field="exercise_notes" selected="False" />
+            <SelectField field="set_index" selected="True" />
+            <SelectField field="set_type" selected="True" />
+            <SelectField field="weight_kg" selected="True" />
+            <SelectField field="reps" selected="True" />
+            <SelectField field="distance_km" selected="False" />
+            <SelectField field="duration_seconds" selected="False" />
+            <SelectField field="rpe" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="678" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Activity name</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-09-29 15:49:05</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Running</Operand>
+              <StartDate>2023-09-29 15:49:05</StartDate>
+              <EndDate>2023-09-29 15:49:05</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Activity name] = "Running"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1314" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Date_Use" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="DateTime_Out" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Activity name" selected="True" rename="Right_Activity name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1458" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DateTime_Out" selected="True" rename="Date" />
+            <SelectField field="Activity ID" selected="True" />
+            <SelectField field="Activity Date" selected="True" />
+            <SelectField field="Activity Name" selected="True" />
+            <SelectField field="Activity Type" selected="True" />
+            <SelectField field="Activity Description" selected="False" />
+            <SelectField field="Elapsed Time" selected="True" />
+            <SelectField field="Distance" selected="True" />
+            <SelectField field="Max Heart Rate" selected="True" />
+            <SelectField field="Relative Effort" selected="True" />
+            <SelectField field="Commute" selected="True" />
+            <SelectField field="Activity Private Note" selected="False" />
+            <SelectField field="Activity Gear" selected="False" />
+            <SelectField field="Filename" selected="True" />
+            <SelectField field="Athlete Weight" selected="False" />
+            <SelectField field="Bike Weight" selected="False" />
+            <SelectField field="Elapsed Time2" selected="False" />
+            <SelectField field="Moving Time" selected="True" />
+            <SelectField field="Distance2" selected="True" />
+            <SelectField field="Max Speed" selected="True" />
+            <SelectField field="Average Speed" selected="True" />
+            <SelectField field="Elevation Gain" selected="True" />
+            <SelectField field="Elevation Loss" selected="True" />
+            <SelectField field="Elevation Low" selected="True" />
+            <SelectField field="Elevation High" selected="True" />
+            <SelectField field="Max Grade" selected="True" />
+            <SelectField field="Average Grade" selected="True" />
+            <SelectField field="Average Positive Grade" selected="False" />
+            <SelectField field="Average Negative Grade" selected="False" />
+            <SelectField field="Max Cadence" selected="False" />
+            <SelectField field="Average Cadence" selected="False" />
+            <SelectField field="Max Heart Rate2" selected="False" />
+            <SelectField field="Average Heart Rate" selected="True" />
+            <SelectField field="Max Watts" selected="False" />
+            <SelectField field="Average Watts" selected="False" />
+            <SelectField field="Calories" selected="True" />
+            <SelectField field="Max Temperature" selected="False" />
+            <SelectField field="Average Temperature" selected="False" />
+            <SelectField field="Relative Effort2" selected="False" />
+            <SelectField field="Total Work" selected="False" />
+            <SelectField field="Number of Runs" selected="False" />
+            <SelectField field="Uphill Time" selected="False" />
+            <SelectField field="Downhill Time" selected="False" />
+            <SelectField field="Other Time" selected="False" />
+            <SelectField field="Perceived Exertion" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.type&quot;&gt;Type&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.start_time&quot;&gt;Start Time&lt;/span&gt;" selected="False" />
+            <SelectField field="Weighted Average Power" selected="False" />
+            <SelectField field="Power Count" selected="False" />
+            <SelectField field="Prefer Perceived Exertion" selected="False" />
+            <SelectField field="Perceived Relative Effort" selected="False" />
+            <SelectField field="Commute2" selected="False" />
+            <SelectField field="Total Weight Lifted" selected="False" />
+            <SelectField field="From Upload" selected="True" />
+            <SelectField field="Grade Adjusted Distance" selected="False" />
+            <SelectField field="Weather Observation Time" selected="False" />
+            <SelectField field="Weather Condition" selected="False" />
+            <SelectField field="Weather Temperature" selected="False" />
+            <SelectField field="Apparent Temperature" selected="False" />
+            <SelectField field="Dewpoint" selected="False" />
+            <SelectField field="Humidity" selected="False" />
+            <SelectField field="Weather Pressure" selected="False" />
+            <SelectField field="Wind Speed" selected="False" />
+            <SelectField field="Wind Gust" selected="False" />
+            <SelectField field="Wind Bearing" selected="False" />
+            <SelectField field="Precipitation Intensity" selected="False" />
+            <SelectField field="Sunrise Time" selected="False" />
+            <SelectField field="Sunset Time" selected="False" />
+            <SelectField field="Moon Phase" selected="False" />
+            <SelectField field="Bike" selected="False" />
+            <SelectField field="Gear" selected="False" />
+            <SelectField field="Precipitation Probability" selected="False" />
+            <SelectField field="Precipitation Type" selected="False" />
+            <SelectField field="Cloud Cover" selected="False" />
+            <SelectField field="Weather Visibility" selected="False" />
+            <SelectField field="UV Index" selected="False" />
+            <SelectField field="Weather Ozone" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.jump_count&quot;&gt;Jump Count&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.total_grit&quot;&gt;Total Grit&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.avg_flow&quot;&gt;Avg Flow&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.flagged&quot;&gt;Flagged&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.avg_elapsed_speed&quot;&gt;Avg Elapsed Speed&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.dirt_distance&quot;&gt;Dirt Distance&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.newly_explored_distance&quot;&gt;Newly Explored Distance&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.newly_explored_dirt_distance&quot;&gt;Newly Explored Dirt Distance&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.sport_type&quot;&gt;Sport Type&lt;/span&gt;" selected="False" />
+            <SelectField field="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.total_steps&quot;&gt;Total Steps&lt;/span&gt;" selected="False" />
+            <SelectField field="Media" selected="False" />
+            <SelectField field="Date_Use" selected="False" />
+            <SelectField field="Cycle start time" selected="False" />
+            <SelectField field="Cycle end time" selected="False" />
+            <SelectField field="Cycle timezone" selected="False" />
+            <SelectField field="Workout start time" selected="False" />
+            <SelectField field="Workout end time" selected="False" />
+            <SelectField field="Duration (min)" selected="True" />
+            <SelectField field="Right_Activity name" selected="False" />
+            <SelectField field="Activity Strain" selected="True" />
+            <SelectField field="Energy burned (cal)" selected="True" />
+            <SelectField field="Max HR (bpm)" selected="True" />
+            <SelectField field="Average HR (bpm)" selected="True" />
+            <SelectField field="HR Zone 1 %" selected="True" />
+            <SelectField field="HR Zone 2 %" selected="True" />
+            <SelectField field="HR Zone 3 %" selected="True" />
+            <SelectField field="HR Zone 4 %" selected="True" />
+            <SelectField field="HR Zone 5 %" selected="True" />
+            <SelectField field="GPS enabled" selected="True" />
+            <SelectField field="Distance (meters)" selected="True" />
+            <SelectField field="Altitude gain (meters)" selected="True" />
+            <SelectField field="Altitude change (meters)" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1554" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Cj.Mayes\Downloads\Output_Running_Data.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output_Running_Data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1242" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Cj.Mayes\Downloads\Output_Workout_Data.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output_Workout_Data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="701" y="257" width="651" height="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Strava</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="726" y="353" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>activities.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Activity ID" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Activity Date" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Activity Name" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Activity Type" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Activity Description" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Elapsed Time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Distance" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Max Heart Rate" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Relative Effort" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Commute" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Activity Private Note" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Activity Gear" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Filename" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Athlete Weight" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Bike Weight" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Elapsed Time2" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Moving Time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Distance2" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Max Speed" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Average Speed" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Elevation Gain" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Elevation Loss" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Elevation Low" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Elevation High" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Max Grade" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Average Grade" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Average Positive Grade" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Average Negative Grade" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Max Cadence" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Average Cadence" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Max Heart Rate2" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Average Heart Rate" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Max Watts" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Average Watts" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Calories" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Max Temperature" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Average Temperature" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Relative Effort2" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Total Work" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Number of Runs" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Uphill Time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Downhill Time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Other Time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Perceived Exertion" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.type&quot;&gt;Type&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.start_time&quot;&gt;Start Time&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Weighted Average Power" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Power Count" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Prefer Perceived Exertion" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Perceived Relative Effort" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Commute2" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Total Weight Lifted" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="From Upload" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Grade Adjusted Distance" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Weather Observation Time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Weather Condition" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Weather Temperature" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Apparent Temperature" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Dewpoint" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Humidity" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Weather Pressure" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Wind Speed" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Wind Gust" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Wind Bearing" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Precipitation Intensity" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Sunrise Time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Sunset Time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Moon Phase" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Bike" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Gear" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Precipitation Probability" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Precipitation Type" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Cloud Cover" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Weather Visibility" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="UV Index" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Weather Ozone" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.jump_count&quot;&gt;Jump Count&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.total_grit&quot;&gt;Total Grit&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.avg_flow&quot;&gt;Avg Flow&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.flagged&quot;&gt;Flagged&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.avg_elapsed_speed&quot;&gt;Avg Elapsed Speed&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.dirt_distance&quot;&gt;Dirt Distance&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.newly_explored_distance&quot;&gt;Newly Explored Distance&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.newly_explored_dirt_distance&quot;&gt;Newly Explored Dirt Distance&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.sport_type&quot;&gt;Sport Type&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="&lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en-GB.lib.export.portability_exporter.activities.horton_values.total_steps&quot;&gt;Total Steps&lt;/span&gt;" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+                <Field name="Media" size="254" source="File: C:\Users\Cj.Mayes\Downloads\export_49726306\activities.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="990" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&gt;</Operator>
+                <Field>Date_Use</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-09-29 16:05:39</PeriodDate>
+                  <PeriodType>days</PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>2023-09-10</Operand>
+                  <StartDate>2023-09-29 16:05:39</StartDate>
+                  <EndDate>2023-09-29 16:05:39</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Date_Use] &gt; "2023-09-10"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="846" y="353" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeParse([Activity Date], &quot;%d %b %Y, %H:%M:%S&quot;)" field="Date_Use" size="10" type="Date" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Date_Use = DateTimeParse([Activity Date], "%d %b %Y, %H:%M:%S")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1098" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Activity Type</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-09-29 16:08:59</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>Run</Operand>
+                  <StartDate>2023-09-29 16:08:59</StartDate>
+                  <EndDate>2023-09-29 16:08:59</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Activity Type] = "Run"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1230" y="306" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_6152_86f02a13b89e4bea9227413c4808463f_\Engine_9292_8b6275f8cc4f4ae5b9047802e395f5e8_.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1230" y="378" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\Cj.Mayes\Downloads\Strava_Input.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Strava_Input.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="65" y="881" width="668" height="281" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Hevy</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="90" y="930" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\Downloads\workout_data.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>workout_data.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="title" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="start_time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="end_time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="description" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="exercise_title" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="superset_id" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="exercise_notes" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="set_index" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="set_type" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="weight_kg" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="reps" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="distance_km" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="duration_seconds" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+                <Field name="rpe" size="254" source="File: C:\Users\Cj.Mayes\Downloads\workout_data.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="414" y="930" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&gt;</Operator>
+                <Field>Date_Use</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-09-29 15:47:17</PeriodDate>
+                  <PeriodType>days</PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>2023-09-10</Operand>
+                  <StartDate>2023-09-29 15:47:17</StartDate>
+                  <EndDate>2023-09-29 15:47:17</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Date_Use] &gt; "2023-09-10"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="282" y="930" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeParse([start_time], &quot;%d %b %Y, %H:%M&quot;)" field="Date_Use" size="10" type="Date" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Date_Use = DateTimeParse([start_time], "%d %b %Y, %H:%M")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="618" y="990" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_6152_86f02a13b89e4bea9227413c4808463f_\Engine_9292_b9cd580a1c9744c4af91f64c33fa03b7_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="618" y="1062" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\Cj.Mayes\Downloads\Hevy_Input.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Hevy_Input.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="65" y="65" width="621" height="197" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Whoop</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="90" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>workouts.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Cycle start time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Cycle end time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Cycle timezone" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Workout start time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Workout end time" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Duration (min)" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Activity name" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Activity Strain" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Energy burned (cal)" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Max HR (bpm)" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Average HR (bpm)" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="HR Zone 1 %" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="HR Zone 2 %" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="HR Zone 3 %" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="HR Zone 4 %" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="HR Zone 5 %" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="GPS enabled" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Distance (meters)" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Altitude gain (meters)" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+                <Field name="Altitude change (meters)" size="254" source="File: C:\Users\Cj.Mayes\Downloads\my_whoop_data_2023_09_29\workouts.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="269" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Workout start time</InputFieldName>
+              <Language>English</Language>
+              <Format>yyyy-MM-dd</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Workout start time From:
+yyyy-MM-dd</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="414" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&gt;</Operator>
+                <Field>DateTime_Out</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-09-29 15:35:53</PeriodDate>
+                  <PeriodType>days</PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>2023-09-10</Operand>
+                  <StartDate>2023-09-29 15:35:53</StartDate>
+                  <EndDate>2023-09-29 15:35:53</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ToDate([DateTime_Out]) &gt; "2023-09-10"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="558" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CJ3032~1.MAY\AppData\Local\Temp\Engine_6152_86f02a13b89e4bea9227413c4808463f_\Engine_9292_99e885fc59a8464fb5f1edc6f4aba836_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="558" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\Cj.Mayes\Downloads\Whoop_Input.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Whoop_Input.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="26" Connection="True" />
+      <Destination ToolID="27" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="27" Connection="Right" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="27" Connection="Join" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="27" Connection="Left" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="27" Connection="Right" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="True" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="True" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="True" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="True" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="True" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="True" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="True" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Workout_Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e3738498-7b89-4d01-b55f-fe5327e4424d" />
+      <Telemetry>
+        <PreviousWorkflowId value="4d8cf764-18c8-43b7-a192-2579042aa8fe" />
+        <OriginWorkflowId value="18dc05ee-9af3-4e24-bc2a-bc31490afce3" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

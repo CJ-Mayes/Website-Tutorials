@@ -1,0 +1,160 @@
+title,start_time,end_time,description,exercise_title,superset_id,exercise_notes,set_index,set_type,weight_kg,reps,distance_km,duration_seconds,rpe,Date_Use
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Lateral Raise (Dumbbell),,"",0,normal,7.5,10,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Lateral Raise (Dumbbell),,"",1,normal,10,10,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Lateral Raise (Dumbbell),,"",2,normal,10,10,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Lateral Raise (Dumbbell),,"",3,normal,10,10,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Lateral Raise (Dumbbell),,"",4,normal,10,10,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Bench Press (Dumbbell),,"",0,normal,20,10,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Bench Press (Dumbbell),,"",1,normal,30,8,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Bench Press (Dumbbell),,"",2,normal,30,8,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Bench Press (Dumbbell),,"",3,normal,30,8,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Shoulder Press (Dumbbell),,"",0,normal,10,10,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Shoulder Press (Dumbbell),,"",1,normal,10,10,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Shoulder Press (Dumbbell),,"",2,normal,10,10,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Hex Press (Dumbbell),,"",0,normal,15,10,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Hex Press (Dumbbell),,"",1,normal,15,10,,,,2023-09-25
+Afternoon workout 💪,"25 Sep 2023, 16:26","25 Sep 2023, 16:54","",Hex Press (Dumbbell),,"",2,normal,15,10,,,,2023-09-25
+Evening workout 🏋️,"22 Sep 2023, 15:21","22 Sep 2023, 15:30","",Bench Press (Dumbbell),,"",0,normal,30,3,,,,2023-09-22
+Evening workout 🏋️,"22 Sep 2023, 15:21","22 Sep 2023, 15:30","",Bench Press (Dumbbell),,"",1,normal,35,3,,,,2023-09-22
+Evening workout 🏋️,"22 Sep 2023, 15:21","22 Sep 2023, 15:30","",Bench Press (Dumbbell),,"",2,normal,40,1,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Treadmill,,"",0,normal,,,0.5,150,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Treadmill,,"",1,normal,,,0.5,150,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Treadmill,,"",2,normal,,,0.5,150,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Treadmill,,"",3,normal,,,0.5,150,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Treadmill,,"",4,normal,,,0.5,150,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Treadmill,,"",5,normal,,,0.5,150,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Treadmill,,"",6,normal,,,0.5,150,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Treadmill,,"",7,normal,,,0.5,150,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Treadmill,,"",8,normal,,,0.5,150,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Iso-Lateral Row (Machine),,"",0,normal,30,12,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Iso-Lateral Row (Machine),,"",1,normal,45,12,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Bicep Curl (Cable),,"",0,normal,20,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Bicep Curl (Cable),,"",1,normal,30,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Hammer Curl (Dumbbell),,"",0,normal,10,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Lat Pulldown (Cable),,"",0,normal,35,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Shrug (Dumbbell),,"",0,normal,20,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Shrug (Dumbbell),,"",1,normal,20,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Rear Delt Reverse Fly (Dumbbell),,"",0,normal,12.5,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Crunch (Weighted),,"",0,normal,10,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Crunch (Weighted),,"",1,normal,10,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Crunch (Weighted),,"",2,normal,10,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Lying Leg Raise,,"",0,normal,,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Lying Leg Raise,,"",1,normal,,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Lying Leg Raise,,"",2,normal,,10,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Bicycle Crunch,,"",0,normal,,40,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Bicycle Crunch,,"",1,normal,,40,,,,2023-09-22
+Morning workout ☀️,"22 Sep 2023, 11:02","22 Sep 2023, 11:47","",Bicycle Crunch,,"",2,normal,,40,,,,2023-09-22
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Treadmill,,"",0,normal,,,0.5,180,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Treadmill,,"",1,normal,,,0.5,180,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Treadmill,,"",2,normal,,,0.5,180,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Treadmill,,"",3,normal,,,0.5,180,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Treadmill,,"",4,normal,,,0.5,180,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Treadmill,,"",5,normal,,,0.5,180,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Treadmill,,"",6,normal,,,0.5,180,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Bench Press (Dumbbell),,"",0,normal,12.5,10,,,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Bench Press (Dumbbell),,"",1,normal,20,10,,,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Bench Press (Dumbbell),,"",2,normal,25,10,,,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Bench Press (Dumbbell),,"",3,normal,25,10,,,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Bench Press (Dumbbell),,"",4,normal,25,10,,,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Bench Press (Dumbbell),,"",5,normal,25,10,,,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Lateral Raise (Dumbbell),,"",0,normal,7.5,10,,,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Lateral Raise (Dumbbell),,"",1,normal,10,10,,,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Lateral Raise (Dumbbell),,"",2,normal,10,10,,,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Lateral Raise (Dumbbell),,"",3,normal,10,10,,,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Lateral Raise (Dumbbell),,"",4,normal,10,10,,,,2023-09-20
+Afternoon workout 💪,"20 Sep 2023, 14:33","20 Sep 2023, 15:08","",Lateral Raise (Dumbbell),,"",5,normal,10,10,,,,2023-09-20
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Lat Pulldown (Cable),,"",0,warmup,27.5,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Lat Pulldown (Cable),,"",1,normal,35,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Lat Pulldown (Cable),,"",2,normal,40,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Lat Pulldown (Cable),,"",3,normal,40,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Lat Pulldown (Cable),,"",4,normal,40,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Dumbbell Row,,"",0,normal,25,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Dumbbell Row,,"",1,normal,25,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Dumbbell Row,,"",2,normal,25,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Bicep Curl (Cable),,"",0,normal,20,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Bicep Curl (Cable),,"",1,normal,30,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Bicep Curl (Cable),,"",2,normal,30,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Bicep Curl (Cable),,"",3,normal,30,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Rear Delt Reverse Fly (Dumbbell),,"",0,normal,12.5,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Rear Delt Reverse Fly (Dumbbell),,"",1,normal,12.5,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Rear Delt Reverse Fly (Dumbbell),,"",2,normal,12.5,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Iso-Lateral Row (Machine),,"",0,normal,30,12,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Iso-Lateral Row (Machine),,"",1,normal,45,12,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Iso-Lateral Row (Machine),,"",2,normal,45,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Hammer Curl (Dumbbell),,"",0,normal,10,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Hammer Curl (Dumbbell),,"",1,normal,10,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Hammer Curl (Dumbbell),,"",2,normal,16,10,,,,2023-09-19
+Morning workout ☀️,"19 Sep 2023, 07:53","19 Sep 2023, 08:30","",Hammer Curl (Dumbbell),,"",3,normal,16,10,,,,2023-09-19
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Push Up,,"",0,normal,,12,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Push Up,,"",1,normal,,12,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Push Up,,"",2,normal,,12,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Incline Bench Press (Dumbbell),,"",0,normal,17.5,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Incline Bench Press (Dumbbell),,"",1,normal,20,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Incline Bench Press (Dumbbell),,"",2,normal,25,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Lateral Raise (Dumbbell),,"",0,normal,7.5,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Lateral Raise (Dumbbell),,"",1,normal,12.5,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Lateral Raise (Dumbbell),,"",2,normal,12.5,12,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Bench Press (Dumbbell),,"",0,normal,20,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Bench Press (Dumbbell),,"",1,normal,25,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Bench Press (Dumbbell),,"",2,normal,30,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Lying Leg Raise,,"",0,normal,,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Lying Leg Raise,,"",1,normal,,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Lying Leg Raise,,"",2,normal,,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Shoulder Press (Dumbbell),,"",0,normal,10,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Shoulder Press (Dumbbell),,"",1,normal,15,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Shoulder Press (Dumbbell),,"",2,normal,15,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Hex Press (Dumbbell),,"",0,normal,10,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Hex Press (Dumbbell),,"",1,normal,15,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Hex Press (Dumbbell),,"",2,normal,15,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Plate Front Raise,,"",0,normal,10,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Plate Front Raise,,"",1,normal,10,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Plate Front Raise,,"",2,normal,10,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Crunch (Weighted),,"",0,normal,10,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Crunch (Weighted),,"",1,normal,10,10,,,,2023-09-13
+Evening workout 🏋️,"13 Sep 2023, 18:06","13 Sep 2023, 19:01","",Crunch (Weighted),,"",2,normal,10,10,,,,2023-09-13
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Lying Leg Raise,,"",0,normal,,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Lying Leg Raise,,"",1,normal,,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Lying Leg Raise,,"",2,normal,,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Lying Leg Raise,,"",3,normal,,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Lying Leg Raise,,"",4,normal,,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Squat (Dumbbell),,"",0,normal,20,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Squat (Dumbbell),,"",1,normal,30,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Squat (Dumbbell),,"",2,normal,30,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Squat (Dumbbell),,"",3,normal,30,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Squat (Dumbbell),,"",4,normal,30,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Squat (Dumbbell),,"",5,normal,30,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Bulgarian Split Squat,,"",0,warmup,,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Bulgarian Split Squat,,"",1,normal,20,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Bulgarian Split Squat,,"",2,normal,20,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Bulgarian Split Squat,,"",3,normal,20,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Cable Pull Through,,"",0,normal,22.5,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Cable Pull Through,,"",1,normal,22.5,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Cable Pull Through,,"",2,normal,22.5,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Cable Pull Through,,"",3,normal,22.5,10,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Bicycle Crunch,,"",0,normal,,40,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Bicycle Crunch,,"",1,normal,,40,,,,2023-09-12
+Morning workout ☀️,"12 Sep 2023, 06:41","12 Sep 2023, 07:17","",Bicycle Crunch,,"",2,normal,,40,,,,2023-09-12
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Lateral Raise (Dumbbell),,"",0,normal,7.5,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Lateral Raise (Dumbbell),,"",1,normal,10,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Lateral Raise (Dumbbell),,"",2,normal,10,12,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Lateral Raise (Dumbbell),,"",3,normal,12.5,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Lateral Raise (Dumbbell),,"",4,normal,12.5,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Lateral Raise (Dumbbell),,"",5,normal,12.5,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Shoulder Press (Dumbbell),,"",0,normal,12.5,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Shoulder Press (Dumbbell),,"",1,normal,12.5,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Shoulder Press (Dumbbell),,"",2,normal,12.5,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Shoulder Press (Dumbbell),,"",3,normal,12.5,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Plate Front Raise,0,"",0,normal,10,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Plate Front Raise,0,"",1,normal,10,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Plate Front Raise,0,"",2,normal,10,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Plate Front Raise,0,"",3,normal,10,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Shrug (Dumbbell),0,"",0,normal,20,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Shrug (Dumbbell),0,"",1,normal,20,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Shrug (Dumbbell),0,"",2,normal,20,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Shrug (Dumbbell),0,"",3,normal,20,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Crunch,,"",0,normal,,12,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Crunch,,"",1,normal,,12,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Crunch,,"",2,normal,,12,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Lying Leg Raise,,"",0,normal,,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Lying Leg Raise,,"",1,normal,,10,,,,2023-09-11
+Morning workout ☀️,"11 Sep 2023, 07:32","11 Sep 2023, 08:05","",Lying Leg Raise,,"",2,normal,,10,,,,2023-09-11
