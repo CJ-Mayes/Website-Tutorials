@@ -32,7 +32,7 @@
 
 | Repository                   | Year | Website Link                                                                             | Comments                                        |
 |:-----------------------------|:-----|:-----------------------------------------------------------------------------------------|:------------------------------------------------|
-| [cj-mayes.com](cj-mayes.com) | 2024 | [2024 Blog Folder]((https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2024%20Blogs) |  |
+| [cj-mayes.com](cj-mayes.com) | 2024 |  [2024 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2024%20Blogs) |  |
 | [cj-mayes.com](cj-mayes.com) | 2023 | [2023 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2023%20Blogs) |  |
 | [cj-mayes.com](cj-mayes.com)                 | 2022 | [2022 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2022%20Blogs) |                                                 |
 | [cj-mayes.com](cj-mayes.com) | 2021 | [2021 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2021%20Blogs) |  |
