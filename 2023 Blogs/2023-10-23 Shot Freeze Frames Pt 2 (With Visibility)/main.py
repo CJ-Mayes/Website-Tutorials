@@ -37,10 +37,6 @@ new_rows = []
 for index, row in df.iterrows():
     visible_area = row['visible_area']
     location = row['location']
-Click to Download
-visibility_data.csv
-29.6 MB
-
 
     # Split the visible_area list into x and y coordinates
     for i in range(0, len(visible_area), 2):
