@@ -1,0 +1,22 @@
+﻿id,datum,parent
+World,6964195249,None
+North America,450448697,World
+United States,308865000,North America
+Mexico,107550697,North America
+Canada,34033000,North America
+South America,278095425,World
+Brazil,192612000,South America
+Colombia,45349000,South America
+Argentina,40134425,South America
+Europe,209246682,World
+Germany,81757600,Europe
+France,65447374,Europe
+United Kingdom,62041708,Europe
+Africa,311929000,World
+Nigeria,154729000,Africa
+Ethiopia,79221000,Africa
+Egypt,77979000,Africa
+Asia,2745929500,World
+China,1336335000,Asia
+India,1178225000,Asia
+Indonesia,231369500,Asia

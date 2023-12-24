@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="JupyterCode">
+        <Position x="270" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <WorkflowName>c:\users\cj.mayes\onedrive - jll\desktop\circular packing\circular packing.yxmd</WorkflowName>
+          <JupyterProduction>false</JupyterProduction>
+          <vEnvName>designerbasetools_venv</vEnvName>
+          <DefaultVenv>1</DefaultVenv>
+          <productionModeScript />
+          <Port>56488</Port>
+          <JupyterGuidDir>2531deb886ba748aaf3613cba08cb59c</JupyterGuidDir>
+          <JupyterGuidCopy />
+          <LastExecutedByEngineVersion>2021.4.2.40860</LastExecutedByEngineVersion>
+          <Notebook><![CDATA[{"cells":[{"cell_type":"markdown","metadata":{"ayx":{"cell_class":"text_cell","cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","cell_type":"markdown","contents_keyword":"Alteryx.help()","first_line":"Run `Alteryx.help()` for info about useful functions.","label":"info"}},"source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"cell_type":"code","execution_count":1,"metadata":{"ayx":{"cell_class":"code_cell","cell_css":"border: 1px solid #58a; margin: 2px;","cell_type":"code","contents_keyword":"installPackages","first_line":"# List all non-standard packages to be imported by your","label":"deps"}},"outputs":[],"source":["# List all non-standard packages to be imported by your \n","# script here (only missing packages will be installed)\n","from ayx import Package\n","Package.installPackages(['pandas'])"]},{"cell_type":"code","execution_count":2,"metadata":{},"outputs":[],"source":["from ayx import Alteryx"]},{"cell_type":"code","execution_count":3,"metadata":{},"outputs":[],"source":["data_input = Alteryx.read(\"#1\")"]},{"cell_type":"code","execution_count":4,"metadata":{},"outputs":[],"source":["print(data_input)"]},{"cell_type":"code","execution_count":5,"metadata":{},"outputs":[],"source":["import pandas as pd\n","import os\n","import json\n","\n","def find_children(df, parent_id):\n","    children_list = df[df[\"parent\"] == parent_id].to_dict('records')\n","    for child in children_list:\n","        child['id'] = child.pop('id')\n","        child['datum'] = child.pop('datum')\n","        child['children'] = find_children(df, child[\"id\"])\n","        del child['parent']   # delete parent field from child\n","    return children_list\n","\n","# Get current working directory\n","#cwd = os.getcwd()\n","\n","# Read the dataframe from csv\n","#df = pd.read_csv(os.path.join(cwd, 'your_file.csv'))\n","df = data_input\n","\n","# Now manually set the first level elements (where parent is NaN or None)\n","df.fillna('None', inplace=True)\n","df['parent'] = df['parent'].astype(str)\n","\n","output = []\n","for _, row in df[df[\"parent\"] == 'None'].iterrows():\n","    node = dict(row)\n","    node.pop('parent')   # delete parent field from node\n","    output.append({\n","        'id': node['id'],\n","        'datum': node['datum'],\n","        'children': find_children(df, node['id'])\n","    })\n","\n","# Print final json output\n","print(json.dumps(output, indent=2))\n","data = output"]},{"cell_type":"code","execution_count":6,"metadata":{},"outputs":[],"source":["def convert_datum_to_integer(node):\n","    node['datum'] = int(node['datum'])\n","    for child in node.get('children', []):\n","        convert_datum_to_integer(child)\n","\n","# Convert \"datum\" field to integers\n","for item in data:\n","    convert_datum_to_integer(item)\n","\n","# Print the updated data\n","print(json.dumps(data, indent=4))"]},{"cell_type":"code","execution_count":7,"metadata":{},"outputs":[],"source":["Package.installPackages(['circlify'])\n","Package.installPackages(['matplotlib'])"]},{"cell_type":"code","execution_count":8,"metadata":{},"outputs":[],"source":["import circlify\n","import matplotlib.pyplot as plt"]},{"cell_type":"code","execution_count":9,"metadata":{},"outputs":[],"source":["print(data)"]},{"cell_type":"code","execution_count":10,"metadata":{},"outputs":[],"source":["import pandas as pd\n","\n","# Compute circle positions thanks to the circlify() function\n","# The maximum radius is set to 1.\n","circles = circlify.circlify(\n","    data,\n","    show_enclosure=False,\n","    target_enclosure=circlify.Circle(x=0, y=0, r=1)\n",")\n","\n","# To ensure in Tableau the sizing works the fig size is the same x*y.\n","fig, ax = plt.subplots(figsize=(10,10))\n","\n","# Add axes\n","ax.axis('on')\n","\n","# Find axis boundaries, lim will be 1.0 with current settings\n","lim = max(\n","    max(\n","        abs(circle.x) + circle.r,\n","        abs(circle.y) + circle.r\n","    )\n","    for circle in circles\n",")\n","plt.xlim(-lim, lim)\n","plt.ylim(-lim, lim)\n","\n","# Amend Radius zone, Make sure Inner pad always > than Outer pad\n","padding_outer = 1\n","padding_inner = 1\n","\n","header = ['ID', 'X co-ord', 'Y-cord', 'Radius', 'Rank']\n","rank = 1\n","\n","# Create an empty DataFrame\n","df = pd.DataFrame(columns=header)\n","\n","# World Level\n","for circle in circles:\n","    if circle.level != 1:\n","        continue\n","    x, y, r = circle\n","    label = circle.ex[\"id\"]\n","    print(label, x, y, r)\n","    printdata = [label, x, y, r, rank]\n","    rank = rank + 1\n","    df.loc[len(df)] = printdata\n","\n","    # Not needed for Tableau\n","    ax.add_patch(plt.Circle((x, y), r*padding_outer, alpha=0.5, linewidth=2, color=\"lightblue\"))\n","\n","    # Continent Level\n","    for circle in circles:\n","        if circle.level != 2:\n","            continue\n","        x, y, r = circle\n","        label = circle.ex[\"id\"]\n","        print(label, x, y, r)\n","        printdata = [label, x, y, r, rank]\n","        rank = rank + 1\n","        df.loc[len(df)] = printdata\n","\n","        # Not needed for Tableau\n","        ax.add_patch(plt.Circle((x, y), r*padding_outer, alpha=0.5, linewidth=2, color=\"lightblue\"))\n","\n","    # Country Level\n","    for circle in circles:\n","        if circle.level != 3:\n","            continue\n","        x, y, r = circle\n","        label = circle.ex[\"id\"]\n","        print(label, x, y, r)\n","        printdata = [label, x, y, r, rank]\n","        rank = rank + 1\n","        df.loc[len(df)] = printdata\n","\n","        # Not needed for Tableau\n","        ax.add_patch(plt.Circle((x, y), r*padding_inner, alpha=0.5, linewidth=2, color=\"#69b3a2\"))\n","        plt.annotate(label, (x,y), ha='center', color=\"white\")\n","\n","# Show The Example Of The Graph We Will Be Recreating!\n","plt.show()\n","\n","# Print the DataFrame\n","print(df)"]},{"cell_type":"code","execution_count":11,"metadata":{},"outputs":[],"source":["Alteryx.write(df,1)"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":[]}],"metadata":{"kernelspec":{"display_name":"designerbasetools_venv","language":"python","name":"designerbasetools_venv"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.5"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output1">
+          <RecordInfo>
+            <Field name="ID" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="X co-ord" source="PythonTool:" type="Double" />
+            <Field name="Y-cord" source="PythonTool:" type="Double" />
+            <Field name="Radius" source="PythonTool:" type="Double" />
+            <Field name="Rank" size="1073741823" source="PythonTool:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\data.csv" type="V_WString" />
+            <Field name="datum" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\data.csv" type="V_WString" />
+            <Field name="parent" size="254" source="File: C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\data.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="498" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Cj.Mayes\OneDrive - JLL\Desktop\data_output.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>data_output.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output1" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Circular Packing</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="80f6a377-98ea-444a-8ed3-ef14efda1723" />
+      <Telemetry>
+        <PreviousWorkflowId value="44916798-b2ec-4e01-8983-b4e0f00c5fd9" />
+        <OriginWorkflowId value="44916798-b2ec-4e01-8983-b4e0f00c5fd9" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
