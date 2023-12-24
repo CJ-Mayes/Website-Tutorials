@@ -11,10 +11,6 @@ all_player_data = []
 
 # Initial page
 base_url = "https://www.transfermarkt.co.uk/premier-league/marktwerte/wettbewerb/GB1/pos//detailpos/0/altersklasse/alle/plus/1"
-
-# Goal Keeper Example
-# base_url = "https://www.transfermarkt.co.uk/premier-league/marktwerte/wettbewerb/GB1/plus/1/galerie/0?pos=Torwart&detailpos=&altersklasse=alle"
-
 pageTree = requests.get(base_url, headers=headers)
 soup = BeautifulSoup(pageTree.content, 'html.parser')
 
@@ -41,16 +37,41 @@ for page_number in range(1, num_pages + 1):
         # Extract player age
         player_age = player_age_tag.text.strip() if player_age_tag else None
 
-        # Extract player value
-        player_value_tag = player_row.find('td', {'class': 'rechts'})
-        player_value = player_value_tag.span.text.strip() if player_value_tag else None
+        # Extract current market value from the player's profile page
+        player_link_tag = player_name_tag.find('a')
+        if player_link_tag:
+            player_link = player_link_tag['href']
+            player_page_url = f"https://www.transfermarkt.co.uk{player_link}"
+            player_page_tree = requests.get(player_page_url, headers=headers)
+            player_page_soup = BeautifulSoup(player_page_tree.content, 'html.parser')
+
+            # Extract current market value
+            current_value_wrapper = player_page_soup.find('a', {'class': 'data-header__market-value-wrapper'})
+            if current_value_wrapper:
+                current_value_text = current_value_wrapper.text.replace('€', '').replace('m', '').strip()
+                # Split value and date
+                current_value_parts = current_value_text.split('Last update: ')
+                player_current_value = current_value_parts[0].strip() if len(current_value_parts) > 0 else None
+                last_update_date = current_value_parts[1].strip() if len(current_value_parts) > 1 else None
+            else:
+                player_current_value = None
+                last_update_date = None
+        else:
+            player_current_value = None
+            last_update_date = None
+
+        # Extract player values
+        player_values_tags = player_row.find_all('td', {'class': 'rechts'})
+        player_max_value = player_values_tags[0].find('span', {'class': 'cp'}).text.strip() if player_values_tags and len(player_values_tags) > 0 else None
 
         player_data = {
             'Name': player_name_tag.find('a').text.strip() if player_name_tag else None,
             'Club': player_club,
             'Position': player_position,
             'Age': player_age,
-            'Value': player_value
+            'Current_Value': player_current_value,
+            'Last_Update_Date': last_update_date,
+            'Max_Value': player_max_value
         }
         all_player_data.append(player_data)
 
@@ -71,4 +92,3 @@ df = pd.DataFrame(all_player_data)
 
 # Export the DataFrame to a CSV file
 df.to_csv('player_data.csv', index=False)
-
