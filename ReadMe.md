@@ -22,6 +22,9 @@
   </p>
 </div>
 
+Each blog on Git follows the same naming conventions as seen on the site. You will be able to find the specific blog with the same date as on the website too.
+Blogs are split by year created. If visiting a specific tutorial on CJ-Mayes.com, yuo should be able to navigate to the github repo and tableau dashboard using the buttons below the title.
+
 <!-- ABOUT THE PROJECT -->
 ## All Blogs (Code & Resources)
 
