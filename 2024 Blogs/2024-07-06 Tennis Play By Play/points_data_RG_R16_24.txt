@@ -1,0 +1,70 @@
+Server	Sets	Games	Points	Commentary
+Iga Swiatek	0‑0	0‑0	0‑0	1st serve wide; forehand return down the middle (deep); backhand crosscourt; backhand slice down the middle,  forced error.
+Iga Swiatek	0‑0	0‑0	15‑0	1st serve to body; backhand return down the middle,  forced error.
+Iga Swiatek	0‑0	0‑0	30‑0	1st serve to body,  fault (long). 2nd serve to body; backhand return inside-out (very deep),  winner.
+Iga Swiatek	0‑0	0‑0	30‑15	1st serve to body; forehand return inside-in (very deep); forehand crosscourt; forehand down the middle; forehand inside-out; backhand crosscourt (net),  unforced error. (5-shot rally)
+Iga Swiatek	0‑0	0‑0	40‑15	1st serve wide,  ace.
+				
+Anastasia Potapova	0‑0	0‑1	0‑0	1st serve to body; forehand return crosscourt (very deep),  forced error.
+Anastasia Potapova	0‑0	0‑1	15‑0	1st serve to body,  fault (long). 2nd serve to body; backhand return crosscourt (very deep); backhand crosscourt; backhand crosscourt; backhand down the line (wide and long),  unforced error. (4-shot rally)
+Anastasia Potapova	0‑0	0‑1	15‑15	1st serve wide; forehand return down the middle (deep) (net cord); forehand inside-out; backhand down the line,  forced error.
+Anastasia Potapova	0‑0	0‑1	30‑15	1st serve down the T; forehand return down the middle (very deep); backhand down the middle; forehand crosscourt; forehand crosscourt; forehand crosscourt; forehand down the middle; forehand inside-out; backhand lob down the middle; smash inside-out,  winner. (10-shot rally)
+Anastasia Potapova	0‑0	0‑1	30‑30	1st serve to body,  fault (long). 2nd serve to body; backhand return down the middle (deep); backhand crosscourt; backhand slice down the middle; forehand inside-out; backhand down the line; forehand lob crosscourt; forehand down the line; backhand slice down the middle; forehand at net crosscourt,  winner. (10-shot rally)
+Anastasia Potapova	0‑0	0‑1	30‑40	1st serve down the T,  fault (long). 2nd serve to body; backhand return crosscourt (deep); backhand down the middle; backhand crosscourt; backhand crosscourt; backhand down the line,  winner. (6-shot rally)
+				
+Iga Swiatek	0‑0	2‑0	0‑0	1st serve to body; forehand return down the middle,  forced error.
+Iga Swiatek	0‑0	2‑0	15‑0	1st serve to body,  fault (net). 2nd serve to body; backhand return down the line,  forced error.
+Iga Swiatek	0‑0	2‑0	30‑0	1st serve down the T,  fault (wide). 2nd serve down the T; backhand return down the middle (shallow); backhand crosscourt; backhand crosscourt; backhand crosscourt; backhand slice crosscourt; backhand slice at net down the line; forehand lob down the middle; smash inside-out; backhand lob down the line,  forced error. (9-shot rally)
+Iga Swiatek	0‑0	2‑0	40‑0	1st serve to body,  fault (net). 2nd serve to body; backhand return crosscourt (shallow),  winner.
+Iga Swiatek	0‑0	2‑0	40‑15	1st serve to body; backhand return down the middle (very deep); backhand down the middle; backhand crosscourt; backhand down the middle (net),  unforced error. (4-shot rally)
+Iga Swiatek	0‑0	2‑0	40‑30	1st serve down the T,  fault (long). 2nd serve wide; backhand return down the middle (deep); forehand crosscourt; forehand crosscourt; forehand down the middle; forehand crosscourt; forehand crosscourt; forehand down the line; backhand crosscourt; backhand slice crosscourt,  forced error. (9-shot rally)
+				
+Anastasia Potapova	0‑0	0‑3	0‑0	1st serve wide; forehand return crosscourt (deep); forehand down the line (wide),  unforced error.
+Anastasia Potapova	0‑0	0‑3	0‑15	1st serve down the T,  fault (net). 2nd serve to body; backhand return crosscourt (deep) (wide),  unforced error.
+Anastasia Potapova	0‑0	0‑3	15‑15	1st serve to body; forehand return down the middle (shallow); backhand crosscourt (net cord); forehand approach shot inside-out,  winner. (4-shot rally)
+Anastasia Potapova	0‑0	0‑3	15‑30	1st serve down the T,  fault (net). 2nd serve to body; backhand return crosscourt (deep); backhand down the line (wide),  unforced error.
+Anastasia Potapova	0‑0	0‑3	15‑40	1st serve down the T; backhand return down the middle (shallow); forehand crosscourt; forehand crosscourt; forehand down the middle (net cord); backhand down the middle; backhand inside-out (net),  unforced error. (6-shot rally)
+				
+Iga Swiatek	0‑0	4‑0	0‑0	1st serve to body,  fault (net). 2nd serve down the T; backhand return inside-out; forehand crosscourt; forehand crosscourt (net),  unforced error.
+Iga Swiatek	0‑0	4‑0	15‑0	1st serve to body; forehand return inside-out,  forced error.
+Iga Swiatek	0‑0	4‑0	30‑0	1st serve to body; backhand return down the middle (very deep); forehand inside-out; backhand down the middle; backhand inside-out,  winner. (5-shot rally)
+Iga Swiatek	0‑0	4‑0	40‑0	1st serve to body; forehand return down the middle,  forced error.
+				
+Anastasia Potapova	0‑0	0‑5	0‑0	1st serve to body,  fault (long). 2nd serve wide; forehand return down the middle (very deep); forehand down the middle,  forced error.
+Anastasia Potapova	0‑0	0‑5	0‑15	1st serve to body; backhand return down the middle (deep); forehand inside-out; backhand down the line,  winner. (4-shot rally)
+Anastasia Potapova	0‑0	0‑5	0‑30	1st serve down the T,  fault (net). 2nd serve to body; forehand return down the line (very deep); backhand crosscourt; backhand crosscourt; backhand down the line,  forced error. (4-shot rally)
+Anastasia Potapova	0‑0	0‑5	0‑40	1st serve wide,  fault (long). 2nd serve wide,  fault (wide),  double fault.
+				
+Iga Swiatek	1‑0	0‑0	0‑0	1st serve to body,  fault (net). 2nd serve to body; backhand return down the middle (shallow); backhand down the middle; backhand crosscourt; backhand down the middle; forehand inside-out; backhand crosscourt; backhand down the middle (net),  unforced error. (7-shot rally)
+Iga Swiatek	1‑0	0‑0	15‑0	1st serve to body,  fault (net). 2nd serve to body; backhand return crosscourt (deep); backhand down the line,  winner.
+Iga Swiatek	1‑0	0‑0	30‑0	1st serve to body; backhand return inside-out,  forced error.
+Iga Swiatek	1‑0	0‑0	40‑0	1st serve down the T,  ace.
+				
+Anastasia Potapova	0‑1	0‑1	0‑0	1st serve wide,  fault (net). 2nd serve to body; forehand return down the middle (deep); forehand crosscourt (long),  unforced error.
+Anastasia Potapova	0‑1	0‑1	0‑15	1st serve down the T,  fault (net). 2nd serve wide; backhand return down the middle (deep); forehand crosscourt (wide),  unforced error.
+Anastasia Potapova	0‑1	0‑1	0‑30	1st serve to body,  fault (net). 2nd serve wide; forehand return crosscourt (very deep); forehand down the middle,  forced error.
+Anastasia Potapova	0‑1	0‑1	0‑40	1st serve to body,  fault (net). 2nd serve to body; backhand return crosscourt (shallow); backhand crosscourt; backhand down the middle; backhand crosscourt; backhand down the line; forehand down the middle; forehand inside-out; backhand down the middle; backhand down the middle; backhand slice down the middle; forehand approach shot down the middle; forehand inside-out,  winner. (13-shot rally)
+Anastasia Potapova	0‑1	0‑1	15‑40	1st serve wide,  fault (long). 2nd serve wide; forehand return crosscourt (deep); forehand crosscourt; forehand crosscourt; forehand down the line,  winner. (5-shot rally)
+Anastasia Potapova	0‑1	0‑1	30‑40	1st serve to body,  fault (net). 2nd serve to body; backhand return down the line (deep); forehand crosscourt; forehand down the middle; backhand crosscourt; backhand crosscourt; backhand down the middle; forehand crosscourt; forehand chip/slice down the middle; forehand at net crosscourt,  winner. (10-shot rally)
+				
+Iga Swiatek	1‑0	2‑0	0‑0	1st serve to body; forehand chip/slice return down the middle,  forced error.
+Iga Swiatek	1‑0	2‑0	15‑0	1st serve to body,  fault (long). 2nd serve wide; backhand return crosscourt (very deep); backhand down the middle; forehand down the middle; forehand crosscourt; forehand down the middle (long),  unforced error. (5-shot rally)
+Iga Swiatek	1‑0	2‑0	30‑0	1st serve wide; forehand chip/slice return down the middle,  forced error.
+Iga Swiatek	1‑0	2‑0	40‑0	1st serve wide,  fault (wide). 2nd serve to body; backhand return crosscourt (deep); backhand crosscourt; backhand down the line (net),  unforced error.
+				
+Anastasia Potapova	0‑1	0‑3	0‑0	1st serve ; unknown shot return; unknown shot,  forced error.
+Anastasia Potapova	0‑1	0‑3	0‑15	1st serve wide,  fault (net). 2nd serve to body; backhand return down the line (deep); forehand chip/slice crosscourt; forehand crosscourt; forehand down the middle; backhand crosscourt (net),  unforced error. (5-shot rally)
+Anastasia Potapova	0‑1	0‑3	15‑15	1st serve wide; forehand return down the middle (very deep); forehand crosscourt; forehand crosscourt; forehand down the line; backhand down the line; forehand down the middle; forehand inside-out; backhand down the middle; forehand crosscourt; forehand chip/slice down the line,  forced error. (10-shot rally)
+Anastasia Potapova	0‑1	0‑3	15‑30	1st serve down the T,  fault (long). 2nd serve to body; forehand return down the middle (deep); forehand down the middle; forehand down the middle; backhand crosscourt; backhand down the middle; forehand down the middle; forehand crosscourt; forehand crosscourt; forehand crosscourt; forehand chip/slice down the middle,  forced error. (10-shot rally)
+Anastasia Potapova	0‑1	0‑3	15‑40	1st serve down the T,  fault (net). 2nd serve to body; backhand return inside-out (deep); forehand chip/slice down the middle; backhand approach shot inside-out; forehand crosscourt,  forced error. (4-shot rally)
+				
+Iga Swiatek	1‑0	4‑0	0‑0	1st serve to body; forehand return down the middle (deep); backhand crosscourt; backhand lob down the middle; forehand swinging volley inside-out; backhand lob crosscourt; smash inside-out; backhand down the line; forehand chip/slice down the middle; forehand drop shot crosscourt; forehand at net down the line,  winner. (11-shot rally)
+Iga Swiatek	1‑0	4‑0	15‑0	1st serve to body,  fault (net). 2nd serve wide; backhand return crosscourt (deep); backhand down the middle; forehand down the middle (net),  unforced error.
+Iga Swiatek	1‑0	4‑0	30‑0	1st serve wide,  ace.
+Iga Swiatek	1‑0	4‑0	40‑0	1st serve down the T; forehand return inside-out,  forced error.
+				
+Anastasia Potapova	0‑1	0‑5	0‑0	1st serve wide; forehand return down the line (deep); backhand crosscourt; backhand slice down the middle; forehand approach shot inside-out,  winner. (5-shot rally)
+Anastasia Potapova	0‑1	0‑5	15‑0	1st serve to body; backhand return crosscourt (deep); backhand crosscourt; backhand down the line; forehand down the line; backhand crosscourt,  winner. (6-shot rally)
+Anastasia Potapova	0‑1	0‑5	15‑15	1st serve to body; backhand return down the middle (deep); backhand crosscourt; backhand down the middle; backhand crosscourt (net),  unforced error. (4-shot rally)
+Anastasia Potapova	0‑1	0‑5	15‑30	1st serve down the T,  fault (net). 2nd serve to body; backhand return crosscourt (very deep); backhand down the middle,  forced error.
+Anastasia Potapova	0‑1	0‑5	15‑40	1st serve wide,  fault (net). 2nd serve wide; forehand return down the middle (shallow); forehand crosscourt; forehand crosscourt; forehand down the line (net),  unforced error. (4-shot rally)
