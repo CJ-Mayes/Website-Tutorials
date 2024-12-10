@@ -19,5 +19,5 @@
 
 <!-- CONTACT -->
 ## Contact
-[Twitter](www.twitter.com/@_CJMayes)
+[X](www.twitter.com/@_CJMayes)
 
