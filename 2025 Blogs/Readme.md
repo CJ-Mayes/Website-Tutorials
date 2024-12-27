@@ -1,7 +1,7 @@
 ## ⚡ 2025
 
   <p align="center">
-    Within this repository, you will find details of every blog I posted in 2025 on cj-mayes.com
+Within this repository, you will find details of every blog I posted in 2025 on cj-mayes.com
     <br />
 </div>
 
