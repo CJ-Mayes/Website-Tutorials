@@ -1,0 +1,296 @@
+{
+  "name": "Strava",
+  "nodes": [
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.0-flash-exp",
+        "options": {}
+      },
+      "id": "2b432d36-2ea8-4dbe-9b75-34c815caa925",
+      "name": "Google Gemini Chat Model",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "position": [
+        1160,
+        480
+      ],
+      "typeVersion": 1,
+      "credentials": {
+        "googlePalmApi": {
+          "id": "xX8Hm6ztSqvcUKLg",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "agent": "conversationalAgent",
+        "promptType": "define",
+        "text": "=You are an Ultra Marathon Running Coach specializing in 50km events and trail running. Your role is to analyze multiple Strava activities at once and provide comprehensive coaching feedback to help users improve their endurance running performance. You will analyze all provided activities in a single response—no matter how many activities are shared (even if there are 20+).\n\n#### Key Abilities:\n1. **Consolidated Data Analysis**:\n   - Evaluate performance metrics across all activities: distance, pace, heart rate, elevation, cadence\n   - Identify patterns, trends, and progression over multiple runs\n   - Calculate weekly/monthly volume, elevation gain, and training load\n\n2. **Ultra-Specific Feedback**:\n   - Assess pacing strategy for long distances and difficult terrain\n   - Evaluate climbing and descending techniques based on elevation data\n   - Analyze fatigue resistance by comparing early vs. late segments in longer runs\n\n3. **Ultra Marathon Improvement Plans**:\n   - Suggest specific workouts: back-to-back long runs, hill repeats, technical trail sessions\n   - Recommend progression of long runs building to 50km readiness\n\n4. **Ultra Running Goals**:\n   - Help establish realistic time goals for 50km events based on training data\n   - Set appropriate training benchmarks (weekly mileage, elevation, longest runs)\n   - Suggest intermediate race distances as stepping stones\n\n5. **Trail Running Expertise**:\n   - Provide guidance on technical terrain based on pace variations and elevation profiles\n   - Suggest specific exercises for trail running strength and stability\n   - Advise on managing different trail conditions based on activity data\n\n6. **Data Formatting**:\n   - Present durations in hours:minutes:seconds when appropriate\n   - Note time of day patterns and their impact on performance\n   - Convert complex metrics into easily understood insights\n\n#### Analysis Format (One-Time Processing):\n1. **Overview Summary**: Total activities analyzed, mileage, elevation, hours\n2. **Strength Identification**: What the runner does well based on data patterns\n3. **Improvement Areas**: 2-3 specific weaknesses revealed in the data\n4. **Training Recommendations**: Concrete workout suggestions and adjustments\n5. **50km Race Readiness Assessment**: Current preparedness for ultra events\n6. **Periodization Advice**: Suggested training phases based on activity patterns\n7. **Next Steps**: 3 actionable items to implement immediately\n\n#### Goal:\nHelp the user achieve their athletic potential by providing precise, actionable feedback and a customized plan to enhance their performance and enjoyment of their activities.\n\nHere is the activity data: {{ JSON.stringify($json[\"activities\"]) }}",
+        "options": {
+          "maxIterations": 20
+        }
+      },
+      "id": "3ae68b79-6684-4508-9bfd-bf80d79f3cd2",
+      "name": "Fitness Coach",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "position": [
+        1180,
+        260
+      ],
+      "typeVersion": 1.7
+    },
+    {
+      "parameters": {
+        "fromEmail": "REMOVED",
+        "toEmail": "REMOVED",
+        "subject": "=Strava Summary",
+        "html": "={{ $json.html }}",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "e4b0b9ab-b684-45a9-822e-4d794a911f0a",
+      "name": "Send Email",
+      "type": "n8n-nodes-base.emailSend",
+      "position": [
+        1960,
+        260
+      ],
+      "typeVersion": 2.1,
+      "webhookId": "4dbab310-9eef-4ab6-aaff-468f5212f722",
+      "credentials": {
+        "smtp": {
+          "id": "ngR7sMFjwcu02HBh",
+          "name": "SMTP account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "### Customer Experience Agent (AI)\n\n",
+        "height": 649,
+        "width": 444,
+        "color": 7
+      },
+      "id": "4885d52d-a323-4bd5-b4ed-91ee61c7a473",
+      "name": "Sticky Note",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1040,
+        20
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "content": "### Convert to HTML\nNow the data will be structured and covnerted to HTML",
+        "height": 655,
+        "width": 329,
+        "color": 5
+      },
+      "id": "798b7ab2-22ff-4461-95ad-fe0cf91565f0",
+      "name": "Sticky Note12",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1520,
+        20
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "content": "### Get Strava Trigger\nIf you are using Strava, you can create API Key by logging in to : https://developers.strava.com/\n\nOnce data is capture you can then structure it, i am combining all the activity data and sending to next node",
+        "height": 651,
+        "width": 503,
+        "color": 6
+      },
+      "id": "5f12cd6d-14ba-46bd-8009-b0c6ee368049",
+      "name": "Sticky Note13",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        480,
+        20
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "content": "### Send Personalized Response\n",
+        "height": 655,
+        "width": 609,
+        "color": 4
+      },
+      "id": "44b01b60-68cd-4965-824c-0fd4f6a9e368",
+      "name": "Sticky Note16",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1880,
+        20
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "limit": 20
+      },
+      "type": "n8n-nodes-base.strava",
+      "typeVersion": 1.1,
+      "position": [
+        660,
+        320
+      ],
+      "id": "f3fb7cf2-334c-4b0f-bbf9-ba1a1b8e99b4",
+      "name": "Strava",
+      "alwaysOutputData": true,
+      "notesInFlow": true,
+      "credentials": {
+        "stravaOAuth2Api": {
+          "id": "xFmHAhAPefjALECa",
+          "name": "Strava account 2"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        520,
+        320
+      ],
+      "id": "879aa734-6773-428a-8388-44b744b676d2",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "jsCode": "const activities = $input.all();\nconst relevantActivities = activities\n  .filter(\n    (activity) =>\n      activity.json.has_heartrate &&\n      (activity.json.type === \"Run\" || activity.json.type === \"Workout\"),\n  )\n  .map((activity) => ({\n    id: activity.json.id,\n    name: activity.json.name,\n    distance: activity.json.distance,\n    moving_time: activity.json.moving_time,\n    elapsed_time: activity.json.elapsed_time,\n    total_elevation_gain: activity.json.total_elevation_gain,\n    type: activity.json.type,\n    workout_type: activity.json.workout_type,\n    start_date: activity.json.start_date,\n    start_date_local: activity.json.start_date_local,\n    timezone: activity.json.timezone,\n    utc_offset: activity.json.utc_offset,\n    average_speed: activity.json.average_speed,\n    max_speed: activity.json.max_speed,\n    average_cadence: activity.json.average_cadence,\n    average_watts: activity.json.average_watts,\n    weighted_average_watts: activity.json.weighted_average_watts,\n    kilojoules: activity.json.kilojoules,\n    average_heartrate: activity.json.average_heartrate,\n    max_heartrate: activity.json.max_heartrate,\n  }));\n\nreturn relevantActivities;\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        820,
+        320
+      ],
+      "id": "65fe08f8-7cab-4af5-befd-d61e4a1fadc8",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "jsCode": "const activities = $input.all().map(item => item.json);\nreturn [{ json: { activities } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1060,
+        260
+      ],
+      "id": "0d029daa-2874-478f-a95a-6ac5d72911a6",
+      "name": "Code1"
+    },
+    {
+      "parameters": {
+        "jsCode": "function convertOutputToHTML(items) {\n  try {\n    // Extract the JSON from the output string\n    let output = items[0].output || items[0].json.output;\n    \n    // If this is a string with ```json blocks, extract just the JSON content\n    if (typeof output === 'string' && output.includes('```json')) {\n      const jsonMatch = output.match(/```json\\n([\\s\\S]*?)\\n```/);\n      if (jsonMatch && jsonMatch[1]) {\n        output = JSON.parse(jsonMatch[1]);\n      }\n    }\n    \n    // Make sure we have a proper object to work with\n    if (typeof output === 'string') {\n      try {\n        output = JSON.parse(output);\n      } catch (e) {\n        console.log(\"Could not parse output as JSON\");\n      }\n    }\n    \n    // Generate a nice HTML email\n    let html = `\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <style>\n        body { \n          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n          line-height: 1.6;\n          color: #333;\n          max-width: 800px;\n          margin: 0 auto;\n          padding: 20px;\n        }\n        h1 { \n          color: #2a5885; \n          border-bottom: 2px solid #2a5885;\n          padding-bottom: 10px;\n        }\n        h2 { \n          color: #2a5885;\n          margin-top: 30px;\n        }\n        .section {\n          margin-bottom: 25px;\n          background-color: #f9f9f9;\n          padding: 15px;\n          border-radius: 5px;\n          border-left: 4px solid #2a5885;\n        }\n        ul { \n          margin: 10px 0;\n          padding-left: 25px;\n        }\n        li {\n          margin-bottom: 8px;\n        }\n        .summary-box {\n          background-color: #e6f2ff;\n          padding: 15px;\n          border-radius: 5px;\n          margin-bottom: 20px;\n        }\n        .readiness {\n          font-weight: bold;\n          padding: 10px;\n          margin: 15px 0;\n          background-color: #fff3cd;\n          border-left: 4px solid #ffc107;\n          border-radius: 3px;\n        }\n      </style>\n    </head>\n    <body>\n      <h1>Ultra-Marathon Training Analysis</h1>\n      \n      <div class=\"summary-box\">\n        <h2>Training Overview</h2>\n        <ul>\n    `;\n    \n    // Add overview summary\n    const overview = output[\"Overview Summary\"];\n    if (overview) {\n      for (const [key, value] of Object.entries(overview)) {\n        html += `<li><strong>${key}:</strong> ${value}</li>`;\n      }\n    }\n    \n    html += `\n        </ul>\n      </div>\n      \n      <div class=\"section\">\n        <h2>Strengths</h2>\n        <p>${output[\"Strength Identification\"] || \"No strengths identified.\"}</p>\n      </div>\n      \n      <div class=\"section\">\n        <h2>Areas for Improvement</h2>\n        <ul>\n    `;\n    \n    // Add improvement areas\n    const improvements = output[\"Improvement Areas\"];\n    if (Array.isArray(improvements)) {\n      improvements.forEach(item => {\n        html += `<li>${item}</li>`;\n      });\n    } else if (improvements) {\n      html += `<li>${improvements}</li>`;\n    } else {\n      html += `<li>No specific improvement areas identified.</li>`;\n    }\n    \n    html += `\n        </ul>\n      </div>\n      \n      <div class=\"section\">\n        <h2>Training Recommendations</h2>\n        <ul>\n    `;\n    \n    // Add training recommendations\n    const recommendations = output[\"Training Recommendations\"];\n    if (Array.isArray(recommendations)) {\n      recommendations.forEach(item => {\n        html += `<li>${item}</li>`;\n      });\n    } else if (recommendations) {\n      html += `<li>${recommendations}</li>`;\n    } else {\n      html += `<li>No specific recommendations available.</li>`;\n    }\n    \n    html += `\n        </ul>\n      </div>\n      \n      <div class=\"readiness\">\n        <h2>Race Readiness Assessment</h2>\n        <p>${output[\"50km Race Readiness Assessment\"] || \"No race readiness assessment available.\"}</p>\n      </div>\n      \n      <div class=\"section\">\n        <h2>Periodization Strategy</h2>\n        <p>${output[\"Periodization Advice\"] || \"No periodization advice provided.\"}</p>\n      </div>\n      \n      <div class=\"section\">\n        <h2>Recommended Next Steps</h2>\n        <ul>\n    `;\n    \n    // Add next steps\n    const nextSteps = output[\"Next Steps\"];\n    if (Array.isArray(nextSteps)) {\n      nextSteps.forEach(item => {\n        html += `<li>${item}</li>`;\n      });\n    } else if (nextSteps) {\n      html += `<li>${nextSteps}</li>`;\n    } else {\n      html += `<li>No specific next steps provided.</li>`;\n    }\n    \n    html += `\n        </ul>\n      </div>\n      \n      <p style=\"margin-top: 30px; font-style: italic; color: #666;\">\n        This analysis was generated based on your recent Strava activities. \n        For a more personalized training plan, consider consulting with a running coach.\n      </p>\n    </body>\n    </html>\n    `;\n    \n    return { html };\n  } catch (error) {\n    // If anything goes wrong, return a basic error HTML\n    return {\n      html: `\n      <html>\n        <body>\n          <h1>There was a problem processing your training data</h1>\n          <p>Error details: ${error.message}</p>\n        </body>\n      </html>\n      `\n    };\n  }\n}\n\n// Process the input items\nconst result = convertOutputToHTML(items);\nreturn { json: result };"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1540,
+        260
+      ],
+      "id": "babfa5b3-573f-4baa-ad4a-107dcb45933b",
+      "name": "Code3"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Fitness Coach": {
+      "main": [
+        [
+          {
+            "node": "Code3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Fitness Coach",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Strava": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Strava",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code1": {
+      "main": [
+        [
+          {
+            "node": "Fitness Coach",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code3": {
+      "main": [
+        [
+          {
+            "node": "Send Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "d21cb3ea-ccb7-4753-b648-6a5adae3925f",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "b9cb3f9e87c0858d8b3224833cd58050bb224221876f6a5cf72f4a5cbbb9ce2f"
+  },
+  "id": "BLd8tkgV0ujZU1hL",
+  "tags": []
+}
