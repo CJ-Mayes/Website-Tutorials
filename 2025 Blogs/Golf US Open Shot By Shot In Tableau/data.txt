@@ -1,3 +1,0 @@
-Shot	Distance	Start X	Start Y	End X	End Y	Result	Shot Type
-1	310 yards	377.36	731.18	1637.82	671.76	Fairway	Tee Shot
-2	160 yards	1637.82	671.76	2288.37	652.91	In the hole	Approach
