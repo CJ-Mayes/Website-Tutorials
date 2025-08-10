@@ -1,0 +1,3 @@
+This blog post offers a fascinating glimpse into Tanya Lomskaya's data visualization journey - from her beginnings as a business journalist to becoming a skilled data artist who combines technical prowess with elegant design. The interview explores her innovative approach to complex visualizations like chord charts and Voronoi diagrams, her creative process that often extends beyond Tableau to include Python and Inkscape, and her thoughts on how AI is transforming dashboard creation. Tanya's insights on planning non-standard chart types and her recommendations for tools to elevate visual designs provide valuable guidance for aspiring data visualization creators looking to push creative boundaries while maintaining clarity and purpose in their work.
+
+Summarised using AI
