@@ -9,7 +9,7 @@
 
 ## ⚡ Welcome To What Use To Be CJ-Mayes.com
 
-On 8th October I decided to not renew my site and its content.
+For 2026, I decided to not renew my site and its content.
 </br>The domain will be given up at the end of 2025. </br>
 </br>It has been wonderful creating blog content the last 5 years.</br>
 </br>If you'd like to see some of the blogs they can be found by year compressed within the repo.</br>
