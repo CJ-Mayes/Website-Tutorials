@@ -37,31 +37,8 @@ CJ
 </div>
 
 Each blog on Git follows the same naming conventions as seen on the site. You will be able to find the specific blog with the same date as on the website too.
-Blogs are split by year created. If visiting a specific tutorial on CJ-Mayes.com, yuo should be able to navigate to the github repo and tableau dashboard using the buttons below the title.
+Blogs are split by year created. 
 
-<!-- ABOUT THE PROJECT -->
-## All Blogs (Code & Resources)
-
-- Below you can view each of the individual blogs the repository links to.
-<br/>
-- Do note, Some repositories will remain empty where the blog has no references to code or data.
-<br/>
-
-| Repository                   | Year | Website Link                                                                             | Comments                                        |
-|:-----------------------------|:-----|:-----------------------------------------------------------------------------------------|:------------------------------------------------|
-| [cj-mayes.com](cj-mayes.com) | 2025 |  [2025 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2025%20Blogs) |  |
-| [cj-mayes.com](cj-mayes.com) | 2024 |  [2024 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2024%20Blogs) |  |
-| [cj-mayes.com](cj-mayes.com) | 2023 | [2023 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2023%20Blogs) |  |
-| [cj-mayes.com](cj-mayes.com)                 | 2022 | [2022 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2022%20Blogs) |                                                 |
-| [cj-mayes.com](cj-mayes.com) | 2021 | [2021 Blog Folder](https://github.com/CJ-Mayes/Website-Tutorials/tree/main/2021%20Blogs) |  |
-
-
-<!-- Details -->
-## Blog Details
--  Each code repository may not have a fully scripted readme document, given the length of the blogs.
-<br />
-- Each blog follows the format "YYYY-MM-DD Blog Name"
-<br />
 <!-- HOW TO DOWNLOAD XLSX File -->
 <details>
 <summary>How do I download an xlsx?</summary>
