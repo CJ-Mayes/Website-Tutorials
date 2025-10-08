@@ -7,7 +7,15 @@
 </a>
 </div>
 
-## ⚡ Welcome To CJ-Mayes.com
+## ⚡ Welcome To What Was CJ-Mayes.com
+
+On 8th October I decided to not renew my site, its content & the domain will be given up at the end of 2025. It has been wonderful creating blog content the last 5 years but I want to now pursue other things.
+If you'd like to see some of the blogs they can be found by year compressed within the repo.
+The folder structure follows the old sites, but most the folders are empty. They will still help you know which file the content you're after is in.
+
+Logging off, for one final time.
+
+CJ
 
   <p align="center">
     Within this repository, you will find details of every blog I have posted on cj-mayes.com
