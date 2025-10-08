@@ -7,7 +7,7 @@
 </a>
 </div>
 
-## ⚡ Welcome To What Was CJ-Mayes.com
+## ⚡ Welcome To What Use To Be CJ-Mayes.com
 
 On 8th October I decided to not renew my site and its content.
 </br>The domain will be given up at the end of 2025. 
