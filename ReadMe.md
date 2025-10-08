@@ -17,6 +17,8 @@ Logging off, for one final time.
 
 CJ
 
+---------------------------------------------------------------------------------------------------------------
+
   <p align="center">
     Within this repository, you will find details of every blog I have posted on cj-mayes.com
     <br />
