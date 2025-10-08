@@ -9,13 +9,17 @@
 
 ## ⚡ Welcome To What Was CJ-Mayes.com
 
-On 8th October I decided to not renew my site, its content & the domain will be given up at the end of 2025. It has been wonderful creating blog content the last 5 years but I want to now pursue other things.
-If you'd like to see some of the blogs they can be found by year compressed within the repo.
-The folder structure follows the old sites, but most the folders are empty. They will still help you know which file the content you're after is in.
+On 8th October I decided to not renew my site and its content.
+</br>The domain will be given up at the end of 2025. 
+</br>It has been wonderful creating blog content the last 5 years.
+</br>If you'd like to see some of the blogs they can be found by year compressed within the repo.
+</br>The folder structure follows the old sites, but most the folders are empty. They will still help you know which file the content you're after is in.
 
-Logging off, for one final time.
+LOGGING OFF, for one final time.
 
 CJ
+<img width="1805" height="739" alt="image" src="https://github.com/user-attachments/assets/9020c18b-ee58-4cc3-90bc-25dd4d24ba98" />
+
 
 ---------------------------------------------------------------------------------------------------------------
 
